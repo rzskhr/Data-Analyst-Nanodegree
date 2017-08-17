@@ -1,1 +1,5 @@
 id,key,value,type
+261221424,highway,traffic_signals,regular
+757860928,amenity,fast_food,regular
+757860928,cuisine,sausage,regular
+757860928,name,Shelly's Tasty Freeze,regular
