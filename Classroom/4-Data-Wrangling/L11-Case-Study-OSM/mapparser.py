@@ -27,9 +27,7 @@ def count_tags(filename):
 
 
 def test():
-    print(count_tags('example.xml'))
-    """
-    tags = count_tags('example.osm')
+    tags = count_tags('example.xml')    # need to figure out why OSM is not working, using XML for now
     pprint.pprint(tags)
     assert tags == {'bounds': 1,
                      'member': 3,
@@ -39,7 +37,6 @@ def test():
                      'relation': 1,
                      'tag': 7,
                      'way': 1}
-    """
 
 
 if __name__ == "__main__":
