@@ -1,0 +1,391 @@
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "11129782",
+    "timestamp": "2012-03-28T18:31:23Z",
+    "user": "bbmiller",
+    "version": "7"
+  },
+  "pos": [
+    41.9730791,
+    -87.6866303
+  ],
+  "id": "261114295",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8448766",
+    "timestamp": "2011-06-15T17:04:54Z",
+    "user": "bbmiller",
+    "version": "6"
+  },
+  "pos": [
+    41.9730416,
+    -87.6878512
+  ],
+  "id": "261114296",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:14Z",
+    "user": "bbmiller",
+    "version": "5"
+  },
+  "pos": [
+    41.9729565,
+    -87.6939548
+  ],
+  "id": "261114299",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:14Z",
+    "user": "bbmiller",
+    "version": "5"
+  },
+  "pos": [
+    41.970738,
+    -87.6976025
+  ],
+  "id": "261146436",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:15Z",
+    "user": "bbmiller",
+    "version": "7"
+  },
+  "pos": [
+    41.9740068,
+    -87.6988576
+  ],
+  "id": "261147304",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:14Z",
+    "user": "bbmiller",
+    "version": "5"
+  },
+  "pos": [
+    41.9707656,
+    -87.6938669
+  ],
+  "id": "261224274",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8448766",
+    "timestamp": "2011-06-15T16:55:37Z",
+    "user": "bbmiller",
+    "version": "47"
+  },
+  "pos": [
+    41.9730154,
+    -87.6890403
+  ],
+  "id": "293816175",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "567034",
+    "changeset": "15348240",
+    "timestamp": "2013-03-13T07:46:29Z",
+    "user": "Umbugbene",
+    "version": "37"
+  },
+  "pos": [
+    41.9749225,
+    -87.6891198
+  ],
+  "id": "305896090",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "567034",
+    "changeset": "15348240",
+    "timestamp": "2013-03-13T08:02:56Z",
+    "user": "Umbugbene",
+    "version": "12"
+  },
+  "pos": [
+    41.9740292,
+    -87.701243
+  ],
+  "id": "317636974",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "567034",
+    "changeset": "15348240",
+    "timestamp": "2013-03-13T08:08:01Z",
+    "user": "Umbugbene",
+    "version": "13"
+  },
+  "pos": [
+    41.9740556,
+    -87.6979712
+  ],
+  "id": "317636971",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "567034",
+    "changeset": "14927972",
+    "timestamp": "2013-02-05T22:43:49Z",
+    "user": "Umbugbene",
+    "version": "2"
+  },
+  "pos": [
+    41.9705609,
+    -87.7012048
+  ],
+  "id": "317637399",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "567034",
+    "changeset": "14927972",
+    "timestamp": "2013-02-05T22:43:49Z",
+    "user": "Umbugbene",
+    "version": "2"
+  },
+  "pos": [
+    41.9706972,
+    -87.7012109
+  ],
+  "id": "317637398",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8448766",
+    "timestamp": "2011-06-15T17:04:54Z",
+    "user": "bbmiller",
+    "version": "3"
+  },
+  "pos": [
+    41.973113,
+    -87.6847998
+  ],
+  "id": "365214872",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:15Z",
+    "user": "bbmiller",
+    "version": "6"
+  },
+  "pos": [
+    41.9747482,
+    -87.6988886
+  ],
+  "id": "261299091",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8448766",
+    "timestamp": "2011-06-15T17:04:54Z",
+    "user": "bbmiller",
+    "version": "6"
+  },
+  "pos": [
+    41.9731219,
+    -87.6841979
+  ],
+  "id": "261114294",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "147510",
+    "changeset": "3359748",
+    "timestamp": "2009-12-13T00:36:09Z",
+    "user": "woodpeck_fixbot",
+    "version": "4"
+  },
+  "pos": [
+    41.9707217,
+    -87.7000019
+  ],
+  "id": "261210804",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:15Z",
+    "user": "bbmiller",
+    "version": "7"
+  },
+  "pos": [
+    41.9748542,
+    -87.6922652
+  ],
+  "id": "261221422",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:15Z",
+    "user": "bbmiller",
+    "version": "7"
+  },
+  "pos": [
+    41.9758794,
+    -87.6923639
+  ],
+  "id": "261221424",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "1219059",
+    "changeset": "17206049",
+    "timestamp": "2013-08-03T16:43:42Z",
+    "user": "linuxUser16",
+    "version": "2"
+  },
+  "pos": [
+    41.975703,
+    -87.6921867
+  ],
+  "id": "2406124091",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "1219059",
+    "changeset": "20187349",
+    "timestamp": "2014-01-25T01:56:10Z",
+    "user": "linuxUser16",
+    "version": "1"
+  },
+  "pos": [
+    41.9705219,
+    -87.6900344
+  ],
+  "id": "2636084635",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "451048",
+    "changeset": "8581395",
+    "timestamp": "2011-06-29T14:14:13Z",
+    "user": "bbmiller",
+    "version": "6"
+  },
+  "pos": [
+    41.9707413,
+    -87.6963097
+  ],
+  "id": "261198953",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "26299",
+    "changeset": "5288876",
+    "timestamp": "2010-07-22T16:16:51Z",
+    "user": "uboot",
+    "version": "2"
+  },
+  "pos": [
+    41.9747374,
+    -87.6920102
+  ],
+  "id": "757860928",
+  "type": "node",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "1219059",
+    "changeset": "20187382",
+    "timestamp": "2014-01-25T02:01:54Z",
+    "user": "linuxUser16",
+    "version": "1"
+  },
+  "id": "258219703",
+  "type": "way",
+  "visible": "true"
+}
+{
+  "created": {
+    "uid": "634589",
+    "changeset": "11043902",
+    "timestamp": "2012-03-20T18:56:44Z",
+    "user": "Jacobs Studios",
+    "version": "2"
+  },
+  "pos": [
+    42.1251718,
+    -88.0780576
+  ],
+  "id": "1683602133",
+  "type": "node"
+}
+{
+  "created": {
+    "uid": "674454",
+    "changeset": "15353317",
+    "timestamp": "2013-03-13T15:58:04Z",
+    "user": "chicago-buildings",
+    "version": "1"
+  },
+  "id": "209809850",
+  "type": "way",
+  "visible": "true"
+}
