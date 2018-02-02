@@ -32,7 +32,7 @@ problemchars = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 def key_type(element, keys):
     if element.tag == "tag":
-        print(problemchars.match(element.attrib['k']))
+        # print(problemchars.match(element.attrib['k']))
         if lower.match(element.attrib['k']):
             keys['lower'] += 1
         elif lower_colon.match(element.attrib['k']):
@@ -61,6 +61,7 @@ def test():
     keys = process_map('tag_test.xml')
     pprint.pprint(keys)
     # assert keys == {'lower': 5, 'lower_colon': 0, 'other': 1, 'problemchars': 1}
+    assert keys == {'lower': 5, 'lower_colon': 0, 'other': 2, 'problemchars': 0}
 
 
 if __name__ == "__main__":
