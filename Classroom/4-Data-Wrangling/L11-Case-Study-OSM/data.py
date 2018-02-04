@@ -93,64 +93,77 @@ problemchars = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 CREATED = [ "version", "changeset", "timestamp", "user", "uid"]
 
+address_regex = re.compile(r'^addr\:')
+street_regex = re.compile(r'^street')
 
 def shape_element(element):
     node = {}
-
-    # regular expression for address
-    re_address = r'\b(?:addr)\b'
-
-    if element.tag == "node" or element.tag == "way":
-        # 1. key for node type
+    if element.tag == "node" or element.tag == "way" :
         node['type'] = element.tag
-
-        # 2. populating the created fields
-        for attr in element.attrib:
-            if attr in CREATED:
+        # initialize empty address
+        address = {}
+        # parsing through attributes
+        for a in element.attrib:
+            if a in CREATED:
                 if 'created' not in node:
                     node['created'] = {}
-                node['created'][attr] = element.get(attr)
+                node['created'][a] = element.get(a)
+            elif a in ['lat', 'lon']:
+                continue
+            else:
+                node[a] = element.get(a)
+        # populate position
+        if 'lat' in element.attrib and 'lon' in element.attrib:
+            node['pos'] = [float(element.get('lat')), float(element.get('lon'))]
 
-        # 3. populating latitude and longitude
-        if 'lat' and 'lon' in element.attrib:
-            if 'lat' in element.attrib and 'lon' in element.attrib:
-                node['pos'] = [float(element.attrib['lat']), float(element.attrib['lon'])]
-
-        # 4. Populating address
-        # address in stored in "tag" tag
-        for tag in element.iter("tag"):
-            if tag.attrib['k'][:4] == 'addr':
-                node['address'] = {}
-
-        for tag in element.iter("tag"):
-            # print(tag.attrib['k'])
-            # print(re.findall(re_address, tag.attrib['k'])[0] == 'addr')
-
-            if tag.attrib['k'][:4] == 'addr':
-                key = tag.attrib['k']
-                value = tag.attrib['v']
-
-                # find colons
-                re_colon_pattern = r'\b(?::)\b'
-                no_of_colons = re.findall(re_colon_pattern, key)
-
-                # print(key, "=====>", re.findall(re_colon_pattern, key), len(re.findall(re_colon_pattern, key)))
-                if len(no_of_colons) < 2:
-                    node['address'][key[5:]] = value
-
-        # 5. add node_refs
-        for tag in element.iter("nd"):
-            if 'node_refs' not in node:
-                node['node_refs'] = []
-            if 'ref' in tag.attrib:
-                node['node_refs'].append(tag.attrib['ref'])
-
-
-        # doing something
+        # parse second-level tags for nodes
         for e in element:
-            # print(e.attrib)
-            if 'k' in e.attrib and 'v' in e.attrib and e.attrib['k'][:4] is not 'addr':
-                node[e.attrib['k']] = e.attrib['v']
+            # parse second-level tags for ways and populate `node_refs`
+            if e.tag == 'nd':
+                if 'node_refs' not in node:
+                    node['node_refs'] = []
+                if 'ref' in e.attrib:
+                    node['node_refs'].append(e.get('ref'))
+
+            # throw out not-tag elements and elements without `k` or `v`
+            if e.tag != 'tag' or 'k' not in e.attrib or 'v' not in e.attrib:
+                continue
+            key = e.get('k')
+            val = e.get('v')
+
+            # skip problematic characters
+            if problemchars.search(key):
+                continue
+
+            # parse address k-v pairs
+            elif address_regex.search(key):
+                key = key.replace('addr:', '')
+                address[key] = val
+
+            # catch-all
+            else:
+                node[key] = val
+        # compile address
+        if len(address) > 0:
+            node['address'] = {}
+            street_full = None
+            street_dict = {}
+            street_format = ['prefix', 'name', 'type']
+            # parse through address objects
+            for key in address:
+                val = address[key]
+                if street_regex.search(key):
+                    if key == 'street':
+                        street_full = val
+                    elif 'street:' in key:
+                        street_dict[key.replace('street:', '')] = val
+                else:
+                    node['address'][key] = val
+            # assign street_full or fallback to compile street dict
+            if street_full:
+                node['address']['street'] = street_full
+            elif len(street_dict) > 0:
+                node['address']['street'] = ' '.join([street_dict[key] for key in street_format])
 
         return node
     else:
@@ -172,13 +185,12 @@ def process_map(file_in, pretty = False):
                     fo.write(json.dumps(el) + "\n")
     return data
 
-
 def test():
     # NOTE: if you are running this code on your computer, with a larger dataset,
     # call the process_map procedure with pretty=False. The pretty=True option adds
     # additional spaces to the output, making it significantly larger.
     data = process_map('data.xml', True)
-    pprint.pprint(data)
+    #pprint.pprint(data)
 
     correct_first_elem = {
         "id": "261114295",
@@ -193,16 +205,13 @@ def test():
             "timestamp": "2012-03-28T18:31:23Z"
         }
     }
-
-    if data:
-        assert data[0] == correct_first_elem
-        assert data[-1]["address"] == {
-                                        "street": "West Lexington St.",
-                                        "housenumber": "1412"
-                                          }
-        assert data[-1]["node_refs"] == [ "2199822281", "2199822390",  "2199822392", "2199822369",
-                                        "2199822370", "2199822284", "2199822281"]
-
+    assert data[0] == correct_first_elem
+    assert data[-1]["address"] == {
+                                    "street": "West Lexington St.",
+                                    "housenumber": "1412"
+                                      }
+    assert data[-1]["node_refs"] == [ "2199822281", "2199822390",  "2199822392", "2199822369",
+                                    "2199822370", "2199822284", "2199822281"]
 
 if __name__ == "__main__":
     test()
