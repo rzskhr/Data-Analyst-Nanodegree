@@ -148,18 +148,9 @@ def shape_element(element):
 
         # doing something
         for e in element:
-            print(e.attrib)
-            if 'k' in e.attrib and 'v' in e.attrib:
+            # print(e.attrib)
+            if 'k' in e.attrib and 'v' in e.attrib and e.attrib['k'][:4] is not 'addr':
                 node[e.attrib['k']] = e.attrib['v']
-
-
-
-
-        print("\n")
-
-
-
-
 
         return node
     else:
