@@ -97,8 +97,10 @@ CREATED = [ "version", "changeset", "timestamp", "user", "uid"]
 def shape_element(element):
     node = {}
 
+    # regular expression for address
+    re_address = r'\b(?:addr)\b'
+
     if element.tag == "node" or element.tag == "way":
-        print(element.attrib)
         # 1. key for node type
         node['type'] = element.tag
 
@@ -109,14 +111,51 @@ def shape_element(element):
                     node['created'] = {}
                 node['created'][attr] = element.get(attr)
 
-            # 3. populating latitude and longitude
-            elif attr in ['lat', 'lon']:
-                if 'lat' in element.attrib and 'lon' in element.attrib:
-                    node['pos'] = [float(element.get('lat')), float(element.get('lon'))]
+        # 3. populating latitude and longitude
+        if 'lat' and 'lon' in element.attrib:
+            if 'lat' in element.attrib and 'lon' in element.attrib:
+                node['pos'] = [float(element.attrib['lat']), float(element.attrib['lon'])]
 
-            # 4. populating all other values
-            else:
-                node[attr] = element.get(attr)
+        # 4. Populating address
+        # address in stored in "tag" tag
+        for tag in element.iter("tag"):
+            if tag.attrib['k'][:4] == 'addr':
+                node['address'] = {}
+
+        for tag in element.iter("tag"):
+            # print(tag.attrib['k'])
+            # print(re.findall(re_address, tag.attrib['k'])[0] == 'addr')
+
+            if tag.attrib['k'][:4] == 'addr':
+                key = tag.attrib['k']
+                value = tag.attrib['v']
+
+                # find colons
+                re_colon_pattern = r'\b(?::)\b'
+                no_of_colons = re.findall(re_colon_pattern, key)
+
+                # print(key, "=====>", re.findall(re_colon_pattern, key), len(re.findall(re_colon_pattern, key)))
+                if len(no_of_colons) < 2:
+                    node['address'][key[5:]] = value
+
+        # 5. add node_refs
+        for tag in element.iter("nd"):
+            if 'node_refs' not in node:
+                node['node_refs'] = []
+            if 'ref' in tag.attrib:
+                node['node_refs'].append(tag.attrib['ref'])
+
+
+        # doing something
+        for e in element:
+            print(e.attrib)
+            if 'k' in e.attrib and 'v' in e.attrib:
+                node[e.attrib['k']] = e.attrib['v']
+
+
+
+
+        print("\n")
 
 
 
