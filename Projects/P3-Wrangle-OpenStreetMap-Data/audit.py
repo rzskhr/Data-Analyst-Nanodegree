@@ -7,9 +7,6 @@ from collections import defaultdict
 import re
 
 
-OSM_FILE = "sample.xml"
-
-
 # precompiled regular expressions
 street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)
 
@@ -33,7 +30,7 @@ mapping = { "St": "Street",
 
 def audit_street_type(street_types, street_name):
     """
-    helper function used in audit(osmfile), updates the dictionary mapping the street names
+    helper function used in audit(osm_file), updates the dictionary mapping the street names
 
     :param street_types: default dictionary set
     :param street_name: street name
@@ -48,7 +45,7 @@ def audit_street_type(street_types, street_name):
 
 def is_street_name(elem):
     """
-    helper function used in audit(osmfile), to check the attribute contains street name
+    helper function used in audit(osm_file), to check the attribute contains street name
 
     :param elem: element from node or way tag
     :return: bool
@@ -56,21 +53,21 @@ def is_street_name(elem):
     return elem.attrib['k'] == "addr:street"
 
 
-def audit(osmfile):
+def audit(osm_file):
     """
-    this function takes the OSMFILE as parameter and returns a default dictionary set...
+    this function takes the osm_file as parameter and returns a default dictionary set...
     ...mapping the wrong or abbreviated street names if not present in the expected list
 
-    :usage: pass the osmfile to collect the street types dictionary
+    :usage: pass the osm_file to collect the street types dictionary
     ex output:
     {'Ave': set(['N. Lincoln Ave', 'North Lincoln Ave']),
      'Rd.': set(['Baldwin Rd.']),
      'St.': set(['West Lexington St.'])}
 
-    :param osmfile: OSMFILE with the map data
+    :param osm_file: osm_file with the map data
     :return: dictionary mapping wrong street key word to the unique incorrect street names
     """
-    osm_file = open(osmfile, "r")
+    osm_file = open(osm_file, "r")
     street_types = defaultdict(set)
     for event, elem in Et.iterparse(osm_file, events=("start",)):
 
@@ -111,6 +108,9 @@ def update_name(name, mapping):
 
 
 # uncomment to run test
+# OSM_FILE = "sample.osm"
+#
+#
 # def test():
 #     st_types = audit(OSM_FILE)
 #

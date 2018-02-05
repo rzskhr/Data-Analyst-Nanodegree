@@ -35,6 +35,7 @@ def sample_element(osmfile, tags=DEFAULT_TAGS):
             root.clear()
 
 
+# dumping the data to sample file
 with open(SAMPLE_FILE, 'wb') as f:
     # write the first line in the xml
     # adding the bytes object type, as we are opening the file in bytes mode
