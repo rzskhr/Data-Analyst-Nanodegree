@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm>
+ <node changeset="7781188" id="219850" lat="41.7585879" lon="-87.9101245" timestamp="2011-04-06T05:17:15Z" uid="207745" user="NE2" version="54">
+		<tag k="ref" v="276C" />
+		<tag k="exit_to" v="Joliet Road" />
+		<tag k="highway" v="motorway_junction" />
+	</node>
+	<node changeset="2995174" id="235239326" lat="41.941694" lon="-88.325626" timestamp="2009-10-31T07:38:32Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="13717267" id="237483575" lat="41.5249438" lon="-88.0360975" timestamp="2012-11-02T00:40:15Z" uid="169600" user="patester24" version="5" />
+	<node changeset="16332327" id="237822443" lat="41.8248599" lon="-87.9822717" timestamp="2013-05-29T02:33:22Z" uid="15398" user="mappy123" version="4" />
+	<node changeset="14057458" id="261196318" lat="41.5079609" lon="-87.6343483" timestamp="2012-11-27T11:14:29Z" uid="567034" user="Umbugbene" version="5" />
+	<node changeset="45179441" id="357343569" lat="41.6722014" lon="-88.1496371" timestamp="2017-01-15T00:54:30Z" uid="349543" user="Mundilfari" version="2" />
+	<node changeset="1025459" id="387718777" lat="41.531893" lon="-87.713309" timestamp="2009-04-30T12:03:13Z" uid="120146" user="TIGERcnl" version="1" />
+	<node changeset="1400042" id="414366328" lat="41.8939142" lon="-88.2170105" timestamp="2009-06-02T03:22:48Z" uid="130794" user="alexrudd (NHD)" version="1" />
+	<node changeset="1405153" id="414790587" lat="41.371077" lon="-88.15628" timestamp="2009-06-02T16:44:26Z" uid="130794" user="alexrudd (NHD)" version="1" />
+	<node changeset="2409609" id="489188858" lat="41.5872464" lon="-88.0697511" timestamp="2009-09-08T04:07:52Z" uid="146371" user="MikeNBulk" version="1" />
+	<node changeset="4562874" id="712819788" lat="41.8114159" lon="-87.6568909" timestamp="2010-04-30T03:15:15Z" uid="207745" user="NE2" version="1" />
+	<node changeset="5797594" id="914758462" lat="42.1426089" lon="-87.7894111" timestamp="2010-09-16T17:48:07Z" uid="187433" user="Rusty388" version="1" />
+	<node changeset="7147764" id="1129702215" lat="42.0435933" lon="-87.9794481" timestamp="2011-01-31T18:58:40Z" uid="239998" user="Sundance" version="1" />
+	<node changeset="14312597" id="1344972301" lat="41.9304513" lon="-88.2769051" timestamp="2012-12-17T22:25:08Z" uid="567034" user="Umbugbene" version="2" />
+	<node changeset="10246531" id="1569369751" lat="41.6621688" lon="-87.6095775" timestamp="2011-12-30T15:58:43Z" uid="315015" user="WernerP" version="1" />
+	<node changeset="11504090" id="1741041634" lat="41.7980315" lon="-87.7352258" timestamp="2012-05-05T04:32:39Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11512929" id="1742025974" lat="41.7401209" lon="-87.7343767" timestamp="2012-05-05T21:59:07Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11518436" id="1742888613" lat="41.9110314" lon="-87.7465512" timestamp="2012-05-06T13:30:17Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11521670" id="1743382576" lat="41.9547509" lon="-87.7262152" timestamp="2012-05-06T18:41:18Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11524078" id="1743757042" lat="41.7954648" lon="-87.768972" timestamp="2012-05-06T23:06:49Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11524608" id="1743920566" lat="41.9043858" lon="-87.7683518" timestamp="2012-05-07T03:10:06Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11535115" id="1744949365" lat="41.9408396" lon="-87.7550185" timestamp="2012-05-08T01:25:55Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11545565" id="1746233935" lat="41.9801783" lon="-87.7510308" timestamp="2012-05-09T02:55:47Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11557369" id="1747441159" lat="41.8852747" lon="-87.7736523" timestamp="2012-05-10T10:32:03Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11572977" id="1749207542" lat="41.9415748" lon="-87.7800337" timestamp="2012-05-12T02:30:00Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11576755" id="1749677223" lat="41.979786" lon="-87.7882098" timestamp="2012-05-12T14:03:13Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11579108" id="1749994589" lat="41.922054" lon="-87.7947938" timestamp="2012-05-12T18:14:52Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11581779" id="1750402542" lat="41.9782246" lon="-87.8106481" timestamp="2012-05-13T00:41:45Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11587362" id="1751168975" lat="41.9753093" lon="-87.8223151" timestamp="2012-05-13T15:55:25Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11591647" id="1751840333" lat="41.6982965" lon="-87.7104675" timestamp="2012-05-13T23:48:27Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11594392" id="1752416906" lat="41.7716956" lon="-87.7106359" timestamp="2012-05-14T11:00:33Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11610555" id="1754462948" lat="41.8452171" lon="-87.7097858" timestamp="2012-05-16T03:23:32Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11614061" id="1754850703" lat="41.8977766" lon="-87.7189883" timestamp="2012-05-16T13:08:33Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11619711" id="1755634186" lat="41.9308175" lon="-87.7223832" timestamp="2012-05-17T02:53:42Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11622624" id="1756028659" lat="41.9642813" lon="-87.7077603" timestamp="2012-05-17T12:05:36Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11707641" id="1766343338" lat="41.6929558" lon="-87.7063779" timestamp="2012-05-26T15:38:01Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11711816" id="1766986238" lat="41.7643092" lon="-87.6850673" timestamp="2012-05-27T01:15:34Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="11712273" id="1767149600" lat="41.7999923" lon="-87.6999023" timestamp="2012-05-27T04:43:59Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="42934162" id="1791835476" lat="42.1892363" lon="-88.1097611" timestamp="2016-10-16T11:32:14Z" uid="3754748" user="dwatling" version="2" />
+	<node changeset="13063800" id="1909337850" lat="41.3974929" lon="-88.1946946" timestamp="2012-09-10T23:52:23Z" uid="169600" user="patester24" version="1" />
+	<node changeset="13636245" id="1984122608" lat="41.5488514" lon="-87.7025374" timestamp="2012-10-26T10:15:49Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="14133614" id="2047452477" lat="41.7927227" lon="-87.5999309" timestamp="2012-12-03T01:33:51Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="14581789" id="2102277878" lat="41.729082" lon="-88.2095511" timestamp="2013-01-09T00:21:04Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="15116141" id="2165848952" lat="42.1442887" lon="-87.8005904" timestamp="2013-02-21T19:56:21Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="15331181" id="2196166859" lat="41.9085231" lon="-87.6926256" timestamp="2013-03-11T18:22:33Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15335408" id="2196803003" lat="41.9482242" lon="-87.7036146" timestamp="2013-03-12T02:35:35Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15335870" id="2196962251" lat="41.9864336" lon="-87.703948" timestamp="2013-03-12T05:20:36Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15342146" id="2197956742" lat="41.6891478" lon="-87.6806985" timestamp="2013-03-12T16:48:05Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15344294" id="2198220167" lat="41.7479168" lon="-87.67171" timestamp="2013-03-12T19:36:33Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15347259" id="2199023021" lat="41.8068323" lon="-87.6766629" timestamp="2013-03-13T03:18:32Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15354981" id="2200049937" lat="41.8944466" lon="-87.6718251" timestamp="2013-03-13T18:49:35Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15357275" id="2200518050" lat="41.9409299" lon="-87.6652343" timestamp="2013-03-13T22:40:34Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15358300" id="2200940570" lat="41.9757039" lon="-87.6630082" timestamp="2013-03-14T03:02:54Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15358698" id="2201088367" lat="42.013859" lon="-87.6807928" timestamp="2013-03-14T05:21:14Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15364243" id="2201864101" lat="41.7221688" lon="-87.6604557" timestamp="2013-03-14T16:48:36Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15367534" id="2202438790" lat="41.7660347" lon="-87.6573308" timestamp="2013-03-14T21:56:24Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15369185" id="2202733671" lat="41.7936716" lon="-87.6523062" timestamp="2013-03-15T04:13:28Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="53878419" id="2203573375" lat="41.8806676" lon="-87.6521235" timestamp="2017-11-17T15:33:00Z" uid="604536" user="jimjoe45" version="2" />
+	<node changeset="54152705" id="2204104275" lat="41.9412759" lon="-87.6572969" timestamp="2017-11-28T15:56:58Z" uid="604536" user="jimjoe45" version="2" />
+	<node changeset="15384901" id="2204786778" lat="41.6746873" lon="-87.6384738" timestamp="2013-03-16T15:22:35Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15388705" id="2205714586" lat="41.7229294" lon="-87.6217999" timestamp="2013-03-16T21:25:10Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15390739" id="2206097246" lat="41.8117812" lon="-87.6210926" timestamp="2013-03-17T01:00:46Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15403866" id="2207703503" lat="41.6858431" lon="-87.6194629" timestamp="2013-03-18T04:22:05Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15412257" id="2208849501" lat="41.741134" lon="-87.6041136" timestamp="2013-03-18T19:54:17Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15415539" id="2209331327" lat="41.7812326" lon="-87.5996392" timestamp="2013-03-19T03:36:52Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15427481" id="2210794097" lat="41.7314591" lon="-87.5955403" timestamp="2013-03-20T04:53:16Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15439052" id="2212454808" lat="41.7944288" lon="-87.5829057" timestamp="2013-03-21T04:55:53Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15444452" id="2213128151" lat="41.7422165" lon="-87.5665725" timestamp="2013-03-21T15:43:12Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15446313" id="2213415313" lat="41.659383" lon="-87.555313" timestamp="2013-03-21T18:38:08Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15449537" id="2213878904" lat="41.6893023" lon="-87.5349899" timestamp="2013-03-22T00:07:03Z" uid="674454" user="chicago-buildings" version="1" />
+	<node changeset="15718111" id="2266364560" lat="41.9569833" lon="-87.8065806" timestamp="2013-04-13T21:46:25Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="16271732" id="2318917220" lat="42.0083476" lon="-87.8675447" timestamp="2013-05-24T21:30:49Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="16915974" id="2381516585" lat="42.151206" lon="-88.2751363" timestamp="2013-07-11T17:20:04Z" uid="8909" user="mvexel" version="1" />
+	<node changeset="17379352" id="2421438305" lat="41.6457674" lon="-87.8515637" timestamp="2013-08-17T04:31:29Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="18195147" id="2483571079" lat="41.7873393" lon="-88.2519124" timestamp="2013-10-05T13:01:16Z" uid="567034" user="Umbugbene" version="1" />
+	<node changeset="20027496" id="2624332710" lat="41.6209906" lon="-87.3793979" timestamp="2014-01-16T05:04:55Z" uid="583595" user="a_white" version="1" />
+	<node changeset="22010800" id="2823501261" lat="42.266368" lon="-88.08509" timestamp="2014-04-28T20:53:54Z" uid="91499" user="paulmach" version="1" />
+	<node changeset="25865656" id="3112178806" lat="42.2090014" lon="-88.2762453" timestamp="2014-10-05T05:30:53Z" uid="238419" user="g246020" version="1" />
+	<node changeset="28125667" id="3286970579" lat="41.9827235" lon="-88.2062406" timestamp="2015-01-14T00:55:21Z" uid="2094226" user="Kbreit" version="1" />
+	<node changeset="31932700" id="3590724077" lat="42.0778596" lon="-87.8121846" timestamp="2015-06-12T21:40:29Z" uid="1240849" user="ediyes" version="1" />
+	<node changeset="34884411" id="3803665945" lat="41.9729292" lon="-87.9485005" timestamp="2015-10-26T15:18:47Z" uid="522978" user="asdf1234" version="1" />
+	<node changeset="38065529" id="4078405908" lat="41.7277781" lon="-87.5456872" timestamp="2016-03-25T15:52:41Z" uid="927231" user="Chicago Park District GIS" version="1" />
+	<node changeset="40271818" id="4263445627" lat="42.1457562" lon="-88.4185393" timestamp="2016-06-24T21:12:49Z" uid="238419" user="g246020" version="1" />
+	<node changeset="42096968" id="4397274325" lat="41.6288723" lon="-87.3635906" timestamp="2016-09-12T10:36:42Z" uid="1198553" user="Extant" version="1" />
+	<node changeset="45055526" id="4600025642" lat="42.0969819" lon="-87.7995537" timestamp="2017-01-10T16:44:50Z" uid="2748195" user="karitotp" version="1" />
+	<node changeset="46407138" id="4706071250" lat="41.8706627" lon="-87.8027966" timestamp="2017-02-26T04:01:22Z" uid="5387019" user="Oak_Park_IL" version="1" />
+	<node changeset="46960691" id="4741756239" lat="41.8964709" lon="-87.8195192" timestamp="2017-03-18T17:00:49Z" uid="5387019" user="Oak_Park_IL" version="1" />
+	<node changeset="50460201" id="4985047726" lat="41.8784089" lon="-88.109119" timestamp="2017-07-21T14:08:54Z" uid="238419" user="g246020" version="1" />
+	<node changeset="53480641" id="5208451679" lat="41.9835255" lon="-87.9682066" timestamp="2017-11-03T14:31:25Z" uid="7659" user="user_7659" version="1">
+		<tag k="barrier" v="toll_booth" />
+	</node>
+	<node changeset="55173589" id="5321114092" lat="41.6273846" lon="-88.2100202" timestamp="2018-01-05T00:16:26Z" uid="604536" user="jimjoe45" version="1" />
+	<way changeset="14452426" id="22098495" timestamp="2012-12-29T16:01:53Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="237633051" />
+		<nd ref="237803534" />
+		<nd ref="237803536" />
+		<nd ref="237803539" />
+		<nd ref="237803543" />
+		<nd ref="237803545" />
+		<nd ref="237803547" />
+		<nd ref="237803551" />
+		<nd ref="237803553" />
+		<nd ref="237803554" />
+		<nd ref="237803556" />
+		<nd ref="237655619" />
+		<nd ref="237803557" />
+		<nd ref="237803558" />
+		<nd ref="237803560" />
+		<nd ref="237733572" />
+		<nd ref="237803562" />
+		<nd ref="237803565" />
+		<nd ref="237803567" />
+		<tag k="name" v="73rd Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="DuPage, IL" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="60516" />
+		<tag k="tiger:name_base" v="73rd" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="60516" />
+	</way>
+	<way changeset="8422993" id="101262123" timestamp="2011-06-13T08:31:19Z" uid="207745" user="NE2" version="3">
+		<nd ref="288912737" />
+		<nd ref="1168829962" />
+		<nd ref="1168829963" />
+		<nd ref="261225152" />
+		<tag k="name" v="Oakton Street" />
+		<tag k="oneway" v="yes" />
+		<tag k="highway" v="tertiary" />
+		<tag k="tiger:tlid" v="112386133:111717282:111717272:111717274:111876829:111863650:111717412:111717448:111717450:111717452:111717453:111717455:112374393:112374394:111717186:111717188:111717206:111717212:111716915:112364489:112364490:111717263" />
+		<tag k="tiger:county" v="Cook, IL" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070809" />
+		<tag k="addr:postcode" v="60007" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-ee310570-36cc-43bc-bc7b-aff94618acaf" />
+	</way>
+	<way changeset="11523835" id="162499743" timestamp="2012-05-06T22:33:42Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="1743717521" />
+		<nd ref="1743717620" />
+		<nd ref="1743717622" />
+		<nd ref="1743717523" />
+		<nd ref="1743717521" />
+		<tag k="building" v="yes" />
+		<tag k="addr:street" v="South Monitor Avenue" />
+		<tag k="building:levels" v="2" />
+		<tag k="addr:housenumber" v="5801" />
+		<tag k="addr:street:name" v="Monitor" />
+		<tag k="addr:street:type" v="Avenue" />
+		<tag k="addr:street:prefix" v="South" />
+		<tag k="chicago:building_id" v="509452" />
+	</way>
+	<way changeset="11573168" id="163170444" timestamp="2012-05-12T03:58:19Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="1749207953" />
+		<nd ref="1749208467" />
+		<nd ref="1749208483" />
+		<nd ref="1749207961" />
+		<nd ref="1749207953" />
+		<tag k="building" v="yes" />
+		<tag k="chicago:building_id" v="203624" />
+	</way>
+	<way changeset="11594392" id="163570777" timestamp="2012-05-14T11:34:37Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="1752418807" />
+		<nd ref="1752419616" />
+		<nd ref="1752419614" />
+		<nd ref="1752419660" />
+		<nd ref="1752419658" />
+		<nd ref="1752418810" />
+		<nd ref="1752418807" />
+		<tag k="building" v="yes" />
+		<tag k="addr:street" v="West 66th Place" />
+		<tag k="building:levels" v="1" />
+		<tag k="addr:housenumber" v="3813" />
+		<tag k="addr:street:name" v="66th" />
+		<tag k="addr:street:type" v="Place" />
+		<tag k="addr:street:prefix" v="West" />
+		<tag k="chicago:building_id" v="559595" />
+	</way>
+	<way changeset="11711816" id="165129018" timestamp="2012-05-27T02:13:22Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="1766995997" />
+		<nd ref="1766995999" />
+		<nd ref="1766996232" />
+		<nd ref="1766996230" />
+		<nd ref="1766996239" />
+		<nd ref="1766996002" />
+		<nd ref="1766995997" />
+		<tag k="building" v="yes" />
+		<tag k="chicago:building_id" v="558696" />
+	</way>
+	<way changeset="15335408" id="209469845" timestamp="2013-03-12T03:04:22Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="2196795582" />
+		<nd ref="2196795684" />
+		<nd ref="2196795688" />
+		<nd ref="2196795584" />
+		<nd ref="2196795582" />
+		<tag k="building" v="yes" />
+		<tag k="chicago:building_id" v="184321" />
+	</way>
+	<way changeset="15357275" id="209897103" timestamp="2013-03-13T22:47:51Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="2200528959" />
+		<nd ref="2200529912" />
+		<nd ref="2200529923" />
+		<nd ref="2200528968" />
+		<nd ref="2200528959" />
+		<tag k="building" v="yes" />
+		<tag k="chicago:building_id" v="198829" />
+	</way>
+	<way changeset="15379638" id="210316683" timestamp="2013-03-16T02:17:07Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="2204014131" />
+		<nd ref="2204014342" />
+		<nd ref="2204014350" />
+		<nd ref="2204014202" />
+		<nd ref="2204014203" />
+		<nd ref="2204014142" />
+		<nd ref="2204014131" />
+		<tag k="building" v="yes" />
+		<tag k="addr:street" v="North Fremont Street" />
+		<tag k="building:levels" v="2" />
+		<tag k="addr:housenumber" v="1945" />
+		<tag k="addr:street:name" v="Fremont" />
+		<tag k="addr:street:type" v="Street" />
+		<tag k="addr:street:prefix" v="North" />
+		<tag k="chicago:building_id" v="286841" />
+	</way>
+	<way changeset="15413837" id="210877877" timestamp="2013-03-18T22:17:37Z" uid="674454" user="chicago-buildings" version="1">
+		<nd ref="2209072440" />
+		<nd ref="2209072638" />
+		<nd ref="2209072644" />
+		<nd ref="2209072445" />
+		<nd ref="2209072440" />
+		<tag k="building" v="yes" />
+		<tag k="chicago:building_id" v="574742" />
+	</way>
+	<way changeset="48055351" id="230256282" timestamp="2017-04-23T10:01:28Z" uid="665748" user="sebastic" version="3">
+		<nd ref="282373523" />
+		<nd ref="2387791218" />
+		<nd ref="2387791643" />
+		<nd ref="2387791642" />
+		<nd ref="2387791177" />
+		<nd ref="2387791760" />
+		<nd ref="2387791537" />
+		<nd ref="2387791445" />
+		<nd ref="2387791792" />
+		<nd ref="2387791550" />
+		<nd ref="2387791705" />
+		<nd ref="2387791668" />
+		<nd ref="2387791275" />
+		<nd ref="2387791180" />
+		<nd ref="2387791806" />
+		<nd ref="2387791502" />
+		<nd ref="2387791470" />
+		<nd ref="2387791710" />
+		<nd ref="2387791857" />
+		<nd ref="2387791241" />
+		<nd ref="2387791780" />
+		<nd ref="2387791756" />
+		<nd ref="2387791240" />
+		<nd ref="2387791742" />
+		<nd ref="2387791233" />
+		<nd ref="2387791639" />
+		<nd ref="2387791447" />
+		<nd ref="2387791517" />
+		<nd ref="2387791638" />
+		<nd ref="2387791493" />
+		<nd ref="2387791692" />
+		<nd ref="2387791190" />
+		<nd ref="2387791175" />
+		<nd ref="2387791273" />
+		<nd ref="2387791346" />
+		<nd ref="2387791841" />
+		<nd ref="2387791751" />
+		<nd ref="2387791258" />
+		<nd ref="2387791207" />
+		<nd ref="2387791607" />
+		<nd ref="2387791667" />
+		<nd ref="2387791649" />
+		<nd ref="2387791315" />
+		<nd ref="2387791540" />
+		<nd ref="2387791847" />
+		<nd ref="2387791375" />
+		<nd ref="2387791230" />
+		<nd ref="2387791290" />
+		<nd ref="2387791555" />
+		<nd ref="2387791487" />
+		<nd ref="2387791749" />
+		<nd ref="2387791602" />
+		<nd ref="2387791199" />
+		<nd ref="2387791786" />
+		<nd ref="2387791343" />
+		<nd ref="2387791326" />
+		<nd ref="2387791636" />
+		<nd ref="2387791793" />
+		<nd ref="2387791866" />
+		<nd ref="2387791399" />
+		<nd ref="2387791408" />
+		<nd ref="2387791802" />
+		<nd ref="2387791280" />
+		<nd ref="2387791178" />
+		<nd ref="2387791421" />
+		<nd ref="2387791443" />
+		<nd ref="2387791397" />
+		<nd ref="2387791497" />
+		<nd ref="2387791855" />
+		<nd ref="2387791432" />
+		<nd ref="2387791542" />
+		<nd ref="2387791333" />
+		<nd ref="2387791804" />
+		<nd ref="2387791759" />
+		<nd ref="2387791204" />
+		<nd ref="2387791843" />
+		<nd ref="2387791581" />
+		<nd ref="2387791403" />
+		<nd ref="2387791646" />
+		<nd ref="2387791744" />
+		<nd ref="2387791588" />
+		<nd ref="2387791575" />
+		<nd ref="2387791331" />
+		<nd ref="2387791324" />
+		<nd ref="2387791353" />
+		<nd ref="2387791671" />
+		<nd ref="2387791412" />
+		<nd ref="2387791307" />
+		<nd ref="2387791738" />
+		<nd ref="2387791350" />
+		<nd ref="2387791630" />
+		<nd ref="2387791427" />
+		<nd ref="2387791265" />
+		<nd ref="2387791800" />
+		<nd ref="2387791563" />
+		<nd ref="2387791725" />
+		<nd ref="2387791644" />
+		<nd ref="2387791339" />
+		<nd ref="2387791828" />
+		<nd ref="2387791833" />
+		<nd ref="2387791560" />
+		<nd ref="2387791860" />
+		<nd ref="2387791446" />
+		<nd ref="2387791478" />
+		<nd ref="2387791503" />
+		<nd ref="2387791355" />
+		<nd ref="2387791585" />
+		<nd ref="2387791433" />
+		<nd ref="2387791810" />
+		<nd ref="2387791702" />
+		<nd ref="2387791551" />
+		<nd ref="2387791558" />
+		<nd ref="2387791489" />
+		<nd ref="2387791160" />
+		<nd ref="2387791795" />
+		<nd ref="2387791512" />
+		<nd ref="2387791665" />
+		<nd ref="2387791385" />
+		<nd ref="2387791808" />
+		<nd ref="2387791547" />
+		<nd ref="2387791836" />
+		<nd ref="2387791623" />
+		<nd ref="2387791621" />
+		<nd ref="2387791257" />
+		<nd ref="2387791824" />
+		<nd ref="2387791586" />
+		<nd ref="2387791571" />
+		<nd ref="2387791788" />
+		<nd ref="2387791622" />
+		<nd ref="2387791272" />
+		<nd ref="2387791422" />
+		<nd ref="2387791850" />
+		<nd ref="2387791328" />
+		<nd ref="2387791428" />
+		<nd ref="2387791655" />
+		<nd ref="2387791863" />
+		<nd ref="2387791679" />
+		<nd ref="2387791814" />
+		<nd ref="2387791776" />
+		<nd ref="2387791766" />
+		<nd ref="2387791357" />
+		<nd ref="2387791731" />
+		<nd ref="2387791263" />
+		<nd ref="2387791747" />
+		<nd ref="2387791352" />
+		<nd ref="2387791161" />
+		<nd ref="2387791861" />
+		<nd ref="2387791591" />
+		<nd ref="2387791283" />
+		<nd ref="2387791244" />
+		<nd ref="2387791552" />
+		<nd ref="2387791815" />
+		<nd ref="2387791185" />
+		<nd ref="2387791565" />
+		<nd ref="2387791163" />
+		<nd ref="2387791746" />
+		<nd ref="2387791676" />
+		<nd ref="2387791319" />
+		<nd ref="2387791570" />
+		<nd ref="2387791724" />
+		<nd ref="2387791548" />
+		<nd ref="282373523" />
+		<tag k="source" v="NHD" />
+	</way>
+	<way changeset="38185228" id="406690809" timestamp="2016-03-31T00:18:44Z" uid="522978" user="asdf1234" version="1">
+		<nd ref="4087342712" />
+		<nd ref="4087342713" />
+		<nd ref="4087342714" />
+		<nd ref="4087342715" />
+		<nd ref="4087342712" />
+		<tag k="building" v="industrial" />
+		<tag k="building:levels" v="2" />
+	</way>
+	<way changeset="51859924" id="522619696" timestamp="2017-09-08T19:42:59Z" uid="6231167" user="schurch16" version="1">
+		<nd ref="5089797333" />
+		<nd ref="5089797330" />
+		<nd ref="5089797331" />
+		<nd ref="5089797332" />
+		<nd ref="5089797333" />
+		<tag k="building" v="house" />
+	</way>
+	</osm>
