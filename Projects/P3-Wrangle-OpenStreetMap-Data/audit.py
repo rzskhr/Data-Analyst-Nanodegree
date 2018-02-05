@@ -108,7 +108,7 @@ def update_name(name, mapping):
 
 
 # uncomment to run test
-# OSM_FILE = "sample.osm"
+# OSM_FILE = "osm-files/sample.osm"
 #
 #
 # def test():

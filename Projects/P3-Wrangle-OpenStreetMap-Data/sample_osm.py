@@ -7,7 +7,7 @@ import xml.etree.cElementTree as Et
 
 # constants
 OSM_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/chicago_illinois.osm"
-SAMPLE_FILE = "sample.osm"
+SAMPLE_FILE = "osm-files/sample.osm"
 
 DEFAULT_TAGS = ('node', 'way', 'relation')
 
@@ -15,7 +15,7 @@ DEFAULT_TAGS = ('node', 'way', 'relation')
 n = 100000
 
 
-def sample_element(osmfile, tags=DEFAULT_TAGS):
+def fetch_element(osmfile, tags=DEFAULT_TAGS):
     """
     get the element if it is right type of tag
 
@@ -43,9 +43,9 @@ with open(SAMPLE_FILE, 'wb') as f:
     f.write(b'<osm>\n ')      # opening tag
 
     # write every nth element using sample_element
-    for i, element in enumerate(sample_element(OSM_FILE)):
+    for i, element in enumerate(fetch_element(OSM_FILE)):
         if i % n == 0:
             f.write(Et.tostring(element, encoding='utf-8'))
-
+    # closing the osm tag
     f.write(b'</osm>')
 f.close()
