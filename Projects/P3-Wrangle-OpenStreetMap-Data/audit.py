@@ -13,20 +13,26 @@ street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)
 
 # for auditing street names
 # list of expected street names
-expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road",
-            "Trail", "Parkway", "Commons"]
+expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Ct", "Place", "Square", "Lane", "Road",
+            "Trail", "Parkway", "Commons", "Park", "Broadway", "Circle", "Highway", "Trail",
+            "Way", "West", "North", "Terrace", "Plaza", "Market"]
 
 # mapping the incorrect street names to the correct ones
-MAPPING = { "St": "Street",
-            "St.": "Street",
-            "Ave": "Avenue",
-            "Rd.": "Road",
-            "N.": "North",
-            "Ave.": "Avenue",
-            "Blvd.": "Boulevard",
-            "Blvd": "Boulevard",
-            }
-
+STREET_MAPPING = { "Ave"    : "Avenue",
+                   "Ave."   : "Avenue",
+                   "Blvd."  : "Boulevard",
+                   "Blvd"   : "Boulevard",
+                   "Cir"    : "Circle",
+                   "Dr"     : "Drive",
+                   "Ln"     : "Lane",
+                   "N."     : "North",
+                   "Pkwy"   : "Parkway",
+                   "Rd"     : "Road",
+                   "Rd."    : "Road",
+                   "St"     : "Street",
+                   "St."    : "Street",
+                   "Trl"    : "Trail"
+                   }
 
 def audit_street_type(street_types, street_name):
     """
@@ -82,7 +88,7 @@ def audit(osm_file):
     return street_types
 
 
-def update_name(name, mapping=MAPPING):
+def update_name(name, mapping=STREET_MAPPING):
     """
     Update the street names by checking the last word in the street name...
     ...if the word is abbreviated change the street name as given in the mapping dict
@@ -108,20 +114,20 @@ def update_name(name, mapping=MAPPING):
 
 
 # uncomment to run test
-# OSM_FILE = "osm-files/sample.osm"
-#
-#
-# def test():
-#     st_types = audit(OSM_FILE)
-#
-#     import pprint
-#     pprint.pprint(dict(st_types))
-#
-#     for st_type, ways in st_types.items():
-#         for name in ways:
-#             better_name = update_name(name, mapping)
-#             print(name, "=>", better_name)
-#
-#
-# if __name__ == '__main__':
-#     test()
+OSM_FILE = "osm-files/sample.osm"
+
+
+def test():
+    st_types = audit(OSM_FILE)
+
+    import pprint
+    pprint.pprint(dict(st_types))
+    print("\n\n====================================\n\n")
+    for st_type, ways in st_types.items():
+        for name in ways:
+            better_name = update_name(name, mapping=STREET_MAPPING)
+            print(name, "=>", better_name)
+
+
+if __name__ == '__main__':
+    test()

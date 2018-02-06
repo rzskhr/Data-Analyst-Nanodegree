@@ -9,9 +9,9 @@ import xml.etree.cElementTree as Et
 OSM_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/chicago_illinois.osm"
 
 # take every n-th top element
-n = 100000
+take_every_nth_element = 50
 
-if n > 125:
+if take_every_nth_element > 124:
     SAMPLE_FILE = "osm-files/sample.osm"
 else:
     SAMPLE_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/processed-osm/sample.osm"
@@ -28,6 +28,7 @@ def fetch_element(osmfile, tags=DEFAULT_TAGS):
     :return: nothing, used to get the element to write in to sample file
     """
     print("fetch_element from sample_osm.py called")
+    print("fetching elements from file : ", osmfile, "having tags : ", tags, ".\n")
 
     # iterate over start and end tags
     context = iter(Et.iterparse(osmfile, events=('start', 'end')))
@@ -52,8 +53,20 @@ def sample_file(osm_file=OSM_FILE, sample_file=SAMPLE_FILE):
         # write every nth element using sample_element
         print("Sampling large OSM file")
         for i, element in enumerate(fetch_element(osm_file)):
-            if i % n == 0:
+            if i % take_every_nth_element == 0:
                 f.write(Et.tostring(element, encoding='utf-8'))
         # closing the osm tag
         f.write(b'</osm>')
     f.close()
+
+
+if __name__ == '__main__':
+    user_input = input("Type yes if you want to sample osm file, \
+    \nelse type anything and hit return.... :\n")
+    if user_input == 'yes':
+        print("##### sampling ....")
+        sample_file()
+        print("##### finished sampling.\n")
+        print("Sampled file at location: ", SAMPLE_FILE.upper())
+    else:
+        exit(1)

@@ -3,7 +3,6 @@
 
 
 # All the imports done here
-import xml.etree.cElementTree as Et
 import re
 
 import codecs
@@ -11,7 +10,7 @@ import cerberus     # http://docs.python-cerberus.org/en/stable/
 
 # imports from this project
 from unicode_dict_writer import UnicodeDictWriter
-from sample_osm import fetch_element
+from sample_osm import fetch_element, take_every_nth_element
 from validator import validate_element
 from audit import is_street_name, update_name
 
@@ -19,13 +18,21 @@ from audit import is_street_name, update_name
 
 # file path
 OSM_FILE = "osm-files/sample.osm"
+raw_file_path = "/Users/Raj/Root/GitHub/__Datasets__/OSM/processed-osm/"
 
 # files to be written after processing the data
-NODES_FILE_PATH = "csv-files/nodes.csv"
-NODE_TAGS_FILE_PATH = "csv-files/nodes_tags.csv"
-WAYS_FILE_PATH = "csv-files/ways.csv"
-WAY_NODES_FILE_PATH = "csv-files/ways_nodes.csv"
-WAY_TAGS_FILE_PATH = "csv-files/ways_tags.csv"
+if take_every_nth_element > 125:
+    NODES_FILE_PATH = "csv-files/nodes.csv"
+    NODE_TAGS_FILE_PATH = "csv-files/nodes_tags.csv"
+    WAYS_FILE_PATH = "csv-files/ways.csv"
+    WAY_NODES_FILE_PATH = "csv-files/ways_nodes.csv"
+    WAY_TAGS_FILE_PATH = "csv-files/ways_tags.csv"
+else:
+    NODES_FILE_PATH = raw_file_path+"csv-files/nodes.csv"
+    NODE_TAGS_FILE_PATH = raw_file_path+"csv-files/nodes_tags.csv"
+    WAYS_FILE_PATH = raw_file_path+"csv-files/ways.csv"
+    WAY_NODES_FILE_PATH = raw_file_path+"csv-files/ways_nodes.csv"
+    WAY_TAGS_FILE_PATH = raw_file_path+"csv-files/ways_tags.csv"
 
 # schema as provided in the description
 SCHEMA = "schema.py"
