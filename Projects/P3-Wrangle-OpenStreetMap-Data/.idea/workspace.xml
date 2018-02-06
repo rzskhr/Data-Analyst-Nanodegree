@@ -29,7 +29,7 @@
       <file leaf-file-name="audit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="909">
+            <state relative-caret-position="1095">
               <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
               <folding>
                 <element signature="e#75#110#0" expanded="true" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="sample_osm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample_osm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -73,8 +73,8 @@
       <file leaf-file-name="data-wrangling.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-wrangling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="125" column="91" lean-forward="false" selection-start-line="125" selection-start-column="91" selection-end-line="125" selection-end-column="91" />
+            <state relative-caret-position="486">
+              <caret line="198" column="0" lean-forward="true" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
               <folding>
                 <element signature="e#76#111#0" expanded="true" />
               </folding>
@@ -105,9 +105,9 @@
         <option value="$PROJECT_DIR$/initial_code_setup.py" />
         <option value="$PROJECT_DIR$/validator.py" />
         <option value="$PROJECT_DIR$/unicode_dict_writer.py" />
-        <option value="$PROJECT_DIR$/sample_osm.py" />
         <option value="$PROJECT_DIR$/audit.py" />
         <option value="$PROJECT_DIR$/data-wrangling.py" />
+        <option value="$PROJECT_DIR$/sample_osm.py" />
       </list>
     </option>
   </component>
@@ -390,14 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample_osm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/validator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -405,6 +397,24 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+          <folding>
+            <element signature="e#75#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_osm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -416,20 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-          <folding>
-            <element signature="e#75#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-wrangling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="125" column="91" lean-forward="false" selection-start-line="125" selection-start-column="91" selection-end-line="125" selection-end-column="91" />
+        <state relative-caret-position="486">
+          <caret line="198" column="0" lean-forward="true" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
           <folding>
             <element signature="e#76#111#0" expanded="true" />
           </folding>

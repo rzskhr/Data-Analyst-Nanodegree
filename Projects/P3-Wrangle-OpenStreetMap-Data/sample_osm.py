@@ -7,12 +7,16 @@ import xml.etree.cElementTree as Et
 
 # constants
 OSM_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/chicago_illinois.osm"
-SAMPLE_FILE = "osm-files/sample.osm"
-
-DEFAULT_TAGS = ('node', 'way', 'relation')
 
 # take every n-th top element
 n = 100000
+
+if n > 125:
+    SAMPLE_FILE = "osm-files/sample.osm"
+else:
+    SAMPLE_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/processed-osm/sample.osm"
+
+DEFAULT_TAGS = ('node', 'way', 'relation')
 
 
 def fetch_element(osmfile, tags=DEFAULT_TAGS):
