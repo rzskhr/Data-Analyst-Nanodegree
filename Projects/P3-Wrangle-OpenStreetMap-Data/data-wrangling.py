@@ -9,7 +9,6 @@
 
 # All the imports done here
 import xml.etree.cElementTree as Et
-from collections import defaultdict
 import re
 
 import codecs
@@ -45,10 +44,24 @@ WAY_NODES_FIELDS = ['id', 'node_id', 'position']
 # precompiled regular expressions
 lower = re.compile(r'^([a-z]|_)*$')
 lower_colon = re.compile(r'^([a-z]|_)*:([a-z]|_)*$')
-problem_chars = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
+PROBLEM_CHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 
-def shape_element(element):
+def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIELDS,
+                  problem_chars=PROBLEM_CHARS, default_tag_type='regular'):
+
+    # data structures for holding the processed data
+    node_attributes, way_attributes = dict(), dict()
+    way_nodes, tags = list(), list()
+
+    # condition for node tags
+    if element.tag == 'node':
+        print('')
+
+    # condition for way tags
+    elif element.tag == 'way':
+        print(element)
+
     return 1
 
 
@@ -64,6 +77,7 @@ def process_map(osm_file, validate):
          codecs.open(WAY_NODES_FILE_PATH, 'w') as way_nodes_file, \
          codecs.open(WAY_TAGS_FILE_PATH, 'w') as way_tags_file:
 
+        # call the UnicodeDictWriter function from unicode_dict_writer to write
         nodes_writer = UnicodeDictWriter(nodes_file, NODE_FIELDS)
         node_tags_writer = UnicodeDictWriter(nodes_tags_file, NODE_TAGS_FIELDS)
         ways_writer = UnicodeDictWriter(ways_file, WAY_FIELDS)
@@ -96,4 +110,7 @@ def process_map(osm_file, validate):
 
 if __name__ == '__main__':
     # call the process map function
-    process_map(OSM_FILE, validate=True)
+    # process_map(OSM_FILE, validate=True)
+
+    for element in fetch_element(OSM_FILE, tags=('node', 'way')):
+        shaped_element = shape_element(element)

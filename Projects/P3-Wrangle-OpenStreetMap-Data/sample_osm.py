@@ -23,6 +23,8 @@ def fetch_element(osmfile, tags=DEFAULT_TAGS):
     :param tags: type of tags to consider
     :return: nothing, used to get the element to write in to sample file
     """
+    print("fetch_element from sample_osm.py called")
+
     # iterate over start and end tags
     context = iter(Et.iterparse(osmfile, events=('start', 'end')))
 
@@ -35,17 +37,19 @@ def fetch_element(osmfile, tags=DEFAULT_TAGS):
             root.clear()
 
 
-# dumping the data to sample file
-with open(SAMPLE_FILE, 'wb') as f:
-    # write the first line in the xml
-    # adding the bytes object type, as we are opening the file in bytes mode
-    f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
-    f.write(b'<osm>\n ')      # opening tag
+def sample_file(osm_file=OSM_FILE, sample_file=SAMPLE_FILE):
+    # dumping the data to sample file
+    with open(sample_file, 'wb') as f:
+        # write the first line in the xml
+        # adding the bytes object type, as we are opening the file in bytes mode
+        f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write(b'<osm>\n ')      # opening tag
 
-    # write every nth element using sample_element
-    for i, element in enumerate(fetch_element(OSM_FILE)):
-        if i % n == 0:
-            f.write(Et.tostring(element, encoding='utf-8'))
-    # closing the osm tag
-    f.write(b'</osm>')
-f.close()
+        # write every nth element using sample_element
+        print("Sampling large OSM file")
+        for i, element in enumerate(fetch_element(osm_file)):
+            if i % n == 0:
+                f.write(Et.tostring(element, encoding='utf-8'))
+        # closing the osm tag
+        f.write(b'</osm>')
+    f.close()
