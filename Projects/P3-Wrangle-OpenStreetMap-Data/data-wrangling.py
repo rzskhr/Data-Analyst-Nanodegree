@@ -94,7 +94,7 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
                 nd_dict = dict()
                 nd_dict['id'] = element.attrib['id']        # store id
                 nd_dict['node_id'] = tags.attrib['ref']     # storing the ref as node_id
-                nd_dict['position'] = position_nd              # store the position of the nd node
+                nd_dict['position'] = position_nd           # store the position of the nd node
                 position_nd += 1
                 # append the nd tag values to way nodes
                 way_nodes.append(nd_dict)
