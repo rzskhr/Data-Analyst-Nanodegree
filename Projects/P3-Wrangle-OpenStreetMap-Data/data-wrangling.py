@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-"""
-
-"""
-
-
 # All the imports done here
 import xml.etree.cElementTree as Et
 import re
@@ -18,6 +13,7 @@ import cerberus     # http://docs.python-cerberus.org/en/stable/
 from unicode_dict_writer import UnicodeDictWriter
 from sample_osm import fetch_element
 from validator import validate_element
+from audit import is_street_name, update_name
 
 # CONSTANTS
 
@@ -52,17 +48,103 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
 
     # data structures for holding the processed data
     node_attributes, way_attributes = dict(), dict()
-    way_nodes, tags = list(), list()
+    way_nodes, inner_tags = list(), list()
 
     # condition for node tags
     if element.tag == 'node':
-        print('')
+        for attr, val in element.attrib.items():
+            if attr in node_attr_fields:
+                # adding all the node attributes to node_attributes dictionary
+                node_attributes[attr] = val
+
+        # for inner tags = 'tag'
+        for tags in element.iter('tag'):
+            # ignore if problem chars
+            if problem_chars.match(tags.attrib['k']) is not None:
+                continue
+            else:
+                processed_tag = process_tags(tags, element, default_tag_type)
+                if processed_tag is not None:
+                    inner_tags.append(processed_tag)
+
+        return {'node': node_attributes, 'node_tags': inner_tags}
 
     # condition for way tags
     elif element.tag == 'way':
-        print(element)
+        for attr, val in element.attrib.items():
+            if attr in way_attr_fields:
+                # adding all the node attributes to node_attributes dictionary
+                way_attributes[attr] = val
 
-    return 1
+        # for inner tags = 'tag' and 'nd'
+        position_nd = 0   # to keep track of 'nd' tag position
+        for tags in element.iter():
+            # for 'tag'
+            if tags.tag == 'tag':
+                # ignore if problem chars
+                if problem_chars.match(tags.attrib['k']) is not None:
+                    continue
+                else:
+                    processed_tag = process_tags(tags, element, default_tag_type)
+                    if processed_tag is not None:
+                        inner_tags.append(processed_tag)
+
+            # for 'nd'
+            elif tags.tag == 'nd':
+                nd_dict = dict()
+                nd_dict['id'] = element.attrib['id']        # store id
+                nd_dict['node_id'] = tags.attrib['ref']     # storing the ref as node_id
+                nd_dict['position'] = position_nd              # store the position of the nd node
+                position_nd += 1
+                # append the nd tag values to way nodes
+                way_nodes.append(nd_dict)
+
+        return {'way': way_attributes, 'way_nodes': way_nodes, 'way_tags': inner_tags}
+
+
+def process_tags(tags, element, default_tag_type):
+    # print(tags.attrib,  "\n", element.attrib, "\n", default_tag_type, "\n")
+
+    tag_dict = dict()
+
+    # for id
+    tag_dict['id'] = element.attrib['id']
+
+    # if no semicolon in the key, store as separate key = 'key', and default_tag_type=regular
+    if ':' not in tags.attrib['k']:
+        tag_dict['key'] = tags.attrib['k']
+        tag_dict['type'] = default_tag_type
+
+    # else if there is a semicolon in the keys, eg: tiger:county, addr:housenumber, addr:street:name, etc. ...
+    else:
+        index_of_first_colon = tags.attrib['k'].index(':')
+        tag_dict['key'] = tags.attrib['k'][index_of_first_colon + 1:]   # make the words after colon as new key
+        tag_dict['type'] = tags.attrib['k'][:index_of_first_colon]
+
+    # check if the tag has street name
+    if is_street_name(tags):
+        # update the street name if last word not in expected, from the mapping in audit.py
+        street_name = update_name(tags.attrib['v'])
+        tag_dict['value'] = street_name
+
+    # TODO - phone number audit
+    # for phone number
+    elif tag_dict['key'] == 'phone':
+        tag_dict['value'] = tags.attrib['v']
+
+    # TODO - state audit
+    # for state, change Illinois to IL
+
+    # TODO - postcode audit
+    # for postcode
+    elif tag_dict['key'] == 'postcode':
+        tag_dict['value'] = tags.attrib['v']
+
+    # add all other values to tag_dict
+    else:
+        tag_dict['value'] = tags.attrib['v']
+
+    return tag_dict
 
 
 def process_map(osm_file, validate):

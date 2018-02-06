@@ -17,7 +17,7 @@ expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square"
             "Trail", "Parkway", "Commons"]
 
 # mapping the incorrect street names to the correct ones
-mapping = { "St": "Street",
+MAPPING = { "St": "Street",
             "St.": "Street",
             "Ave": "Avenue",
             "Rd.": "Road",
@@ -82,7 +82,7 @@ def audit(osm_file):
     return street_types
 
 
-def update_name(name, mapping):
+def update_name(name, mapping=MAPPING):
     """
     Update the street names by checking the last word in the street name...
     ...if the word is abbreviated change the street name as given in the mapping dict
