@@ -10,7 +10,7 @@ import os
 OSM_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/chicago_illinois.osm"
 
 # take every n-th top element
-take_every_nth_element = 50
+take_every_nth_element = 51
 
 if take_every_nth_element > 49:
     SAMPLE_FILE = "osm-files/sample.osm"

@@ -8,9 +8,10 @@ class UnicodeDictWriter(csv.DictWriter, object):
     """
 
     def writerow(self, row):
-        super(UnicodeDictWriter, self).writerow({
-            k: (v.encode('utf-8') if isinstance(v, unicode) else v) for k, v in row.iteritems()
-        })
+        # super(UnicodeDictWriter, self).writerow({
+        #     k: (v.encode('utf-8') if isinstance(v, 'utf-8') else v) for k, v in row.items()
+        # })
+        return self.writer.writerow(self._dict_to_list(row))
 
     def writerows(self, rows):
         for row in rows:

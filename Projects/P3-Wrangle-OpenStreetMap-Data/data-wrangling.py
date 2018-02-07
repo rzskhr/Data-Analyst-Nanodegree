@@ -13,6 +13,7 @@ from sample_osm import fetch_element, take_every_nth_element
 from validator import validate_element
 from audit_street_name import is_street_name, update_street_name
 from audit_phone import is_phone_num, update_phone
+import schema
 
 # CONSTANTS
 
@@ -35,7 +36,7 @@ else:
     WAY_TAGS_FILE_PATH = raw_file_path+"csv-files/ways_tags.csv"
 
 # schema as provided in the description
-SCHEMA = "schema.py"
+SCHEMA = schema
 
 # categorize the columns for the tables to be parsed into csv as per the given schema
 NODE_FIELDS = ['id', 'lat', 'lon', 'user', 'uid', 'version', 'changeset', 'timestamp']
@@ -157,10 +158,10 @@ def process_map(osm_file, validate):
     :return: Nothing writes the files to the specified location
     """
     with codecs.open(NODES_FILE_PATH, 'w') as nodes_file, \
-         codecs.open(NODE_TAGS_FILE_PATH, 'w') as nodes_tags_file, \
-         codecs.open(WAYS_FILE_PATH, 'w') as ways_file, \
-         codecs.open(WAY_NODES_FILE_PATH, 'w') as way_nodes_file, \
-         codecs.open(WAY_TAGS_FILE_PATH, 'w') as way_tags_file:
+            codecs.open(NODE_TAGS_FILE_PATH, 'w') as nodes_tags_file, \
+            codecs.open(WAYS_FILE_PATH, 'w') as ways_file, \
+            codecs.open(WAY_NODES_FILE_PATH, 'w') as way_nodes_file, \
+            codecs.open(WAY_TAGS_FILE_PATH, 'w') as way_tags_file:
 
         # call the UnicodeDictWriter function from unicode_dict_writer to write
         nodes_writer = UnicodeDictWriter(nodes_file, NODE_FIELDS)
@@ -194,9 +195,13 @@ def process_map(osm_file, validate):
 
 
 if __name__ == '__main__':
+    import datetime
+    a = datetime.datetime.now()
+    print(a)
     # call the process map function
-    # process_map(OSM_FILE, validate=True)
-    OSM_FILE = "osm-files/sample_125_17MB.osm"
-    for element in fetch_element(OSM_FILE, tags=('node', 'way')):
-        shaped_element = shape_element(element)
-
+    process_map(OSM_FILE, validate=True)
+    b = datetime.datetime.now()
+    print(b)
+    print("DIFF: ", b-a)
+    # for element in fetch_element(OSM_FILE, tags=('node', 'way')):
+    #     shaped_element = shape_element(element)
