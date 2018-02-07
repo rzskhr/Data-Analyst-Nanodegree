@@ -18,8 +18,9 @@ import schema
 # CONSTANTS
 
 # file path
-OSM_FILE = "osm-files/sample.osm"
-raw_file_path = "/Users/Raj/Root/GitHub/__Datasets__/OSM/processed-osm/"
+OSM_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/chicago_illinois.osm"   # WARNING! raw file - 2.14 GB
+# OSM_FILE = "osm-files/sample.osm"
+raw_file_path = "/Users/Raj/Root/GitHub/__Datasets__/OSM/processed-osm/"    # If file is big, send to raw file path
 
 # files to be written after processing the data
 if take_every_nth_element > 49:
@@ -197,11 +198,11 @@ def process_map(osm_file, validate):
 if __name__ == '__main__':
     import datetime
     a = datetime.datetime.now()
-    print(a)
+    print("Start time: ", a)
     # call the process map function
     process_map(OSM_FILE, validate=True)
     b = datetime.datetime.now()
-    print(b)
+    print("End time: ", b)
     print("DIFF: ", b-a)
     # for element in fetch_element(OSM_FILE, tags=('node', 'way')):
     #     shaped_element = shape_element(element)
