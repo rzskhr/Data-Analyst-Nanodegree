@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data-wrangling.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data-wrangling.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-wrangling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3105">
-              <caret line="207" column="24" lean-forward="false" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
+            <state relative-caret-position="2335">
+              <caret line="200" column="47" lean-forward="false" selection-start-line="200" selection-start-column="47" selection-end-line="200" selection-end-column="47" />
               <folding>
                 <element signature="e#76#85#0" expanded="true" />
               </folding>
@@ -38,23 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="audit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/audit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
-              <folding>
-                <element signature="e#75#110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="audit_phone.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="audit_phone.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit_phone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="107" column="35" lean-forward="false" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+            <state relative-caret-position="706">
+              <caret line="110" column="1" lean-forward="true" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
               <folding>
                 <element signature="e#75#110#0" expanded="true" />
               </folding>
@@ -86,6 +74,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>osmfile</find>
+      <find>postc</find>
     </findStrings>
     <replaceStrings>
       <replace>osm_file</replace>
@@ -99,9 +88,10 @@
         <option value="$PROJECT_DIR$/unicode_dict_writer.py" />
         <option value="$PROJECT_DIR$/phone_audit.py" />
         <option value="$PROJECT_DIR$/sample_osm.py" />
-        <option value="$PROJECT_DIR$/data-wrangling.py" />
         <option value="$PROJECT_DIR$/audit.py" />
         <option value="$PROJECT_DIR$/audit_phone.py" />
+        <option value="$PROJECT_DIR$/audit_postcode.py" />
+        <option value="$PROJECT_DIR$/data-wrangling.py" />
       </list>
     </option>
   </component>
@@ -156,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data-wrangling">
+  <component name="RunManager" selected="Python.audit_postcode">
     <configuration name="audit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,6 +177,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="P3-Wrangle-OpenStreetMap-Data" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/audit_phone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="audit_postcode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="P3-Wrangle-OpenStreetMap-Data" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/audit_postcode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,37 +232,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="sample_osm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="P3-Wrangle-OpenStreetMap-Data" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample_osm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sample_osm" />
-      <item index="1" class="java.lang.String" itemvalue="Python.audit" />
-      <item index="2" class="java.lang.String" itemvalue="Python.data-wrangling" />
-      <item index="3" class="java.lang.String" itemvalue="Python.phone_audit" />
-      <item index="4" class="java.lang.String" itemvalue="Python.audit_phone" />
+      <item index="0" class="java.lang.String" itemvalue="Python.audit" />
+      <item index="1" class="java.lang.String" itemvalue="Python.data-wrangling" />
+      <item index="2" class="java.lang.String" itemvalue="Python.phone_audit" />
+      <item index="3" class="java.lang.String" itemvalue="Python.audit_phone" />
+      <item index="4" class="java.lang.String" itemvalue="Python.audit_postcode" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.data-wrangling" />
-        <item index="1" class="java.lang.String" itemvalue="Python.audit_phone" />
-        <item index="2" class="java.lang.String" itemvalue="Python.phone_audit" />
-        <item index="3" class="java.lang.String" itemvalue="Python.audit" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sample_osm" />
+        <item index="0" class="java.lang.String" itemvalue="Python.audit_postcode" />
+        <item index="1" class="java.lang.String" itemvalue="Python.data-wrangling" />
+        <item index="2" class="java.lang.String" itemvalue="Python.audit_phone" />
+        <item index="3" class="java.lang.String" itemvalue="Python.phone_audit" />
+        <item index="4" class="java.lang.String" itemvalue="Python.audit" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +262,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15388574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3154915" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3154915" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -291,7 +281,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -323,9 +313,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
           <caret line="79" column="51" lean-forward="true" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
-          <folding>
-            <element signature="e#75#110#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -351,9 +339,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
           <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-          <folding>
-            <element signature="e#75#110#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,9 +398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="116" column="19" lean-forward="true" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
-          <folding>
-            <element signature="e#75#110#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -460,9 +444,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#75#110#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -517,6 +499,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/audit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sample_osm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -527,32 +517,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-wrangling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="207" column="24" lean-forward="false" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
-          <folding>
-            <element signature="e#76#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
-          <folding>
-            <element signature="e#75#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/audit_phone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="107" column="35" lean-forward="false" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+        <state relative-caret-position="706">
+          <caret line="110" column="1" lean-forward="true" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
           <folding>
             <element signature="e#75#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit_postcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-wrangling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2335">
+          <caret line="200" column="47" lean-forward="false" selection-start-line="200" selection-start-column="47" selection-end-line="200" selection-end-column="47" />
+          <folding>
+            <element signature="e#76#85#0" expanded="true" />
           </folding>
         </state>
       </provider>

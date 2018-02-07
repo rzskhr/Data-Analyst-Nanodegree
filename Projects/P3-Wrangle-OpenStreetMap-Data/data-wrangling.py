@@ -4,7 +4,6 @@
 
 # All the imports done here
 import re
-
 import codecs
 import cerberus     # http://docs.python-cerberus.org/en/stable/
 
@@ -12,7 +11,7 @@ import cerberus     # http://docs.python-cerberus.org/en/stable/
 from unicode_dict_writer import UnicodeDictWriter
 from sample_osm import fetch_element, take_every_nth_element
 from validator import validate_element
-from audit import is_street_name, update_street_name
+from audit_street_name import is_street_name, update_street_name
 from audit_phone import is_phone_num, update_phone
 
 # CONSTANTS
@@ -140,10 +139,6 @@ def process_tags(tags, element, default_tag_type):
         phone_number = update_phone(tags.attrib['v'])
         tag_dict['value'] = phone_number
 
-    # TODO - state audit
-    # for state, change Illinois to IL
-
-    # TODO - postcode audit
     # for postcode
     elif tag_dict['key'] == 'postcode':
         tag_dict['value'] = tags.attrib['v']
@@ -204,6 +199,4 @@ if __name__ == '__main__':
     OSM_FILE = "osm-files/sample_125_17MB.osm"
     for element in fetch_element(OSM_FILE, tags=('node', 'way')):
         shaped_element = shape_element(element)
-
-    print(shaped_element)
 
