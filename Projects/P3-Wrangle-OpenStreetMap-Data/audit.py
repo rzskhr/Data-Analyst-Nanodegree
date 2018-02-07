@@ -18,21 +18,22 @@ expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Ct", "Place", "S
             "Way", "West", "North", "Terrace", "Plaza", "Market"]
 
 # mapping the incorrect street names to the correct ones
-STREET_MAPPING = { "Ave"    : "Avenue",
-                   "Ave."   : "Avenue",
-                   "Blvd."  : "Boulevard",
-                   "Blvd"   : "Boulevard",
-                   "Cir"    : "Circle",
-                   "Dr"     : "Drive",
-                   "Ln"     : "Lane",
-                   "N."     : "North",
-                   "Pkwy"   : "Parkway",
-                   "Rd"     : "Road",
-                   "Rd."    : "Road",
-                   "St"     : "Street",
-                   "St."    : "Street",
-                   "Trl"    : "Trail"
-                   }
+STREET_MAPPING = {"Ave"    : "Avenue",
+                  "Ave."   : "Avenue",
+                  "Blvd."  : "Boulevard",
+                  "Blvd"   : "Boulevard",
+                  "Cir"    : "Circle",
+                  "Dr"     : "Drive",
+                  "Ln"     : "Lane",
+                  "N."     : "North",
+                  "Pkwy"   : "Parkway",
+                  "Rd"     : "Road",
+                  "Rd."    : "Road",
+                  "St"     : "Street",
+                  "St."    : "Street",
+                  "Trl"    : "Trail"
+                  }
+
 
 def audit_street_type(street_types, street_name):
     """
@@ -59,7 +60,7 @@ def is_street_name(elem):
     return elem.attrib['k'] == "addr:street"
 
 
-def audit(osm_file):
+def audit_street_name(osm_file):
     """
     this function takes the osm_file as parameter and returns a default dictionary set...
     ...mapping the wrong or abbreviated street names if not present in the expected list
@@ -88,15 +89,10 @@ def audit(osm_file):
     return street_types
 
 
-def update_name(name, mapping=STREET_MAPPING):
+def update_street_name(name, mapping=STREET_MAPPING):
     """
     Update the street names by checking the last word in the street name...
     ...if the word is abbreviated change the street name as given in the mapping dict
-
-    :usage: iterate over the dictionary obtained from audit function to update the names.
-    ex: for st_type, ways in st_types.iteritems():
-            for name in ways:
-                better_name = update_name(name, mapping)
 
     :param name: street name
     :param mapping: dictionary mapping the incorrect to correct street names
@@ -114,20 +110,21 @@ def update_name(name, mapping=STREET_MAPPING):
 
 
 # uncomment to run test
-OSM_FILE = "osm-files/sample.osm"
-
-
-def test():
-    st_types = audit(OSM_FILE)
-
-    import pprint
-    pprint.pprint(dict(st_types))
-    print("\n\n====================================\n\n")
-    for st_type, ways in st_types.items():
-        for name in ways:
-            better_name = update_name(name, mapping=STREET_MAPPING)
-            print(name, "=>", better_name)
-
-
-if __name__ == '__main__':
-    test()
+# OSM_FILE = "osm-files/sample.osm"
+#
+#
+# def test():
+#     st_types = audit_street_name(OSM_FILE)
+#
+#     import pprint
+#     pprint.pprint(dict(st_types))
+#     print("\n\n")
+#
+#     for st_type, ways in st_types.items():
+#         for name in ways:
+#             better_name = update_street_name(name, mapping=STREET_MAPPING)
+#             print(name, "=>", better_name)
+#
+#
+# if __name__ == '__main__':
+#     test()

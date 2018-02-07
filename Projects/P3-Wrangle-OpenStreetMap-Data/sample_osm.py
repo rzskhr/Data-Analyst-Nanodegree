@@ -3,6 +3,7 @@
 
 # All the imports done here
 import xml.etree.cElementTree as Et
+import os
 
 
 # constants
@@ -11,7 +12,7 @@ OSM_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/chicago_illinois.osm"
 # take every n-th top element
 take_every_nth_element = 50
 
-if take_every_nth_element > 124:
+if take_every_nth_element > 49:
     SAMPLE_FILE = "osm-files/sample.osm"
 else:
     SAMPLE_FILE = "/Users/Raj/Root/GitHub/__Datasets__/OSM/processed-osm/sample.osm"
@@ -51,7 +52,8 @@ def sample_file(osm_file=OSM_FILE, sample_file=SAMPLE_FILE):
         f.write(b'<osm>\n ')      # opening tag
 
         # write every nth element using sample_element
-        print("Sampling large OSM file")
+        print("Sampling large OSM file.")
+        print("Raw file size:  ", os.stat(osm_file).st_size/1000000, "Megabytes\n")
         for i, element in enumerate(fetch_element(osm_file)):
             if i % take_every_nth_element == 0:
                 f.write(Et.tostring(element, encoding='utf-8'))
@@ -68,5 +70,6 @@ if __name__ == '__main__':
         sample_file()
         print("##### finished sampling.\n")
         print("Sampled file at location: ", SAMPLE_FILE.upper())
+        print("Sample file size: ", os.stat(SAMPLE_FILE).st_size/1000000, "Megabytes")
     else:
         exit(1)

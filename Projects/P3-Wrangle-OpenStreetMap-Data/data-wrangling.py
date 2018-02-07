@@ -12,7 +12,8 @@ import cerberus     # http://docs.python-cerberus.org/en/stable/
 from unicode_dict_writer import UnicodeDictWriter
 from sample_osm import fetch_element, take_every_nth_element
 from validator import validate_element
-from audit import is_street_name, update_name
+from audit import is_street_name, update_street_name
+from audit_phone import is_phone_num, update_phone
 
 # CONSTANTS
 
@@ -21,7 +22,7 @@ OSM_FILE = "osm-files/sample.osm"
 raw_file_path = "/Users/Raj/Root/GitHub/__Datasets__/OSM/processed-osm/"
 
 # files to be written after processing the data
-if take_every_nth_element > 125:
+if take_every_nth_element > 49:
     NODES_FILE_PATH = "csv-files/nodes.csv"
     NODE_TAGS_FILE_PATH = "csv-files/nodes_tags.csv"
     WAYS_FILE_PATH = "csv-files/ways.csv"
@@ -131,13 +132,13 @@ def process_tags(tags, element, default_tag_type):
     # check if the tag has street name
     if is_street_name(tags):
         # update the street name if last word not in expected, from the mapping in audit.py
-        street_name = update_name(tags.attrib['v'])
+        street_name = update_street_name(tags.attrib['v'])
         tag_dict['value'] = street_name
 
-    # TODO - phone number audit
     # for phone number
-    elif tag_dict['key'] == 'phone':
-        tag_dict['value'] = tags.attrib['v']
+    if is_phone_num(tags):
+        phone_number = update_phone(tags.attrib['v'])
+        tag_dict['value'] = phone_number
 
     # TODO - state audit
     # for state, change Illinois to IL
@@ -200,6 +201,9 @@ def process_map(osm_file, validate):
 if __name__ == '__main__':
     # call the process map function
     # process_map(OSM_FILE, validate=True)
-
+    OSM_FILE = "osm-files/sample_125_17MB.osm"
     for element in fetch_element(OSM_FILE, tags=('node', 'way')):
         shaped_element = shape_element(element)
+
+    print(shaped_element)
+
