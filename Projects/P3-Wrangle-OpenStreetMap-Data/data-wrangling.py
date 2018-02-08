@@ -54,6 +54,19 @@ PROBLEM_CHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIELDS,
                   problem_chars=PROBLEM_CHARS, default_tag_type='regular'):
+    """
+    :param element: element from fetch_element function
+    :param node_attr_fields: fields array according to schema
+    :param way_attr_fields: fields array according to schema
+    :param problem_chars: regular expression for problematic characters
+    :param default_tag_type: tag type
+    :return: Dictionary mapping the values
+            # for node tags
+            {'node': node_attributes, 'node_tags': inner_tags}
+
+            # for way tags
+            {'way': way_attributes, 'way_nodes': way_nodes, 'way_tags': inner_tags}
+    """
 
     # data structures for holding the processed data
     node_attributes, way_attributes = dict(), dict()
