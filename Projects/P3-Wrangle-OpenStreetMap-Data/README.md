@@ -11,7 +11,7 @@ File size : 2.14 Gigabytes <br/>
 
 ### Project Setup
 I divided my work in to few iterative chunks.
-##### **Sample data for Study :**
+#### **Sample data for Study :**
 Since the dataset is huge, I took the 2% sample of the 2.14 GB dataset using [sample_osm.py](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/sample_osm.py). After taking the small sample of the data, it was easy for me to have a sense of how the data was.<br/>
 I performed the below steps after I took the sample:
 * Open the sample file in a text editor and see the structure of the data.
@@ -35,3 +35,41 @@ Initially the dataset looked something like this:
     </way>
 </osm>
 ```
+
+#### Audit the Dataset
+Since the dataset was in raw xml format I wrote few scripts to audit the dataset so that, I can extract the meaningful information needed. I used [xml.etree.cElementTree](https://docs.python.org/2/library/xml.etree.elementtree.html) of python to traverse the data. Using this module I was able to extract the information from the nodes in the 'osm' file.
+
+After I audited the dataset, I found that there are several problems in the information in the data, specially with phone numbers and street names. Hence I wrote three scripts to handle the problems.
+* **Auditing street names :** Wrote the script [audit_street_name.py](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/audit_street_name.py) which finds the unusual or overabbreviated street names and corrects them using a mapping provided in the code. <br/>
+For example: "South Wacker Dr" to "South Wacker Drive"
+```python
+# list of expected street names
+expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Ct", "Place", "Square", "Lane", "Road",
+"Trail", "Parkway", "Commons", "Park", "Broadway", "Circle", "Highway", "Trail",
+"Way", "West", "North", "Terrace", "Plaza", "Market"]
+
+# mapping the incorrect street names to the correct ones
+STREET_MAPPING = {"Ave"    : "Avenue",
+                  "Ave."   : "Avenue",
+                  "Blvd."  : "Boulevard",
+                  "Blvd"   : "Boulevard",
+                  "Cir"    : "Circle",
+                  "Dr"     : "Drive",
+                  "Ln"     : "Lane",
+                  "N."     : "North",
+                  "Pkwy"   : "Parkway",
+                  "Rd"     : "Road",
+                  "Rd."    : "Road",
+                  "St"     : "Street",
+                  "St."    : "Street",
+                  "Trl"    : "Trail"
+                  }
+```
+* **Auditing Phone Numbers :** There was a huge inconsistency in the phone number format which was tough to get right at the first glance and confusion at sometimes. Using the script [audit_phone.py](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/audit_phone.py), I captured all the phone numbers and verified using a [regular expression](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/e4ddd04f2b4e73992a660019bb7eb313769e23b1/Projects/P3-Wrangle-OpenStreetMap-Data/audit_phone.py#L11) and made all the phone numbers in one single format (+1-312-999-9999).<br/>
+For example: '(847) 376-8014' to '+1-847-376-8014' or '630-393-9609' to '+1-630-393-9609'
+```python
+# precompiled regular expressions
+phone_num_re = re.compile(r'\+1-\d{3}-\d{3}-\d{4}')     # matches the format +1-312-999-9999
+```
+
+* **Auditing postal-code :** Similar to above two scripts I wrote a script [audit_postcode.py](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/audit_postcode.py) to find the unusual patterns in the postal-code, but fortunately there wasn't a significant number of problems in the postal-code so that we can format it for the database.
