@@ -12,7 +12,8 @@ File size : 2.14 Gigabytes <br/>
 ---
 
 ### Project Setup
-I divided my work in to few iterative chunks.
+<br/>
+
 #### **1. Sample data for Study :**
 Since the dataset is huge, I took the 2% sample of the 2.14 GB dataset using [sample_osm.py](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/sample_osm.py). After taking the small sample of the data, it was easy for me to have a sense of how the data was.<br/>
 I performed the below steps after I took the sample:
