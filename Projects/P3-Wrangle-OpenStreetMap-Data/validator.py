@@ -1,4 +1,8 @@
-import cerberus     # http://docs.python-cerberus.org/en/stable/
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+# All the imports done here
 import schema
 import pprint
 
@@ -8,6 +12,9 @@ SCHEMA = schema.schema
 def validate_element(element, validator, schema=SCHEMA):
     """
     Raise ValidationError if element does not match schema
+
+    Print the error and the element not matching to schema in console
+    uncomment line #29 to raise the exception
     """
     if validator.validate(element, schema) is not True:
         # field, errors = next(validator.errors.items())

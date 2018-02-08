@@ -1,0 +1,3034 @@
+id,key,value,type
+219850,ref,276C,regular
+219850,exit_to,Joliet Road,regular
+219850,highway,motorway_junction,regular
+20217427,source,PGS,regular
+20248143,source,PGS,regular
+26098029,curve_geometry,yes,regular
+26606147,created_by,YahooApplet 1.0,regular
+26760116,created_by,YahooApplet 1.0,regular
+27315580,created_by,YahooApplet 1.0,regular
+27460517,ref,126A,regular
+27460517,exit_to,I55 South; St Louis,regular
+27460517,highway,motorway_junction,regular
+28290286,highway,traffic_signals,regular
+29841510,ref,2B,regular
+29841510,highway,motorway_junction,regular
+33718681,highway,traffic_signals,regular
+111016242,name,Remote Parking,regular
+111016242,railway,station,regular
+111016242,operator,O'Hare ATS,regular
+153345524,ele,190,regular
+153345524,name,Morton Grove,regular
+153345524,is_in,"Cook,Illinois,Ill.,IL,USA",regular
+153345524,place,town,regular
+153345524,id,413865,gnis
+153345524,wikidata,Q1641893,regular
+153345524,Class,Populated Place,gnis
+153345524,population,22462,regular
+153345524,County,Cook,gnis
+153345524,ST_num,17,gnis
+153345524,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153345524,ST_alpha,IL,gnis
+153345524,County_num,031,gnis
+153345524,population,22462;2006,census
+153469515,ele,229,regular
+153469515,name,Williams Park,regular
+153469515,is_in,"Lake,Illinois,Ill.,IL,USA",regular
+153469515,place,hamlet,regular
+153469515,id,421207,gnis
+153469515,Class,Populated Place,gnis
+153469515,County,Lake,gnis
+153469515,ST_num,17,gnis
+153469515,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153469515,ST_alpha,IL,gnis
+153469515,County_num,097,gnis
+153531093,ele,187,regular
+153531093,name,Kelvyn Grove,regular
+153531093,is_in,"Cook,Illinois,Ill.,IL,USA",regular
+153531093,place,neighbourhood,regular
+153531093,id,1802414,gnis
+153531093,Class,Populated Place,gnis
+153531093,County,Cook,gnis
+153531093,ST_num,17,gnis
+153531093,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153531093,ST_alpha,IL,gnis
+153531093,County_num,031,gnis
+153593142,ele,184,regular
+153593142,name,West Elsdon,regular
+153593142,is_in,"Cook,Illinois,Ill.,IL,USA",regular
+153593142,place,neighbourhood,regular
+153593142,id,1772675,gnis
+153593142,Class,Populated Place,gnis
+153593142,County,Cook,gnis
+153593142,ST_num,17,gnis
+153593142,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153593142,ST_alpha,IL,gnis
+153593142,County_num,031,gnis
+153664173,ele,255,regular
+153664173,name,Dover Pond,regular
+153664173,is_in,"Lake,Illinois,Ill.,IL,USA",regular
+153664173,place,hamlet,regular
+153664173,id,2037900,gnis
+153664173,Class,Populated Place,gnis
+153664173,County,Lake,gnis
+153664173,ST_num,17,gnis
+153664173,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153664173,ST_alpha,IL,gnis
+153664173,County_num,097,gnis
+153721931,ele,194,regular
+153721931,name,Golf,regular
+153721931,is_in,"Cook,Illinois,Ill.,IL,USA",regular
+153721931,place,village,regular
+153721931,id,409128,gnis
+153721931,Class,Populated Place,gnis
+153721931,population,454,regular
+153721931,County,Cook,gnis
+153721931,ST_num,17,gnis
+153721931,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153721931,postal_code,60029,regular
+153721931,ST_alpha,IL,gnis
+153721931,County_num,031,gnis
+153721931,population,454;2006,census
+153773207,ele,229,regular
+153773207,name,Emerald Acres,regular
+153773207,is_in,"Cook,Illinois,Ill.,IL,USA",regular
+153773207,place,neighbourhood,regular
+153773207,id,1826271,gnis
+153773207,Class,Populated Place,gnis
+153773207,County,Cook,gnis
+153773207,ST_num,17,gnis
+153773207,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153773207,ST_alpha,IL,gnis
+153773207,County_num,031,gnis
+158703867,highway,traffic_signals,regular
+180244510,source,Bing,regular
+180244510,highway,turning_circle,regular
+180246087,railway,level_crossing,regular
+180247015,source,Bing,regular
+180247015,highway,turning_circle,regular
+180263732,source,Bing,regular
+180263732,highway,turning_circle,regular
+180264810,highway,turning_circle,regular
+180278054,highway,turning_circle,regular
+180286352,highway,turning_circle,regular
+180303126,highway,turning_circle,regular
+180315818,highway,turning_circle,regular
+180341205,highway,turning_circle,regular
+181249597,source,Bing,regular
+181249597,highway,turning_circle,regular
+181278898,highway,turning_circle,regular
+181284953,source,Bing,regular
+181284953,highway,turning_circle,regular
+234731332,highway,traffic_signals,regular
+235086754,crossing,zebra,regular
+235086754,highway,crossing,regular
+235108881,railway,level_crossing,regular
+235118168,highway,turning_circle,regular
+235141686,highway,turning_loop,regular
+235142987,highway,turning_circle,regular
+235165870,highway,turning_circle,regular
+235193146,highway,traffic_signals,regular
+235212648,highway,traffic_signals,regular
+235223771,highway,turning_circle,regular
+235225314,source,Bing,regular
+235225314,highway,turning_circle,regular
+235227097,highway,turning_circle,regular
+235231339,highway,turning_circle,regular
+235245634,highway,turning_loop,regular
+235257198,highway,turning_circle,regular
+235266519,highway,turning_loop,regular
+235276930,highway,turning_circle,regular
+235285267,highway,turning_circle,regular
+235286291,highway,turning_circle,regular
+235295213,highway,turning_circle,regular
+235333893,highway,turning_circle,regular
+235399807,highway,turning_circle,regular
+235416395,railway,level_crossing,regular
+235442401,highway,turning_circle,regular
+235470106,highway,turning_loop,regular
+235533195,highway,turning_circle,regular
+235597746,highway,turning_circle,regular
+235621594,highway,turning_circle,regular
+235686800,highway,turning_circle,regular
+236266207,highway,traffic_signals,regular
+236267122,highway,turning_circle,regular
+236271461,highway,turning_circle,regular
+236291361,highway,stop,regular
+236291361,stop,minor,regular
+236295907,highway,turning_loop,regular
+236311176,highway,turning_circle,regular
+237475365,source,Bing,regular
+237475365,highway,turning_circle,regular
+237489181,highway,traffic_signals,regular
+237512430,highway,turning_circle,regular
+237513249,highway,turning_circle,regular
+237589821,highway,turning_circle,regular
+237601604,railway,switch,regular
+237609925,source,Bing,regular
+237609925,highway,turning_circle,regular
+237623350,source,Bing,regular
+237623350,highway,turning_circle,regular
+237634060,highway,traffic_signals,regular
+237638814,highway,turning_circle,regular
+237640044,highway,turning_circle,regular
+237708337,source,Bing,regular
+237708337,highway,turning_circle,regular
+237717883,highway,turning_circle,regular
+237753397,highway,turning_circle,regular
+237755350,highway,turning_circle,regular
+237760767,highway,traffic_signals,regular
+237761800,highway,turning_circle,regular
+237768052,railway,level_crossing,regular
+237792297,highway,turning_circle,regular
+237800932,highway,turning_loop,regular
+237804347,source,Bing,regular
+237804347,highway,turning_circle,regular
+237805229,highway,turning_loop,regular
+237807892,railway,level_crossing,regular
+237817612,highway,turning_circle,regular
+237846482,highway,turning_circle,regular
+237868212,highway,turning_circle,regular
+237886845,highway,turning_circle,regular
+237891088,highway,turning_circle,regular
+237926950,highway,turning_circle,regular
+237935012,source,Bing,regular
+237935012,highway,turning_circle,regular
+237941189,highway,turning_circle,regular
+237958401,highway,turning_circle,regular
+237961974,highway,turning_circle,regular
+237977827,highway,turning_circle,regular
+249656655,highway,traffic_signals,regular
+250278855,highway,traffic_signals,regular
+252170330,created_by,JOSM,regular
+256357131,created_by,JOSM,regular
+256357321,created_by,JOSM,regular
+256357477,created_by,JOSM,regular
+257381566,highway,traffic_signals,regular
+258007614,railway,crossing,regular
+258020220,highway,traffic_signals,regular
+258024673,highway,traffic_signals,regular
+258287219,highway,traffic_signals,regular
+258930060,barrier,gate,regular
+261092783,highway,traffic_signals,regular
+261096780,highway,traffic_signals,regular
+261100647,highway,turning_circle,regular
+261110391,highway,traffic_signals,regular
+261114001,highway,traffic_signals,regular
+261117423,highway,traffic_signals,regular
+261119651,source,Bing,regular
+261119651,highway,turning_circle,regular
+261124922,highway,turning_circle,regular
+261127164,highway,traffic_signals,regular
+261129581,source,Bing,regular
+261129581,highway,turning_circle,regular
+261130625,highway,mini_roundabout,regular
+261130625,junction,roundabout,regular
+261131840,highway,traffic_signals,regular
+261132070,highway,traffic_signals,regular
+261132308,source,Bing,regular
+261132308,highway,turning_circle,regular
+261134943,railway,level_crossing,regular
+261137033,highway,traffic_signals,regular
+261137690,highway,traffic_signals,regular
+261140033,highway,traffic_signals,regular
+261141992,highway,traffic_signals,regular
+261146986,highway,turning_circle,regular
+261149596,highway,traffic_signals,regular
+261149779,highway,traffic_signals,regular
+261153344,highway,traffic_signals,regular
+261154680,source,Bing,regular
+261154680,highway,turning_circle,regular
+261155202,source,Bing,regular
+261155202,highway,traffic_signals,regular
+261160441,highway,turning_circle,regular
+261162866,source,Bing,regular
+261162866,highway,turning_circle,regular
+261164943,highway,traffic_signals,regular
+261166086,source,Bing,regular
+261166086,highway,turning_circle,regular
+261167882,highway,traffic_signals,regular
+261169651,highway,traffic_signals,regular
+261170338,highway,traffic_signals,regular
+261172638,highway,traffic_signals,regular
+261177895,highway,traffic_signals,regular
+261178481,highway,turning_loop,regular
+261191195,highway,traffic_signals,regular
+261191531,source,Bing,regular
+261191531,highway,turning_circle,regular
+261195929,highway,traffic_signals,regular
+261197711,highway,traffic_signals,regular
+261199926,highway,traffic_signals,regular
+261203850,source,Bing,regular
+261203850,highway,turning_circle,regular
+261206870,highway,turning_circle,regular
+261219233,source,Bing,regular
+261219233,highway,turning_circle,regular
+261226643,highway,turning_circle,regular
+261228888,source,Bing,regular
+261228888,highway,turning_loop,regular
+261229266,highway,traffic_signals,regular
+261239036,highway,turning_circle,regular
+261239510,source,Bing,regular
+261239510,highway,turning_circle,regular
+261248647,highway,turning_circle,regular
+261250338,highway,traffic_signals,regular
+261253127,highway,traffic_signals,regular
+261254052,highway,traffic_signals,regular
+261255520,highway,traffic_signals,regular
+261257156,source,Bing,regular
+261257156,highway,turning_circle,regular
+261258038,highway,turning_circle,regular
+261268559,highway,traffic_signals,regular
+261272613,highway,turning_circle,regular
+261295131,source,Bing,regular
+261295131,highway,turning_circle,regular
+261299015,highway,traffic_signals,regular
+261305087,highway,traffic_signals,regular
+261305859,source,Bing,regular
+261305859,highway,turning_circle,regular
+261311710,highway,turning_circle,regular
+261312697,railway,switch,regular
+261323143,highway,turning_circle,regular
+261325700,source,Bing,regular
+261325700,highway,turning_circle,regular
+261328389,source,Bing,regular
+261328389,highway,turning_circle,regular
+261332728,highway,turning_circle,regular
+261333234,highway,turning_circle,regular
+261338685,source,Bing,regular
+261338685,highway,turning_circle,regular
+261361586,ele,199,regular
+261361586,name,Independence Park,regular
+261361586,leisure,park,regular
+261361586,created,02/01/1995,gnis
+261361586,state_id,17,gnis
+261361586,county_id,031,gnis
+261361586,feature_id,426718,gnis
+270402021,power,tower,regular
+270421797,power,tower,regular
+270425300,power,tower,regular
+271277522,source,PGS,regular
+271590516,FIXME,verify,regular
+271590516,waterway,lock_gate,regular
+279229873,ref,B18,regular
+279229873,aeroway,gate,regular
+279230438,ref,K10,regular
+279230438,aeroway,gate,regular
+287209507,highway,traffic_signals,regular
+287450725,power,tower,regular
+313287466,power,tower,regular
+313288297,power,tower,regular
+313290850,power,tower,regular
+333218979,highway,traffic_signals,regular
+347267733,railway,level_crossing,regular
+348223702,noref,yes,regular
+348223702,exit_to,I-94 west; IL 394 south; Chicago; Danville,regular
+348223702,highway,motorway_junction,regular
+348437833,ref,43,regular
+348437833,name,I 80 Westbound Toll Plaza,regular
+348437833,barrier,toll_booth,regular
+348437833,operator,Illinois State Toll Highway Authority,regular
+351012345,highway,traffic_signals,regular
+353784201,highway,traffic_signals,regular
+354097512,ele,254,regular
+354097512,name,Campanelli Elementary School,regular
+354097512,amenity,school,regular
+354097512,created,09/30/1999,gnis
+354097512,state_id,17,gnis
+354097512,county_id,031,gnis
+354097512,feature_id,405513,gnis
+354102128,ele,148,regular
+354102128,name,Dresden Island,regular
+354102128,place,island,regular
+354102128,created,01/15/1980,gnis
+354102128,state_id,17,gnis
+354102128,county_id,063,gnis
+354102128,feature_id,407388,gnis
+354123848,ele,196,regular
+354123848,name,Maryville City of Youth,regular
+354123848,amenity,school,regular
+354123848,created,09/30/1999,gnis
+354123848,state_id,17,gnis
+354123848,county_id,031,gnis
+354123848,feature_id,413091,gnis
+354136287,ele,190,regular
+354136287,name,Saint Edmund School,regular
+354136287,amenity,school,regular
+354136287,created,01/15/1980,gnis
+354136287,state_id,17,gnis
+354136287,county_id,031,gnis
+354136287,feature_id,417260,gnis
+354146731,ele,183,regular
+354146731,name,Saint Leo School,regular
+354146731,amenity,school,regular
+354146731,created,01/15/1980,gnis
+354146731,state_id,17,gnis
+354146731,county_id,031,gnis
+354146731,feature_id,417510,gnis
+354163770,ele,192,regular
+354163770,name,Rainbow Park,regular
+354163770,leisure,park,regular
+354163770,created,06/01/1992,gnis
+354163770,state_id,17,gnis
+354163770,county_id,031,gnis
+354163770,feature_id,423719,gnis
+354165120,ele,216,regular
+354165120,name,Sacred Heart School,regular
+354165120,amenity,school,regular
+354165120,created,01/15/1980,gnis
+354165120,state_id,17,gnis
+354165120,county_id,043,gnis
+354165120,feature_id,422024,gnis
+354172591,ele,215,regular
+354172591,name,Saint Marys Lake Dam,regular
+354172591,waterway,dam,regular
+354172591,created,05/07/1996,gnis
+354172591,state_id,17,gnis
+354172591,county_id,097,gnis
+354172591,feature_id,1691774,gnis
+354177770,ele,227,regular
+354177770,name,Elm Park,regular
+354177770,leisure,park,regular
+354177770,created,12/09/1996,gnis
+354177770,state_id,17,gnis
+354177770,county_id,089,gnis
+354177770,feature_id,1718775,gnis
+354190718,ele,268,regular
+354190718,name,Eddy Lake,regular
+354190718,landuse,reservoir,regular
+354190718,created,05/07/1996,gnis
+354190718,state_id,17,gnis
+354190718,county_id,111,gnis
+354190718,feature_id,1692455,gnis
+354200674,ele,213,regular
+354200674,name,Washington Elementary School,regular
+354200674,amenity,school,regular
+354200674,created,01/07/1998,gnis
+354200674,state_id,17,gnis
+354200674,county_id,043,gnis
+354200674,feature_id,1772015,gnis
+354202334,ele,183,regular
+354202334,name,Faith Lutheran Church,regular
+354202334,amenity,place_of_worship,regular
+354202334,religion,christian,regular
+354202334,denomination,lutheran,regular
+354202334,created,05/15/1997,gnis
+354202334,state_id,17,gnis
+354202334,county_id,031,gnis
+354202334,feature_id,1737157,gnis
+354206138,ele,191,regular
+354206138,name,Bonnie Brae Park,regular
+354206138,leisure,park,regular
+354206138,created,05/15/1997,gnis
+354206138,state_id,17,gnis
+354206138,county_id,197,gnis
+354206138,feature_id,1736578,gnis
+354209697,ele,227,regular
+354209697,name,Hickory Grove Highlands,regular
+354209697,source,http://www.mccdistrict.org/web/assets/maps/Hickory%20Grove%20sq_site%20map_0311-web.pdf,regular
+354209697,leisure,park,regular
+354209697,created,02/19/1999,gnis
+354209697,state_id,17,gnis
+354209697,county_id,111,gnis
+354209697,feature_id,1808391,gnis
+354213460,ele,189,regular
+354213460,name,Sunny Mount Zion Missionary Baptist Church,regular
+354213460,amenity,place_of_worship,regular
+354213460,religion,christian,regular
+354213460,denomination,baptist,regular
+354213460,created,01/07/1998,gnis
+354213460,state_id,17,gnis
+354213460,county_id,031,gnis
+354213460,feature_id,1772576,gnis
+354216085,ele,182,regular
+354216085,name,Faith Community Baptist Church,regular
+354216085,amenity,place_of_worship,regular
+354216085,religion,christian,regular
+354216085,denomination,baptist,regular
+354216085,created,09/09/1997,gnis
+354216085,state_id,17,gnis
+354216085,county_id,031,gnis
+354216085,feature_id,1764147,gnis
+354222705,ele,236,regular
+354222705,name,First Christian Church of Glen Ellyn,regular
+354222705,amenity,place_of_worship,regular
+354222705,religion,christian,regular
+354222705,created,02/19/1999,gnis
+354222705,state_id,17,gnis
+354222705,county_id,043,gnis
+354222705,feature_id,1807970,gnis
+354228973,ele,190,regular
+354228973,name,Saint Judes Roman Catholic Church,regular
+354228973,amenity,place_of_worship,regular
+354228973,religion,christian,regular
+354228973,denomination,catholic,regular
+354228973,created,03/26/1999,gnis
+354228973,state_id,17,gnis
+354228973,county_id,197,gnis
+354228973,feature_id,1822243,gnis
+354232039,ele,206,regular
+354232039,name,Green Street School,regular
+354232039,amenity,school,regular
+354232039,created,03/17/1999,gnis
+354232039,state_id,17,gnis
+354232039,county_id,043,gnis
+354232039,feature_id,1812436,gnis
+354233504,ele,182,regular
+354233504,name,The Children Village,regular
+354233504,amenity,school,regular
+354233504,created,04/01/1999,gnis
+354233504,state_id,17,gnis
+354233504,county_id,031,gnis
+354233504,feature_id,1826025,gnis
+354234603,ele,182,regular
+354234603,name,Gethsemane Church of God in Christ,regular
+354234603,amenity,place_of_worship,regular
+354234603,religion,christian,regular
+354234603,created,04/15/1999,gnis
+354234603,state_id,17,gnis
+354234603,county_id,031,gnis
+354234603,feature_id,1829767,gnis
+354235857,ele,187,regular
+354235857,name,Kiddie Play School,regular
+354235857,amenity,school,regular
+354235857,created,04/16/1999,gnis
+354235857,state_id,17,gnis
+354235857,county_id,031,gnis
+354235857,feature_id,1830935,gnis
+354239406,ele,243,regular
+354239406,name,Grace Lutheran Church,regular
+354239406,amenity,place_of_worship,regular
+354239406,religion,christian,regular
+354239406,denomination,lutheran,regular
+354239406,created,04/15/1999,gnis
+354239406,state_id,17,gnis
+354239406,county_id,031,gnis
+354239406,feature_id,1829838,gnis
+354243658,ele,180,regular
+354243658,name,Saint Boniface School,regular
+354243658,amenity,school,regular
+354243658,created,04/29/1999,gnis
+354243658,state_id,17,gnis
+354243658,county_id,031,gnis
+354243658,feature_id,1833141,gnis
+354245767,ele,211,regular
+354245767,name,Morton Park,regular
+354245767,leisure,park,regular
+354245767,created,04/16/1999,gnis
+354245767,state_id,17,gnis
+354245767,county_id,031,gnis
+354245767,feature_id,1831205,gnis
+354248545,ele,204,regular
+354248545,name,Saint Mark Lutheran Church,regular
+354248545,amenity,place_of_worship,regular
+354248545,religion,christian,regular
+354248545,denomination,lutheran,regular
+354248545,created,09/30/1999,gnis
+354248545,state_id,17,gnis
+354248545,county_id,031,gnis
+354248545,feature_id,2027378,gnis
+354249735,ele,224,regular
+354249735,name,Tower Lakes Fen Nature Preserve,regular
+354249735,leisure,park,regular
+354249735,created,09/30/1999,gnis
+354249735,state_id,17,gnis
+354249735,county_id,097,gnis
+354249735,feature_id,2026163,gnis
+354250941,ele,189,regular
+354250941,name,Trinity Lutheran Church,regular
+354250941,amenity,place_of_worship,regular
+354250941,religion,christian,regular
+354250941,denomination,lutheran,regular
+354250941,created,09/30/1999,gnis
+354250941,state_id,17,gnis
+354250941,county_id,031,gnis
+354250941,feature_id,2026521,gnis
+354257996,name,Community Baptist Church,regular
+354257996,phone,+1-630-393-9609,regular
+354257996,amenity,place_of_worship,regular
+354257996,website,http://www.cbc4me.com/,regular
+354257996,religion,christian,regular
+354257996,city,Warrenville,addr
+354257996,wheelchair,yes,regular
+354257996,street,Main Street,addr
+354257996,denomination,baptist,regular
+354257996,postcode,60555,addr
+354257996,feature_id,1962538,gnis
+354257996,housenumber,28W444,addr
+354261968,ele,173,regular
+354261968,name,Middle Rock Run Forest Preserve,regular
+354261968,leisure,park,regular
+354261968,created,09/30/1999,gnis
+354261968,state_id,17,gnis
+354261968,county_id,197,gnis
+354261968,feature_id,1959170,gnis
+354264448,ele,211,regular
+354264448,name,Immanuel United Church of Christ,regular
+354264448,amenity,place_of_worship,regular
+354264448,religion,christian,regular
+354264448,created,05/08/2000,gnis
+354264448,state_id,17,gnis
+354264448,county_id,043,gnis
+354264448,feature_id,1866671,gnis
+354269994,ele,184,regular
+354269994,name,Worsham College,regular
+354269994,amenity,school,regular
+354269994,created,05/03/1999,gnis
+354269994,state_id,17,gnis
+354269994,county_id,031,gnis
+354269994,feature_id,1837286,gnis
+354272322,ele,182,regular
+354272322,name,Teddy Bear Pre-School,regular
+354272322,amenity,school,regular
+354272322,created,05/03/1999,gnis
+354272322,state_id,17,gnis
+354272322,county_id,031,gnis
+354272322,feature_id,1836886,gnis
+354274448,ele,198,regular
+354274448,name,Husky Park,regular
+354274448,leisure,park,regular
+354274448,created,04/29/1999,gnis
+354274448,state_id,17,gnis
+354274448,county_id,031,gnis
+354274448,feature_id,1833467,gnis
+354276884,ele,205,regular
+354276884,name,Saint Luke's Lutheran Church,regular
+354276884,amenity,place_of_worship,regular
+354276884,religion,christian,regular
+354276884,denomination,lutheran,regular
+354276884,created,07/23/2007,gnis
+354276884,state_id,17,gnis
+354276884,county_id,093,gnis
+354276884,feature_id,2130245,gnis
+354278306,ele,232,regular
+354278306,name,Oakwood Hills Fen Nature Preserve,regular
+354278306,leisure,park,regular
+354278306,website,https://www.dnr.illinois.gov/INPC/Pages/Area2McHenryOakwoodHillsFen.aspx,regular
+354278306,created,09/30/1999,gnis
+354278306,state_id,17,gnis
+354278306,county_id,111,gnis
+354278306,feature_id,2043231,gnis
+354284577,ele,248,regular
+354284577,name,Discovery Park,regular
+354284577,leisure,park,regular
+354284577,created,09/30/1999,gnis
+354284577,state_id,17,gnis
+354284577,county_id,043,gnis
+354284577,feature_id,2036514,gnis
+354285747,ele,210,regular
+354285747,name,Saint Paul Catholic Church,regular
+354285747,amenity,place_of_worship,regular
+354285747,religion,christian,regular
+354285747,denomination,catholic,regular
+354285747,created,09/30/1999,gnis
+354285747,state_id,17,gnis
+354285747,county_id,031,gnis
+354285747,feature_id,2036265,gnis
+358658051,ele,188,regular
+358658051,name,Lake Country Cemetery,regular
+358658051,amenity,grave_yard,regular
+358658051,created,02/14/1979,gnis
+358658051,state_id,18,gnis
+358658051,county_id,089,gnis
+358658051,feature_id,437525,gnis
+358676649,ele,181,regular
+358676649,name,Washington Irving Elementary School,regular
+358676649,amenity,school,regular
+358676649,created,02/14/1979,gnis
+358676649,state_id,18,gnis
+358676649,county_id,089,gnis
+358676649,feature_id,449903,gnis
+358677100,ele,201,regular
+358677100,name,First United Presbyterian Church,regular
+358677100,amenity,place_of_worship,regular
+358677100,religion,christian,regular
+358677100,denomination,presbyterian,regular
+358677100,created,06/01/1992,gnis
+358677100,state_id,18,gnis
+358677100,county_id,127,gnis
+358677100,feature_id,450164,gnis
+358680924,ele,178,regular
+358680924,name,First Methodist Episcopal Church (historical),regular
+358680924,amenity,place_of_worship,regular
+358680924,religion,christian,regular
+358680924,denomination,methodist,regular
+358680924,created,10/01/1982,gnis
+358680924,state_id,18,gnis
+358680924,county_id,089,gnis
+358680924,feature_id,2039503,gnis
+358681348,ele,186,regular
+358681348,name,Universal Church of the Nazarene,regular
+358681348,amenity,place_of_worship,regular
+358681348,religion,christian,regular
+358681348,created,10/01/1982,gnis
+358681348,state_id,18,gnis
+358681348,county_id,089,gnis
+358681348,feature_id,2039797,gnis
+358681899,ele,191,regular
+358681899,name,Augustana Lutheran Church,regular
+358681899,amenity,place_of_worship,regular
+358681899,religion,christian,regular
+358681899,denomination,lutheran,regular
+358681899,created,10/01/1982,gnis
+358681899,state_id,18,gnis
+358681899,county_id,089,gnis
+358681899,feature_id,2040820,gnis
+358682373,ele,182,regular
+358682373,name,Temple Penecostal Nueva,regular
+358682373,amenity,place_of_worship,regular
+358682373,created,10/01/1982,gnis
+358682373,state_id,18,gnis
+358682373,county_id,089,gnis
+358682373,feature_id,2041135,gnis
+367792821,ele,187,regular
+367792821,name,Munster Branch Lake County Public Library,regular
+367792821,source,USGS Geonames,regular
+367792821,amenity,library,regular
+367792821,state,IN,addr
+367792821,reviewed,no,gnis
+367792821,feature_id,2039610,gnis
+367792821,county_name,Lake,gnis
+367792821,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+368064244,ele,182,regular
+368064244,name,Covenant Club,regular
+368064244,source,USGS Geonames,regular
+368064244,building,yes,regular
+368064244,state,IL,addr
+368064244,reviewed,no,gnis
+368064244,feature_id,1826107,gnis
+368064244,county_name,Cook,gnis
+368064244,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+368066315,ele,210,regular
+368066315,name,Arlington Heights Fire Station 1,regular
+368066315,source,USGS Geonames,regular
+368066315,amenity,fire_station,regular
+368066315,state,IL,addr
+368066315,reviewed,no,gnis
+368066315,feature_id,2099600,gnis
+368066315,county_name,Cook,gnis
+368066315,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+368068267,ele,207,regular
+368068267,name,Sister Madeleine Sophie Cooney Library,regular
+368068267,source,USGS Geonames,regular
+368068267,amenity,library,regular
+368068267,state,IL,addr
+368068267,reviewed,no,gnis
+368068267,feature_id,2025547,gnis
+368068267,county_name,Lake,gnis
+368068267,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+368072060,ele,179,regular
+368072060,name,The Raliegh Building,regular
+368072060,source,USGS Geonames,regular
+368072060,building,yes,regular
+368072060,state,IL,addr
+368072060,reviewed,no,gnis
+368072060,feature_id,1832797,gnis
+368072060,county_name,Cook,gnis
+368072060,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+368074103,ele,183,regular
+368074103,name,Robbins Village Hall,regular
+368074103,source,USGS Geonames,regular
+368074103,amenity,townhall,regular
+368074103,state,IL,addr
+368074103,reviewed,no,gnis
+368074103,feature_id,2027345,gnis
+368074103,county_name,Cook,gnis
+368074103,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+369052276,ele,179,regular
+369052276,name,Pielet-Calumet Heliport,regular
+369052276,aeroway,helipad,regular
+369052276,state,IL,addr
+369052276,created,09/01/1992,gnis
+369052276,feature_id,427144,gnis
+369052276,county_name,Cook,gnis
+369052276,feature_type,Airport,gnis
+369451198,name,Wendy's,regular
+369451198,amenity,fast_food,regular
+369451198,cuisine,burger,regular
+374109060,power,tower,regular
+374113874,power,tower,regular
+374116923,power,tower,regular
+374119033,power,tower,regular
+374122508,power,tower,regular
+374122508,source,yahoo_wms,regular
+374141454,power,tower,regular
+386454253,source,bing,regular
+386454253,railway,switch,regular
+388064572,source,bing,regular
+388064572,railway,switch,regular
+388078045,source,bing,regular
+388078045,railway,switch,regular
+388082833,source,bing,regular
+388082833,railway,switch,regular
+388608193,highway,traffic_signals,regular
+424262927,name,Howard & California Auto Repair,regular
+424262927,shop,car_repair,regular
+424262927,city,Evanston,addr
+424262927,street,Dodge Avenue,addr
+424262927,postcode,60202,addr
+424262927,housenumber,101,addr
+424262927,street:name,Dodge,addr
+424262927,street:type,Avenue,addr
+428889376,curve_geometry,yes,regular
+463772287,name,Super Cuts,regular
+463772287,shop,hairdresser,regular
+471271426,highway,turning_loop,regular
+471565019,highway,turning_loop,regular
+475281383,name,Holy Virgin Protection Cathedral,regular
+475281383,amenity,place_of_worship,regular
+475281383,religion,christian,regular
+475281383,denomination,russian_orthodox,regular
+493884954,power,tower,regular
+497400461,highway,crossing,regular
+503798692,name,Mona's Beauty Salon,regular
+503798692,street,West Belmont Avenue,addr
+503798692,housenumber,1150,addr
+511121432,amenity,parking,regular
+528522213,highway,turning_circle,regular
+536379576,power,tower,regular
+538001213,highway,traffic_signals,regular
+539772466,power,tower,regular
+539952266,power,tower,regular
+539964178,power,tower,regular
+540378232,power,tower,regular
+540570184,power,tower,regular
+544229545,power,tower,regular
+544352615,power,tower,regular
+552502442,tourism,viewpoint,regular
+553502961,highway,crossing,regular
+555650963,odbl,clean,regular
+555650963,power,tower,regular
+557438311,odbl,clean,regular
+557438311,power,tower,regular
+557471942,odbl,clean,regular
+557471942,power,tower,regular
+558655354,odbl,clean,regular
+558655354,power,tower,regular
+558669753,odbl,clean,regular
+558669753,power,tower,regular
+559279924,odbl,clean,regular
+559279924,power,tower,regular
+559292339,odbl,clean,regular
+559292339,power,tower,regular
+560887124,odbl,clean,regular
+560887124,power,tower,regular
+560895216,odbl,clean,regular
+560895216,power,tower,regular
+562266049,power,tower,regular
+564157557,odbl,clean,regular
+564157557,power,tower,regular
+564987629,odbl,clean,regular
+564987629,power,tower,regular
+565057004,odbl,clean,regular
+565057004,power,tower,regular
+571107313,highway,turning_circle,regular
+586652376,power,tower,regular
+598697954,odbl,clean,regular
+598697954,power,tower,regular
+598705771,odbl,clean,regular
+598705771,power,tower,regular
+598710613,odbl,clean,regular
+598710613,power,tower,regular
+599742842,power,tower,regular
+617849495,highway,turning_loop,regular
+635692003,bicycle,yes,regular
+635692003,railway,crossing,regular
+663078580,power,tower,regular
+663078580,source,yahoo_wms,regular
+663339775,power,tower,regular
+663339775,source,yahoo_wms,regular
+704964563,curve_geometry,yes,regular
+705736452,name,CP Brighton (CN Mp 5.1),regular
+705736452,railway,junction,regular
+705736452,operator,CN,regular
+707991404,railway,level_crossing,regular
+708422261,source,bing,regular
+708422261,railway,switch,regular
+712905997,railway,level_crossing,regular
+712912322,railway,level_crossing,regular
+715107896,source,bing,regular
+715107896,railway,switch,regular
+718382853,railway,level_crossing,regular
+719016892,source,bing,regular
+719016892,railway,switch,regular
+721148486,railway,level_crossing,regular
+721968372,source,bing,regular
+721968372,railway,switch,regular
+722980917,railway,level_crossing,regular
+724227233,railway,level_crossing,regular
+726984404,amenity,fountain,regular
+727700549,source,bing,regular
+727700549,railway,switch,regular
+727702985,railway,level_crossing,regular
+732818655,source,bing,regular
+732818655,railway,switch,regular
+733197468,highway,stop,regular
+733197468,direction,backward,regular
+734210756,railway,level_crossing,regular
+736932683,highway,crossing,regular
+736932683,crossing,traffic_signals,regular
+736978771,power,tower,regular
+736978771,source,Bing,regular
+737123163,highway,traffic_signals,regular
+739096981,curve_geometry,yes,regular
+739968332,ref,50A,regular
+739968332,highway,motorway_junction,regular
+740363286,curve_geometry,yes,regular
+740502531,railway,level_crossing,regular
+740503697,source,bing,regular
+740503697,railway,switch,regular
+740504975,source,bing,regular
+740504975,railway,switch,regular
+740506787,source,bing,regular
+740506787,railway,switch,regular
+740508222,railway,level_crossing,regular
+768967136,highway,traffic_signals,regular
+772369152,tourism,picnic_site,regular
+783399960,highway,turning_circle,regular
+783667991,highway,turning_circle,regular
+808080785,name,La Grange Area Historical Society,regular
+808080785,tourism,museum,regular
+836278777,highway,turning_circle,regular
+837036443,takeaway,yes,regular
+842934584,highway,turning_circle,regular
+843118868,power,tower,regular
+843134646,power,tower,regular
+853074776,highway,turning_circle,regular
+873940125,city,Forest Park,addr
+873940125,street,Grove Lane,addr
+873940125,postcode,60130,addr
+873940125,housenumber,505,addr
+903255917,name,Center on Halsted,regular
+903255917,amenity,community_centre,regular
+903255917,city,Chicago,addr
+903255917,state,Illinois,addr
+903255917,street,North Halsted Street,addr
+903255917,country,US,addr
+903255917,postcode,60613,addr
+903255917,housenumber,3656,addr
+925959689,highway,traffic_signals,regular
+928681411,highway,traffic_signals,regular
+968362076,highway,turning_circle,regular
+993811127,highway,turning_circle,regular
+1006219470,highway,crossing,regular
+1013026932,source,Bing,regular
+1013026932,highway,traffic_signals,regular
+1036591311,power,tower,regular
+1036591795,power,tower,regular
+1036592262,power,tower,regular
+1037059662,power,tower,regular
+1037464515,power,tower,regular
+1037465431,power,tower,regular
+1037626879,power,tower,regular
+1037640947,power,tower,regular
+1038807477,power,tower,regular
+1038978841,power,tower,regular
+1038979105,power,tower,regular
+1039463746,power,tower,regular
+1039463962,power,tower,regular
+1039540688,power,tower,regular
+1039541260,power,tower,regular
+1039712384,power,tower,regular
+1039712743,power,tower,regular
+1053637897,name,Touhy & Mobile EB,regular
+1053637897,bench,yes,regular
+1053637897,highway,bus_stop,regular
+1053637897,shelter,yes,regular
+1053637897,operator,Chicago Transit Authority,regular
+1053637897,local_ref,11662,regular
+1064415165,power,tower,regular
+1069858141,odbl,clean,regular
+1069858141,power,tower,regular
+1082125754,highway,turning_circle,regular
+1084970300,curve_geometry,yes,regular
+1099040477,name,Golf Liquor,regular
+1099040477,shop,beverages,regular
+1099040477,name,local_knowledge,source
+1102211761,highway,turning_circle,regular
+1102974599,highway,turning_circle,regular
+1102997685,power,tower,regular
+1102997922,power,tower,regular
+1183309837,power,tower,regular
+1183310961,power,tower,regular
+1184561652,power,tower,regular
+1184797695,power,tower,regular
+1184837690,power,tower,regular
+1186285009,highway,turning_circle,regular
+1195374923,power,tower,regular
+1195388119,power,tower,regular
+1195457847,power,tower,regular
+1195465677,power,tower,regular
+1195987150,odbl,clean,regular
+1195987150,power,tower,regular
+1196033648,odbl,clean,regular
+1196033648,power,tower,regular
+1203424854,power,tower,regular
+1210043731,barrier,lift_gate,regular
+1220847119,power,tower,regular
+1249586511,traffic_calming,hump,regular
+1254912705,amenity,post_box,regular
+1254912705,operator,United States Postal Service,regular
+1257631761,railway,level_crossing,regular
+1262223995,source,Bing,regular
+1262223995,highway,turning_circle,regular
+1262422653,highway,stop,regular
+1262631291,highway,stop,regular
+1265394577,name,Roselle Public Library,regular
+1265394577,amenity,library,regular
+1268356507,highway,stop,regular
+1269938485,highway,stop,regular
+1270519315,source,Bing,regular
+1270519315,highway,traffic_signals,regular
+1313800128,man_made,storage_tank,regular
+1324368719,highway,traffic_signals,regular
+1325764282,source,Bing,regular
+1325764282,highway,traffic_signals,regular
+1327593010,highway,traffic_signals,regular
+1328009719,source,Bing,regular
+1328009719,highway,traffic_signals,regular
+1349674043,natural,tree,regular
+1350812439,highway,traffic_signals,regular
+1370062308,name,Hopleaf Bar,regular
+1370062308,amenity,pub,regular
+1370062308,website,http://www.hopleaf.com,regular
+1370062308,city,Chicago,addr
+1370062308,street,North Clark Street,addr
+1370062308,postcode,60640,addr
+1370062308,opening_hours,Mo-Th 12:00-23:00; Fr-Sa 12:00-00:00; Su 12:00-22:00,regular
+1370062308,housenumber,5148,addr
+1396138951,crossing,traffic_signals,regular
+1396138951,highway,crossing,regular
+1414657521,fixme,unvollstaendig / not ready,regular
+1414658231,fixme,unvollstaendig / not ready,regular
+1414833465,fixme,unvollstaendig / not ready,regular
+1415648282,source,bing,regular
+1415648282,railway,switch,regular
+1415673328,fixme,unvollstaendig / not ready,regular
+1415675080,railway,buffer_stop,regular
+1432788851,name,Monty Gael's,regular
+1432788851,amenity,restaurant,regular
+1432788851,cuisine,american,regular
+1433099551,highway,traffic_signals,regular
+1433888507,railway,level_crossing,regular
+1433890385,railway,level_crossing,regular
+1434235548,city,Vernon Hills,addr
+1434235548,housenumber,600,addr
+1434235548,postcode,60061,addr
+1434235548,state,IL,addr
+1434235548,street,North Deerpath Drive,addr
+1434235548,amenity,fire_station,regular
+1434235548,description,Fire Station,regular
+1434235548,name,Countryside Fire Station #2,regular
+1434235548,operator,Countryside Fire Protection District,regular
+1446785780,highway,traffic_signals,regular
+1447012497,highway,stop,regular
+1447529946,highway,stop,regular
+1450159609,ref,59,regular
+1450159609,name,Farnsworth Avenue Toll Plaza,regular
+1450159609,barrier,toll_booth,regular
+1450159609,operator,Illinois State Toll Highway Authority,regular
+1472535302,highway,stop,regular
+1475412977,amenity,fountain,regular
+1477522859,highway,stop,regular
+1479119685,highway,stop,regular
+1506902687,highway,traffic_signals,regular
+1516212048,source,bing,regular
+1516212048,railway,switch,regular
+1516212192,source,bing,regular
+1516212192,railway,switch,regular
+1520441763,building,residential,regular
+1520441763,street,Brittany Ct,addr
+1520441763,postcode,60189,addr
+1520441763,housenumber,1585,addr
+1521353209,railway,level_crossing,regular
+1538423966,name,Prairie Business Park,regular
+1538423966,is_in,"Gilberts, Kane, Illinois, United States of America",regular
+1538423966,place,hamlet,regular
+1612672588,highway,turning_circle,regular
+1617071063,railway,level_crossing,regular
+1640074110,curve_geometry,yes,regular
+1640172672,name,Dunkin' Donuts,regular
+1640172672,amenity,cafe,regular
+1640172672,cuisine,donut,regular
+1640174022,name,Narragansett & Berteau SB,regular
+1640174022,bench,no,regular
+1640174022,highway,bus_stop,regular
+1640174022,shelter,no,regular
+1640174022,operator,Chicago Transit Authority,regular
+1640174022,local_ref,17209,regular
+1641037631,amenity,post_box,regular
+1647467854,curve_geometry,yes,regular
+1648106901,ref,C,regular
+1648106901,barrier,gate,regular
+1648217603,amenity,bicycle_parking,regular
+1685734429,source,PGS,regular
+1685779445,source,PGS,regular
+1685788065,source,PGS,regular
+1685788235,source,PGS,regular
+1685788401,source,PGS,regular
+1685788653,source,PGS,regular
+1685804328,source,PGS,regular
+1685976922,source,PGS,regular
+1685977097,source,PGS,regular
+1685983758,source,PGS,regular
+1685984884,source,PGS,regular
+1686747743,source,PGS,regular
+1686799629,power,tower,regular
+1688115597,odbl,clean,regular
+1699117994,source,PGS,regular
+1699118129,source,PGS,regular
+1699134678,source,PGS,regular
+1699135152,source,PGS,regular
+1700777304,source,PGS,regular
+1700860713,name,Bar On Buena,regular
+1700860713,amenity,bar,regular
+1707094391,name,Shell,regular
+1707094391,brand,Shell,regular
+1707094391,amenity,fuel,regular
+1707833315,ref,B2,regular
+1707833315,aeroway,gate,regular
+1721821377,railway,level_crossing,regular
+1740872220,name,Dunkin' Donuts,regular
+1740872220,amenity,fast_food,regular
+1780022197,name,Super Jalapeño Grill,regular
+1780022197,amenity,fast_food,regular
+1780022197,cuisine,mexican,regular
+1799777885,amenity,fast_food,regular
+1799777885,cuisine,sandwich,regular
+1799777885,operator,Subway,regular
+1840033598,power,tower,regular
+1841703210,natural,tree,regular
+1841703384,natural,tree,regular
+1850591509,source,Bing,regular
+1850591509,railway,level_crossing,regular
+1879674423,power,tower,regular
+1880206873,power,switch,regular
+1881807901,power,tower,regular
+1881883607,power,switch,regular
+1882859580,power,tower,regular
+1884637804,highway,stop,regular
+1886252469,highway,stop,regular
+1887425577,power,tower,regular
+1887425965,power,tower,regular
+1887426361,power,tower,regular
+1887426736,power,tower,regular
+1887427120,power,tower,regular
+1895805662,power,tower,regular
+1910075603,source,Bing,regular
+1910075603,railway,level_crossing,regular
+1928095825,amenity,restaurant,regular
+1940357828,amenity,shelter,regular
+1973534654,source,Bing,regular
+1973534654,man_made,water_tower,regular
+1977370499,highway,stop,regular
+1980607165,highway,stop,regular
+2023151067,name,Howard,regular
+2023151067,subway,yes,regular
+2023151067,network,CTA,regular
+2023151067,operator,Chicago Transit Authority,regular
+2023151067,public_transport,stop_position,regular
+2058928757,name,Worri Village,regular
+2058928757,source,GPS,regular
+2058928757,amenity,restaurant,regular
+2058928757,cuisine,korean,regular
+2067187624,name,Trader Joe's,regular
+2067187624,shop,supermarket,regular
+2067187624,fixme,position estimated,regular
+2067187624,building,entrance,regular
+2067187624,housenumber,680,addr
+2070991700,highway,traffic_signals,regular
+2121212198,power,tower,regular
+2121261333,power,tower,regular
+2121461644,power,tower,regular
+2126873202,railway,level_crossing,regular
+2160464391,railway,stop,regular
+2180463760,man_made,tower,regular
+2195523226,highway,stop,regular
+2215688238,highway,turning_circle,regular
+2232639560,name,AT&T,regular
+2232639560,shop,mobile_phone,regular
+2232639560,operator,AT&T,regular
+2232639560,city,Evanston,addr
+2232639560,street,Chicago Avenue,addr
+2232639560,postcode,60201,addr
+2232639560,housenumber,1620,addr
+2232639560,street:name,Chicago,addr
+2232639560,street:type,Avenue,addr
+2238051671,power,tower,regular
+2238052511,power,tower,regular
+2238054365,power,tower,regular
+2238055249,power,tower,regular
+2256667990,highway,stop,regular
+2257955310,highway,turning_loop,regular
+2263152112,highway,stop,regular
+2266580263,highway,stop,regular
+2266953216,direction,backward,regular
+2266953216,highway,stop,regular
+2272813662,railway,level_crossing,regular
+2272833860,railway,level_crossing,regular
+2285441564,source,Bing,regular
+2285441564,highway,turning_circle,regular
+2286684325,source,bing,regular
+2286684325,railway,switch,regular
+2292112908,highway,stop,regular
+2292986552,city,Evanston,addr
+2292986552,street,South Boulevard,addr
+2292986552,postcode,60202,addr
+2292986552,housenumber,425,addr
+2292986552,street:name,South,addr
+2292986552,street:type,Boulevard,addr
+2292987108,city,Evanston,addr
+2292987108,street,Hinman Avenue,addr
+2292987108,postcode,60202,addr
+2292987108,housenumber,615,addr
+2292987108,street:name,Hinman,addr
+2292987108,street:type,Avenue,addr
+2293168786,city,Evanston,addr
+2293168786,street,Sheridan Square,addr
+2293168786,postcode,60202,addr
+2293168786,housenumber,558,addr
+2293168786,street:name,Sheridan,addr
+2293168786,street:type,Square,addr
+2293170376,city,Evanston,addr
+2293170376,street,Main Street,addr
+2293170376,postcode,60202,addr
+2293170376,housenumber,128,addr
+2293170376,street:name,Main,addr
+2293170376,street:type,Street,addr
+2293170527,city,Evanston,addr
+2293170527,street,Judson Avenue,addr
+2293170527,postcode,60202,addr
+2293170527,housenumber,836,addr
+2293170527,street:name,Judson,addr
+2293170527,street:type,Avenue,addr
+2293170724,city,Evanston,addr
+2293170724,street,Michigan Avenue,addr
+2293170724,postcode,60202,addr
+2293170724,housenumber,1041,addr
+2293170724,street:name,Michigan,addr
+2293170724,street:type,Avenue,addr
+2293171191,city,Evanston,addr
+2293171191,street,Forest Avenue,addr
+2293171191,postcode,60202,addr
+2293171191,housenumber,919,addr
+2293171191,street:name,Forest,addr
+2293171191,street:type,Avenue,addr
+2293173819,city,Evanston,addr
+2293173819,street,Sheridan Road,addr
+2293173819,postcode,60202,addr
+2293173819,housenumber,1124,addr
+2293173819,street:name,Sheridan,addr
+2293173819,street:type,Road,addr
+2293268444,highway,stop,regular
+2294088729,city,Evanston,addr
+2294088729,street,Mulford Street,addr
+2294088729,postcode,60202,addr
+2294088729,housenumber,1100,addr
+2294088729,street:name,Mulford,addr
+2294088729,street:type,Street,addr
+2294088948,city,Evanston,addr
+2294088948,street,Hull Terrace,addr
+2294088948,postcode,60202,addr
+2294088948,housenumber,1208,addr
+2294088948,street:name,Hull,addr
+2294088948,street:type,Terrace,addr
+2294089183,city,Evanston,addr
+2294089183,street,Brummel Street,addr
+2294089183,postcode,60202,addr
+2294089183,housenumber,1319,addr
+2294089183,street:name,Brummel,addr
+2294089183,street:type,Street,addr
+2294089425,city,Evanston,addr
+2294089425,street,Dobson Street,addr
+2294089425,postcode,60202,addr
+2294089425,housenumber,1427,addr
+2294089425,street:name,Dobson,addr
+2294089425,street:type,Street,addr
+2294089740,city,Evanston,addr
+2294089740,street,Brummel Street,addr
+2294089740,postcode,60202,addr
+2294089740,housenumber,1621,addr
+2294089740,street:name,Brummel,addr
+2294089740,street:type,Street,addr
+2294089946,city,Evanston,addr
+2294089946,street,Asbury Avenue,addr
+2294089946,postcode,60202,addr
+2294089946,housenumber,183,addr
+2294089946,street:name,Asbury,addr
+2294089946,street:type,Avenue,addr
+2294090154,city,Evanston,addr
+2294090154,street,Brummel Street,addr
+2294090154,postcode,60202,addr
+2294090154,housenumber,2118,addr
+2294090154,street:name,Brummel,addr
+2294090154,street:type,Street,addr
+2294090366,city,Evanston,addr
+2294090366,street,Hartrey Avenue,addr
+2294090366,postcode,60202,addr
+2294090366,housenumber,225,addr
+2294090366,street:name,Hartrey,addr
+2294090366,street:type,Avenue,addr
+2294090599,city,Evanston,addr
+2294090599,street,Darrow Avenue,addr
+2294090599,postcode,60202,addr
+2294090599,housenumber,306,addr
+2294090599,street:name,Darrow,addr
+2294090599,street:type,Avenue,addr
+2294090791,city,Evanston,addr
+2294090791,street,Wesley Avenue,addr
+2294090791,postcode,60202,addr
+2294090791,housenumber,328,addr
+2294090791,street:name,Wesley,addr
+2294090791,street:type,Avenue,addr
+2294091085,city,Evanston,addr
+2294091085,street,Sherman Avenue,addr
+2294091085,postcode,60202,addr
+2294091085,housenumber,403,addr
+2294091085,street:name,Sherman,addr
+2294091085,street:type,Avenue,addr
+2294091287,city,Evanston,addr
+2294091287,street,Callan Avenue,addr
+2294091287,postcode,60202,addr
+2294091287,housenumber,428,addr
+2294091287,street:name,Callan,addr
+2294091287,street:type,Avenue,addr
+2294091623,city,Evanston,addr
+2294091623,street,Brummel Street,addr
+2294091623,postcode,60202,addr
+2294091623,housenumber,635,addr
+2294091623,street:name,Brummel,addr
+2294091623,street:type,Street,addr
+2294092247,city,Evanston,addr
+2294092247,street,Howard Street,addr
+2294092247,postcode,60202,addr
+2294092247,housenumber,747,addr
+2294092247,street:name,Howard,addr
+2294092247,street:type,Street,addr
+2294092507,city,Evanston,addr
+2294092507,street,Dobson Street,addr
+2294092507,postcode,60202,addr
+2294092507,housenumber,958,addr
+2294092507,street:name,Dobson,addr
+2294092507,street:type,Street,addr
+2294235566,city,Evanston,addr
+2294235566,street,Cleveland Street,addr
+2294235566,postcode,60202,addr
+2294235566,housenumber,1115,addr
+2294235566,street:name,Cleveland,addr
+2294235566,street:type,Street,addr
+2294235985,city,Evanston,addr
+2294235985,street,South Boulevard,addr
+2294235985,postcode,60202,addr
+2294235985,housenumber,1310,addr
+2294235985,street:name,South,addr
+2294235985,street:type,Boulevard,addr
+2294236606,city,Evanston,addr
+2294236606,street,Oakton Street,addr
+2294236606,postcode,60202,addr
+2294236606,housenumber,1411,addr
+2294236606,street:name,Oakton,addr
+2294236606,street:type,Street,addr
+2294237128,city,Evanston,addr
+2294237128,street,South Boulevard,addr
+2294237128,postcode,60202,addr
+2294237128,housenumber,1518,addr
+2294237128,street:name,South,addr
+2294237128,street:type,Boulevard,addr
+2294237687,city,Evanston,addr
+2294237687,street,Elmwood Avenue,addr
+2294237687,postcode,60202,addr
+2294237687,housenumber,555,addr
+2294237687,street:name,Elmwood,addr
+2294237687,street:type,Avenue,addr
+2294238322,city,Evanston,addr
+2294238322,street,Sherman Avenue,addr
+2294238322,postcode,60202,addr
+2294238322,housenumber,636,addr
+2294238322,street:name,Sherman,addr
+2294238322,street:type,Avenue,addr
+2294238990,city,Evanston,addr
+2294238990,street,Custer Avenue,addr
+2294238990,postcode,60202,addr
+2294238990,housenumber,717,addr
+2294238990,street:name,Custer,addr
+2294238990,street:type,Avenue,addr
+2294239432,city,Evanston,addr
+2294239432,street,Washington Street,addr
+2294239432,postcode,60202,addr
+2294239432,housenumber,800,addr
+2294239432,street:name,Washington,addr
+2294239432,street:type,Street,addr
+2294239558,city,Evanston,addr
+2294239558,street,Oakton Street,addr
+2294239558,postcode,60202,addr
+2294239558,housenumber,823,addr
+2294239558,street:name,Oakton,addr
+2294239558,street:type,Street,addr
+2294240057,city,Evanston,addr
+2294240057,street,Main Street,addr
+2294240057,postcode,60202,addr
+2294240057,housenumber,914,addr
+2294240057,street:name,Main,addr
+2294240057,street:type,Street,addr
+2294250906,city,Evanston,addr
+2294250906,street,Dodge Avenue,addr
+2294250906,postcode,60202,addr
+2294250906,housenumber,1014,addr
+2294250906,street:name,Dodge,addr
+2294250906,street:type,Avenue,addr
+2294251034,city,Evanston,addr
+2294251034,street,Ashland Avenue,addr
+2294251034,postcode,60202,addr
+2294251034,housenumber,1030,addr
+2294251034,street:name,Ashland,addr
+2294251034,street:type,Avenue,addr
+2294251159,city,Evanston,addr
+2294251159,street,Main Street,addr
+2294251159,postcode,60202,addr
+2294251159,housenumber,1407,addr
+2294251159,street:name,Main,addr
+2294251159,street:type,Street,addr
+2294251446,city,Evanston,addr
+2294251446,street,Seward Street,addr
+2294251446,postcode,60202,addr
+2294251446,housenumber,1628,addr
+2294251446,street:name,Seward,addr
+2294251446,street:type,Street,addr
+2294251986,city,Evanston,addr
+2294251986,street,Cleveland Street,addr
+2294251986,postcode,60202,addr
+2294251986,housenumber,1730,addr
+2294251986,street:name,Cleveland,addr
+2294251986,street:type,Street,addr
+2294252175,city,Evanston,addr
+2294252175,street,Lee Street,addr
+2294252175,postcode,60202,addr
+2294252175,housenumber,1902,addr
+2294252175,street:name,Lee,addr
+2294252175,street:type,Street,addr
+2294252308,city,Evanston,addr
+2294252308,street,Cleveland Street,addr
+2294252308,postcode,60202,addr
+2294252308,housenumber,2014,addr
+2294252308,street:name,Cleveland,addr
+2294252308,street:type,Street,addr
+2294252436,city,Evanston,addr
+2294252436,street,Oakton Street,addr
+2294252436,postcode,60202,addr
+2294252436,housenumber,2121,addr
+2294252436,street:name,Oakton,addr
+2294252436,street:type,Street,addr
+2294252575,city,Evanston,addr
+2294252575,street,Greenleaf Street,addr
+2294252575,postcode,60202,addr
+2294252575,housenumber,2404,addr
+2294252575,street:name,Greenleaf,addr
+2294252575,street:type,Street,addr
+2294252712,city,Evanston,addr
+2294252712,street,Florence Avenue,addr
+2294252712,postcode,60202,addr
+2294252712,housenumber,633,addr
+2294252712,street:name,Florence,addr
+2294252712,street:type,Avenue,addr
+2294252839,city,Evanston,addr
+2294252839,street,Brown Avenue,addr
+2294252839,postcode,60202,addr
+2294252839,housenumber,800,addr
+2294252839,street:name,Brown,addr
+2294252839,street:type,Avenue,addr
+2294252983,city,Evanston,addr
+2294252983,street,Elmwood Avenue,addr
+2294252983,postcode,60202,addr
+2294252983,housenumber,904,addr
+2294252983,street:name,Elmwood,addr
+2294252983,street:type,Avenue,addr
+2294253167,city,Evanston,addr
+2294253167,street,Ridge Court,addr
+2294253167,postcode,60202,addr
+2294253167,housenumber,927,addr
+2294253167,street:name,Ridge,addr
+2294253167,street:type,Court,addr
+2294253292,city,Evanston,addr
+2294253292,street,Pitner Avenue,addr
+2294253292,postcode,60202,addr
+2294253292,housenumber,949,addr
+2294253292,street:name,Pitner,addr
+2294253292,street:type,Avenue,addr
+2294329071,highway,stop,regular
+2295170967,city,Evanston,addr
+2295170967,street,Darrow Avenue,addr
+2295170967,postcode,60202,addr
+2295170967,housenumber,1110,addr
+2295170967,street:name,Darrow,addr
+2295170967,street:type,Avenue,addr
+2295171247,city,Evanston,addr
+2295171247,street,Fowler Avenue,addr
+2295171247,postcode,60202,addr
+2295171247,housenumber,1125,addr
+2295171247,street:name,Fowler,addr
+2295171247,street:type,Avenue,addr
+2295172218,city,Evanston,addr
+2295172218,street,Asbury Avenue,addr
+2295172218,postcode,60202,addr
+2295172218,housenumber,1141,addr
+2295172218,street:name,Asbury,addr
+2295172218,street:type,Avenue,addr
+2295172586,city,Evanston,addr
+2295172586,street,Maple Avenue,addr
+2295172586,postcode,60202,addr
+2295172586,housenumber,1208,addr
+2295172586,street:name,Maple,addr
+2295172586,street:type,Avenue,addr
+2295172821,city,Evanston,addr
+2295172821,street,Darrow Avenue,addr
+2295172821,postcode,60202,addr
+2295172821,housenumber,1222,addr
+2295172821,street:name,Darrow,addr
+2295172821,street:type,Avenue,addr
+2295173107,city,Evanston,addr
+2295173107,street,Wesley Avenue,addr
+2295173107,postcode,60202,addr
+2295173107,housenumber,1236,addr
+2295173107,street:name,Wesley,addr
+2295173107,street:type,Avenue,addr
+2295173393,city,Evanston,addr
+2295173393,street,Greenleaf Street,addr
+2295173393,postcode,60202,addr
+2295173393,housenumber,1526,addr
+2295173393,street:name,Greenleaf,addr
+2295173393,street:type,Street,addr
+2295173684,city,Evanston,addr
+2295173684,street,Hamilton Street,addr
+2295173684,postcode,60202,addr
+2295173684,housenumber,425,addr
+2295173684,street:name,Hamilton,addr
+2295173684,street:type,Street,addr
+2295218224,city,Evanston,addr
+2295218224,street,Ridge Avenue,addr
+2295218224,postcode,60202,addr
+2295218224,housenumber,1247,addr
+2295218224,street:name,Ridge,addr
+2295218224,street:type,Avenue,addr
+2295218762,city,Evanston,addr
+2295218762,street,Sherman Avenue,addr
+2295218762,postcode,60201,addr
+2295218762,housenumber,1316,addr
+2295218762,street:name,Sherman,addr
+2295218762,street:type,Avenue,addr
+2295218901,city,Evanston,addr
+2295218901,street,Maple Avenue,addr
+2295218901,postcode,60201,addr
+2295218901,housenumber,1333,addr
+2295218901,street:name,Maple,addr
+2295218901,street:type,Avenue,addr
+2295219048,city,Evanston,addr
+2295219048,street,Wesley Avenue,addr
+2295219048,postcode,60201,addr
+2295219048,housenumber,1415,addr
+2295219048,street:name,Wesley,addr
+2295219048,street:type,Avenue,addr
+2295219252,city,Evanston,addr
+2295219252,street,Fowler Avenue,addr
+2295219252,postcode,60201,addr
+2295219252,housenumber,1434,addr
+2295219252,street:name,Fowler,addr
+2295219252,street:type,Avenue,addr
+2295219415,city,Evanston,addr
+2295219415,street,Greenwood Street,addr
+2295219415,postcode,60201,addr
+2295219415,housenumber,1804,addr
+2295219415,street:name,Greenwood,addr
+2295219415,street:type,Street,addr
+2295219781,city,Evanston,addr
+2295219781,street,Dempster Street,addr
+2295219781,postcode,60201,addr
+2295219781,housenumber,319,addr
+2295219781,street:name,Dempster,addr
+2295219781,street:type,Street,addr
+2295224962,city,Evanston,addr
+2295224962,street,Davis Street,addr
+2295224962,postcode,60201,addr
+2295224962,housenumber,1102,addr
+2295224962,street:name,Davis,addr
+2295224962,street:type,Street,addr
+2295225139,city,Evanston,addr
+2295225139,street,Ashland Avenue,addr
+2295225139,postcode,60201,addr
+2295225139,housenumber,1463,addr
+2295225139,street:name,Ashland,addr
+2295225139,street:type,Avenue,addr
+2295225420,city,Evanston,addr
+2295225420,street,Fowler Avenue,addr
+2295225420,postcode,60201,addr
+2295225420,housenumber,1516,addr
+2295225420,street:name,Fowler,addr
+2295225420,street:type,Avenue,addr
+2295225776,city,Evanston,addr
+2295225776,street,Ashland Avenue,addr
+2295225776,postcode,60201,addr
+2295225776,housenumber,1575,addr
+2295225776,street:name,Ashland,addr
+2295225776,street:type,Avenue,addr
+2295226214,city,Evanston,addr
+2295226214,street,Hinman Avenue,addr
+2295226214,postcode,60201,addr
+2295226214,housenumber,1615,addr
+2295226214,street:name,Hinman,addr
+2295226214,street:type,Avenue,addr
+2295226372,city,Evanston,addr
+2295226372,street,Church Street,addr
+2295226372,postcode,60201,addr
+2295226372,housenumber,1637,addr
+2295226372,street:name,Church,addr
+2295226372,street:type,Street,addr
+2295226568,city,Evanston,addr
+2295226568,street,Church Street,addr
+2295226568,postcode,60201,addr
+2295226568,housenumber,2129,addr
+2295226568,street:name,Church,addr
+2295226568,street:type,Street,addr
+2295226747,name,Pure Barre,regular
+2295226747,shop,yoga,regular
+2295226747,city,Evanston,addr
+2295226747,street,Church Street,addr
+2295226747,postcode,60201,addr
+2295226747,housenumber,920,addr
+2295226747,street:name,Church,addr
+2295226747,street:type,Street,addr
+2295244422,city,Evanston,addr
+2295244422,street,Lawndale Avenue,addr
+2295244422,postcode,60201,addr
+2295244422,housenumber,2320,addr
+2295244422,street:name,Lawndale,addr
+2295244422,street:type,Avenue,addr
+2295244880,city,Evanston,addr
+2295244880,street,Marcy Avenue,addr
+2295244880,postcode,60201,addr
+2295244880,housenumber,2415,addr
+2295244880,street:name,Marcy,addr
+2295244880,street:type,Avenue,addr
+2295245007,city,Evanston,addr
+2295245007,street,Crawford Avenue,addr
+2295245007,postcode,60201,addr
+2295245007,housenumber,2503,addr
+2295245007,street:name,Crawford,addr
+2295245007,street:type,Avenue,addr
+2295245510,city,Evanston,addr
+2295245510,street,Crawford Avenue,addr
+2295245510,postcode,60201,addr
+2295245510,housenumber,2537,addr
+2295245510,street:name,Crawford,addr
+2295245510,street:type,Avenue,addr
+2295245791,city,Evanston,addr
+2295245791,street,Prospect Avenue,addr
+2295245791,postcode,60201,addr
+2295245791,housenumber,2640,addr
+2295245791,street:name,Prospect,addr
+2295245791,street:type,Avenue,addr
+2295245917,city,Evanston,addr
+2295245917,street,Bernard Place,addr
+2295245917,postcode,60201,addr
+2295245917,housenumber,2746,addr
+2295245917,street:name,Bernard,addr
+2295245917,street:type,Place,addr
+2295246289,city,Evanston,addr
+2295246289,street,Isabella Street,addr
+2295246289,postcode,60201,addr
+2295246289,housenumber,3038,addr
+2295246289,street:name,Isabella,addr
+2295246289,street:type,Street,addr
+2295246475,city,Evanston,addr
+2295246475,street,Grant Street,addr
+2295246475,postcode,60201,addr
+2295246475,housenumber,3147,addr
+2295246475,street:name,Grant,addr
+2295246475,street:type,Street,addr
+2295246782,city,Evanston,addr
+2295246782,street,Central Street,addr
+2295246782,postcode,60201,addr
+2295246782,housenumber,3245,addr
+2295246782,street:name,Central,addr
+2295246782,street:type,Street,addr
+2295247199,city,Evanston,addr
+2295247199,street,Culver Street,addr
+2295247199,postcode,60201,addr
+2295247199,housenumber,3326,addr
+2295247199,street:name,Culver,addr
+2295247199,street:type,Street,addr
+2295247403,city,Evanston,addr
+2295247403,street,Thayer Street,addr
+2295247403,postcode,60201,addr
+2295247403,housenumber,3621,addr
+2295247403,street:name,Thayer,addr
+2295247403,street:type,Street,addr
+2295248705,city,Evanston,addr
+2295248705,street,Forestview Road,addr
+2295248705,postcode,60201,addr
+2295248705,housenumber,2108,addr
+2295248705,street:name,Forestview,addr
+2295248705,street:type,Road,addr
+2295248893,city,Evanston,addr
+2295248893,street,Ewing Avenue,addr
+2295248893,postcode,60201,addr
+2295248893,housenumber,2214,addr
+2295248893,street:name,Ewing,addr
+2295248893,street:type,Avenue,addr
+2295249020,city,Evanston,addr
+2295249020,street,Central Park Avenue,addr
+2295249020,postcode,60201,addr
+2295249020,housenumber,2420,addr
+2295249020,street:name,Central Park,addr
+2295249020,street:type,Avenue,addr
+2295249152,city,Evanston,addr
+2295249152,street,Isabella Street,addr
+2295249152,postcode,60201,addr
+2295249152,housenumber,2602,addr
+2295249152,street:name,Isabella,addr
+2295249152,street:type,Street,addr
+2295249287,city,Evanston,addr
+2295249287,street,Harrison Street,addr
+2295249287,postcode,60201,addr
+2295249287,housenumber,2622,addr
+2295249287,street:name,Harrison,addr
+2295249287,street:type,Street,addr
+2295249636,city,Evanston,addr
+2295249636,street,Woodland Road,addr
+2295249636,postcode,60201,addr
+2295249636,housenumber,2709,addr
+2295249636,street:name,Woodland,addr
+2295249636,street:type,Road,addr
+2295249766,city,Evanston,addr
+2295249766,street,Central Park Avenue,addr
+2295249766,postcode,60201,addr
+2295249766,housenumber,2728,addr
+2295249766,street:name,Central Park,addr
+2295249766,street:type,Avenue,addr
+2295249908,city,Evanston,addr
+2295249908,street,Isabella Street,addr
+2295249908,postcode,60201,addr
+2295249908,housenumber,2800,addr
+2295249908,street:name,Isabella,addr
+2295249908,street:type,Street,addr
+2295250165,city,Evanston,addr
+2295250165,street,Harrison Street,addr
+2295250165,postcode,60201,addr
+2295250165,housenumber,2913,addr
+2295250165,street:name,Harrison,addr
+2295250165,street:type,Street,addr
+2295251809,city,Evanston,addr
+2295251809,street,Central Street,addr
+2295251809,postcode,60201,addr
+2295251809,housenumber,1223,addr
+2295251809,street:name,Central,addr
+2295251809,street:type,Street,addr
+2295252046,city,Evanston,addr
+2295252046,street,Lincoln Street,addr
+2295252046,postcode,60201,addr
+2295252046,housenumber,1523,addr
+2295252046,street:name,Lincoln,addr
+2295252046,street:type,Street,addr
+2295252302,city,Evanston,addr
+2295252302,street,Chancellor Street,addr
+2295252302,postcode,60201,addr
+2295252302,housenumber,1806,addr
+2295252302,street:name,Chancellor,addr
+2295252302,street:type,Street,addr
+2295252462,city,Evanston,addr
+2295252462,street,Central Street,addr
+2295252462,postcode,60201,addr
+2295252462,housenumber,1922,addr
+2295252462,street:name,Central,addr
+2295252462,street:type,Street,addr
+2295252632,city,Evanston,addr
+2295252632,street,Grant Street,addr
+2295252632,postcode,60201,addr
+2295252632,housenumber,2022,addr
+2295252632,street:name,Grant,addr
+2295252632,street:type,Street,addr
+2295252796,city,Evanston,addr
+2295252796,street,Harrison Street,addr
+2295252796,postcode,60201,addr
+2295252796,housenumber,2122,addr
+2295252796,street:name,Harrison,addr
+2295252796,street:type,Street,addr
+2295252968,city,Evanston,addr
+2295252968,street,Dodge Avenue,addr
+2295252968,postcode,60201,addr
+2295252968,housenumber,2213,addr
+2295252968,street:name,Dodge,addr
+2295252968,street:type,Avenue,addr
+2295253121,city,Evanston,addr
+2295253121,street,Noyes Street,addr
+2295253121,postcode,60201,addr
+2295253121,housenumber,2302,addr
+2295253121,street:name,Noyes,addr
+2295253121,street:type,Street,addr
+2295253330,city,Evanston,addr
+2295253330,street,Mcdaniel Avenue,addr
+2295253330,postcode,60201,addr
+2295253330,housenumber,2323,addr
+2295253330,street:name,Mcdaniel,addr
+2295253330,street:type,Avenue,addr
+2295253534,city,Evanston,addr
+2295253534,street,Payne Street,addr
+2295253534,postcode,60201,addr
+2295253534,housenumber,2408,addr
+2295253534,street:name,Payne,addr
+2295253534,street:type,Street,addr
+2295254063,city,Evanston,addr
+2295254063,street,Noyes Street,addr
+2295254063,postcode,60201,addr
+2295254063,housenumber,2433,addr
+2295254063,street:name,Noyes,addr
+2295254063,street:type,Street,addr
+2295254345,city,Evanston,addr
+2295254345,street,Park Place,addr
+2295254345,postcode,60201,addr
+2295254345,housenumber,2516,addr
+2295254345,street:name,Park,addr
+2295254345,street:type,Place,addr
+2295254704,city,Evanston,addr
+2295254704,street,Prairie Avenue,addr
+2295254704,postcode,60201,addr
+2295254704,housenumber,2630,addr
+2295254704,street:name,Prairie,addr
+2295254704,street:type,Avenue,addr
+2295254844,city,Evanston,addr
+2295254844,street,Asbury Avenue,addr
+2295254844,postcode,60201,addr
+2295254844,housenumber,2712,addr
+2295254844,street:name,Asbury,addr
+2295254844,street:type,Avenue,addr
+2295255320,city,Evanston,addr
+2295255320,street,Eastwood Avenue,addr
+2295255320,postcode,60201,addr
+2295255320,housenumber,2762,addr
+2295255320,street:name,Eastwood,addr
+2295255320,street:type,Avenue,addr
+2295261754,city,Evanston,addr
+2295261754,street,Payne Street,addr
+2295261754,postcode,60201,addr
+2295261754,housenumber,1650,addr
+2295261754,street:name,Payne,addr
+2295261754,street:type,Street,addr
+2295261924,city,Evanston,addr
+2295261924,street,Darrow Avenue,addr
+2295261924,postcode,60201,addr
+2295261924,housenumber,2125,addr
+2295261924,street:name,Darrow,addr
+2295261924,street:type,Avenue,addr
+2295262154,city,Evanston,addr
+2295262154,street,Ridge Avenue,addr
+2295262154,postcode,60201,addr
+2295262154,housenumber,2217,addr
+2295262154,street:name,Ridge,addr
+2295262154,street:type,Avenue,addr
+2295262378,city,Evanston,addr
+2295262378,street,Orrington Avenue,addr
+2295262378,postcode,60201,addr
+2295262378,housenumber,2420,addr
+2295262378,street:name,Orrington,addr
+2295262378,street:type,Avenue,addr
+2295262504,city,Evanston,addr
+2295262504,street,Garrison Avenue,addr
+2295262504,postcode,60201,addr
+2295262504,housenumber,2748,addr
+2295262504,street:name,Garrison,addr
+2295262504,street:type,Avenue,addr
+2295262637,city,Evanston,addr
+2295262637,street,Lincoln Street,addr
+2295262637,postcode,60201,addr
+2295262637,housenumber,610,addr
+2295262637,street:name,Lincoln,addr
+2295262637,street:type,Street,addr
+2295262785,city,Evanston,addr
+2295262785,street,Ingleside Place,addr
+2295262785,postcode,60201,addr
+2295262785,housenumber,734,addr
+2295262785,street:name,Ingleside,addr
+2295262785,street:type,Place,addr
+2295262910,city,Evanston,addr
+2295262910,street,Simpson Street,addr
+2295262910,postcode,60201,addr
+2295262910,housenumber,822,addr
+2295262910,street:name,Simpson,addr
+2295262910,street:type,Street,addr
+2295263084,city,Evanston,addr
+2295263084,street,Garnett Place,addr
+2295263084,postcode,60201,addr
+2295263084,housenumber,1025,addr
+2295263084,street:name,Garnett,addr
+2295263084,street:type,Place,addr
+2295263269,city,Evanston,addr
+2295263269,street,Church Street,addr
+2295263269,postcode,60201,addr
+2295263269,housenumber,1657,addr
+2295263269,street:name,Church,addr
+2295263269,street:type,Street,addr
+2295263403,city,Evanston,addr
+2295263403,street,Hovland Court,addr
+2295263403,postcode,60201,addr
+2295263403,housenumber,1725,addr
+2295263403,street:name,Hovland,addr
+2295263403,street:type,Court,addr
+2295263675,name,Taco Bell,regular
+2295263675,amenity,fast_food,regular
+2295263675,cuisine,mexican,regular
+2295263675,city,Evanston,addr
+2295263675,street,Sherman Avenue,addr
+2295263675,postcode,60201,addr
+2295263675,housenumber,1743,addr
+2295263675,street:name,Sherman,addr
+2295263675,street:type,Avenue,addr
+2295264430,city,Evanston,addr
+2295264430,street,Emerson Street,addr
+2295264430,postcode,60201,addr
+2295264430,housenumber,1812,addr
+2295264430,street:name,Emerson,addr
+2295264430,street:type,Street,addr
+2295264999,city,Evanston,addr
+2295264999,street,Lyons Street,addr
+2295264999,postcode,60201,addr
+2295264999,housenumber,1825,addr
+2295264999,street:name,Lyons,addr
+2295264999,street:type,Street,addr
+2295265196,city,Evanston,addr
+2295265196,street,Ashland Avenue,addr
+2295265196,postcode,60201,addr
+2295265196,housenumber,1843,addr
+2295265196,street:name,Ashland,addr
+2295265196,street:type,Avenue,addr
+2295265342,city,Evanston,addr
+2295265342,street,Sherman Avenue,addr
+2295265342,postcode,60201,addr
+2295265342,housenumber,1921,addr
+2295265342,street:name,Sherman,addr
+2295265342,street:type,Avenue,addr
+2295265495,city,Evanston,addr
+2295265495,street,Maple Avenue,addr
+2295265495,postcode,60201,addr
+2295265495,housenumber,2000,addr
+2295265495,street:name,Maple,addr
+2295265495,street:type,Avenue,addr
+2295265636,city,Evanston,addr
+2295265636,street,Ridge Avenue,addr
+2295265636,postcode,60201,addr
+2295265636,housenumber,2019,addr
+2295265636,street:name,Ridge,addr
+2295265636,street:type,Avenue,addr
+2295265802,city,Evanston,addr
+2295265802,street,Emerson Street,addr
+2295265802,postcode,60201,addr
+2295265802,housenumber,2122,addr
+2295265802,street:name,Emerson,addr
+2295265802,street:type,Street,addr
+2295265962,vacant,yes,regular
+2295265962,city,Evanston,addr
+2295265962,street,Clark Street,addr
+2295265962,postcode,60201,addr
+2295265962,housenumber,726,addr
+2295265962,street:name,Clark,addr
+2295265962,street:type,Street,addr
+2298689280,amenity,fuel,regular
+2298689280,operator,BP,regular
+2300443583,name,Starbucks,regular
+2300443583,amenity,cafe,regular
+2320852843,name,Martial Arts,regular
+2320852843,amenity,dojo,regular
+2322673335,name,La Tapenade,regular
+2322673335,amenity,cafe,regular
+2322673335,cuisine,mediterranean,regular
+2323077055,ref,G13,regular
+2323077055,aeroway,gate,regular
+2327418494,railway,level_crossing,regular
+2327775392,name,Budget Car Rental,regular
+2327775392,amenity,car_rental,regular
+2327775392,operator,Budget,regular
+2356542043,name,Medici Bakery,regular
+2356542043,shop,bakery,regular
+2356542043,website,http://www.medici57.com,regular
+2356542043,entrance,main,regular
+2356542043,street,East 57th Street,addr
+2356542043,postcode,60637,addr
+2356542043,housenumber,1331,addr
+2359063400,highway,crossing,regular
+2359403122,name,Sheffield Ave & Fullerton Ave,regular
+2359403122,amenity,bicycle_rental,regular
+2359403122,capacity,15,regular
+2359403122,id,67,divvy
+2359403122,operator,Divvy,regular
+2360651592,ref,G14,regular
+2360651592,fixme,Exact location unknown.,regular
+2360651592,aeroway,gate,regular
+2360651592,description,Entrance from lower floor.,regular
+2361147304,highway,crossing,regular
+2387981510,highway,turning_circle,regular
+2388836141,highway,turning_circle,regular
+2391028777,layer,-1,regular
+2391028777,entrance,yes,regular
+2391062371,entrance,yes,regular
+2396933984,entrance,yes,regular
+2402813877,name,Chicago Union Station (Track 28),regular
+2402813877,public_transport,stop_position,regular
+2402813877,railway,stop,regular
+2402813877,ref,Chicago Union Station,regular
+2405525435,ref,Ogilvie Transportation Center,regular
+2405525435,name,Ogilvie Transportation Center,regular
+2405525435,network,Metra,regular
+2405525435,operator,Metra,regular
+2405525435,public_transport,stop_position,regular
+2406513800,amenity,shelter,regular
+2421493783,railway,switch,regular
+2423112130,name,Anthropologie,regular
+2423112130,shop,clothes,regular
+2423112130,suite,G30,addr
+2423626232,entrance,yes,regular
+2435577536,source,Bing,regular
+2435577536,highway,turning_circle,regular
+2446587647,name,Citibank,regular
+2446587647,amenity,bank,regular
+2467265025,amenity,fuel,regular
+2477163648,highway,turning_circle,regular
+2480305115,name,Halsted St & Willow St,regular
+2480305115,amenity,bicycle_rental,regular
+2480305115,capacity,19,regular
+2480305115,id,224,divvy
+2480305115,operator,Divvy,regular
+2520434084,housenumber,1508,addr
+2520434084,street,Sherman Avenue,addr
+2520434084,leisure,fitness_centre,regular
+2520434084,level,1,regular
+2520434084,name,Crossfit Shoreside,regular
+2534349954,name,"Illinois Concealed Carry, LLC.",regular
+2534349954,office,company,regular
+2534349954,website,http://illinoiscc.com/,regular
+2534349954,STE,LL44A,addr
+2534349954,city,Oak Brook,addr
+2534349954,street,Midwest Road,addr
+2534349954,description,Concealed carry license or permit classes. NRA Firearm Safety classes.,regular
+2534349954,postcode,60523,addr
+2534349954,bitcoin,yes,payment
+2540374042,highway,stop,regular
+2548301394,highway,stop,regular
+2580319001,highway,crossing,regular
+2636047406,highway,traffic_signals,regular
+2664648261,atm,yes,regular
+2664648261,name,Chase,regular
+2664648261,amenity,bank,regular
+2672307127,name,Oak Broom,regular
+2672307127,shop,hairdresser,regular
+2672307127,street,22nd Street,addr
+2672307127,housenumber,17W408,addr
+2673354536,building,entrance,regular
+2673354536,street,North Lincoln Avenue,addr
+2673354536,housenumber,4759,addr
+2751697718,city,Lombard,addr
+2751697718,country,US,addr
+2751697718,housenumber,221,addr
+2751697718,postcode,60148,addr
+2751697718,state,IL,addr
+2751697718,street,East Roosevelt Road,addr
+2751697718,name,T-Mobile,regular
+2751697718,shop,mobile_phone,regular
+2758167238,highway,stop,regular
+2763340335,highway,stop,regular
+2783790353,highway,stop,regular
+2787305647,highway,traffic_signals,regular
+2802490613,name,sports clips,regular
+2802490613,shop,hairdresser,regular
+2808792838,name,Yorkville Post Office,regular
+2808792838,amenity,post_office,regular
+2813508008,source,Bing,regular
+2813508008,highway,crossing,regular
+2844156797,highway,stop,regular
+2868859570,name,Dollop Coffee,regular
+2868859570,amenity,cafe,regular
+2868859570,smoking,outside,regular
+2868859570,city,Chicago,addr
+2868859570,street,North Clarendon Avenue,addr
+2868859570,opening_hours,7am - 8pm,regular
+2868859570,internet_access,yes,regular
+2868859570,housenumber,4181,addr
+2869645523,highway,stop,regular
+2876584073,highway,traffic_signals,regular
+2884024984,fixme,continues somewhere,regular
+2888260949,power,pole,regular
+2890597351,power,tower,regular
+2896645828,highway,stop,regular
+2946224778,name,Raceway Woods Silo,regular
+2946224778,historic,building,regular
+2946224778,man_made,silo,regular
+2958965615,city,Glenview,addr
+2958965615,housenumber,1735,addr
+2958965615,postcode,60025,addr
+2958965615,street,Milwaukee Avenue,addr
+2958965615,amenity,restaurant,regular
+2958965615,cuisine,burger,regular
+2958965615,name,BurgerFi,regular
+2958965615,opening_hours,"Su-Th 11:00-22:00, Fr-Sa 11:00-23:00",regular
+2958965615,phone,+1-847-376-8014,regular
+2958965615,website,http://www.burgerfi.com/,regular
+2975806264,name,Clark & Albion SB,regular
+2975806264,bench,no,regular
+2975806264,highway,bus_stop,regular
+2975806264,shelter,no,regular
+2975806264,operator,Chicago Transit Authority,regular
+2975806264,local_ref,1790,regular
+2979968838,name,La Salle & Burton SB,regular
+2979968838,bench,yes,regular
+2979968838,highway,bus_stop,regular
+2979968838,shelter,yes,regular
+2979968838,operator,Chicago Transit Authority,regular
+2979968838,local_ref,1412,regular
+2997138301,amenity,shelter,regular
+2997138301,shelter_type,weather_shelter,regular
+2998245327,highway,turning_loop,regular
+3010357560,name,Burger King,regular
+3010357560,amenity,fast_food,regular
+3063166332,name,Cancer Treatment Centers of America,regular
+3063166332,amenity,clinic,regular
+3066180711,fee,no,regular
+3066180711,amenity,parking,regular
+3066180711,parking,surface,regular
+3066180711,park_ride,no,regular
+3066180711,supervised,no,regular
+3070988736,natural,tree,regular
+3125114470,railway,level_crossing,regular
+3132184838,highway,turning_circle,regular
+3141176168,highway,stop,regular
+3161816165,name,Farmers Insurance,regular
+3161816165,office,insurance,regular
+3161816165,city,Elmwood Park,addr
+3161816165,postcode,60707,addr
+3171957397,name,Golf & Gross Point EB,regular
+3171957397,bench,no,regular
+3171957397,highway,bus_stop,regular
+3171957397,shelter,no,regular
+3171957397,operator,Chicago Transit Authority,regular
+3171957397,local_ref,14250,regular
+3180211480,railway,level_crossing,regular
+3183036528,railway,switch,regular
+3183037470,railway,switch,regular
+3183037846,railway,switch,regular
+3191762971,highway,crossing,regular
+3191762971,crossing_ref,zebra,regular
+3192598437,railway,level_crossing,regular
+3199536432,railway,switch,regular
+3200627731,railway,switch,regular
+3200627856,railway,switch,regular
+3200811034,railway,level_crossing,regular
+3201011870,railway,level_crossing,regular
+3211150577,name,95th Red Line Terminal,regular
+3211150577,bench,yes,regular
+3211150577,highway,bus_stop,regular
+3211150577,shelter,yes,regular
+3211150577,building,roof,regular
+3211150577,operator,Chicago Transit Authority,regular
+3215424975,name,Michigan & 103rd Street SB,regular
+3215424975,bench,yes,regular
+3215424975,highway,bus_stop,regular
+3215424975,shelter,yes,regular
+3215424975,operator,Chicago Transit Authority,regular
+3215424975,local_ref,7536,regular
+3222807820,barrier,gate,regular
+3272322100,name,Northbrook Court Mall,regular
+3272322100,bench,yes,regular
+3272322100,highway,bus_stop,regular
+3272322100,shelter,yes,regular
+3272322100,operator,Pace Bus,regular
+3284271720,fixme,signal,regular
+3284271720,railway,signal,regular
+3287004551,highway,turning_circle,regular
+3331335535,power,pole,regular
+3338594246,name,Marathon,regular
+3338594246,amenity,fuel,regular
+3339044246,leisure,playground,regular
+3378876951,building,house,regular
+3378876951,city,River Forest,addr
+3378876951,state,IL,addr
+3378876951,street,Ashland Avenue,addr
+3378876951,country,US,addr
+3378876951,postcode,60305,addr
+3378876951,housenumber,1018,addr
+3378877488,building,house,regular
+3378877488,city,River Forest,addr
+3378877488,state,IL,addr
+3378877488,street,Lathrop Avenue,addr
+3378877488,country,US,addr
+3378877488,postcode,60305,addr
+3378877488,housenumber,600,addr
+3379178241,name,Gretna Museum,regular
+3379178241,historic,yes,regular
+3460882541,highway,turning_circle,regular
+3472296530,name,Jersey Mikes,regular
+3472296530,amenity,restaurant,regular
+3472296530,cuisine,sandwich,regular
+3472296530,city,Schaumburg,addr
+3472296530,street,Schaumburg Road,addr
+3472296530,housenumber,2568,addr
+3513814392,natural,tree,regular
+3527361871,natural,tree,regular
+3545959619,power,pole,regular
+3548984436,highway,traffic_signals,regular
+3552127132,name,A Touch of Vintage,regular
+3552127132,shop,clothes,regular
+3554418051,name,Home (Miner & Child),regular
+3554418051,tourism,artwork,regular
+3554418051,website,http://www.cpdit01.com/resources/planning-and-development.fountains-monuments-and-sculptures/Humboldt%20Park/Home.pdf,regular
+3554418051,artist_name,Charles Mulligan,regular
+3554418051,artwork_type,sculpture,regular
+3554594099,name,La Oaxaqueña,regular
+3554594099,amenity,restaurant,regular
+3554594099,cuisine,mexican,regular
+3570222693,name,Shuga Records,regular
+3570222693,shop,music,regular
+3570728319,highway,stop,regular
+3570728319,direction,backward,regular
+3572742794,highway,turning_circle,regular
+3575021393,name,Bite Cafe,regular
+3575021393,amenity,restaurant,regular
+3575337293,name,Town & Country Pediatrics,regular
+3575337293,amenity,doctors,regular
+3578715694,name,Sunny Hill Park,regular
+3578715694,leisure,park,regular
+3586067995,highway,turning_circle,regular
+3601911342,name,Niles Center & Madison SB,regular
+3601911342,bench,yes,regular
+3601911342,highway,bus_stop,regular
+3601911342,shelter,no,regular
+3601911342,operator,Chicago Transit Authority,regular
+3601911342,local_ref,3592,regular
+3603888313,power,pole,regular
+3613680159,highway,turning_circle,regular
+3626116027,natural,tree,regular
+3626116027,leaf_cycle,semi_evergreen,regular
+3641151356,leisure,playground,regular
+3651371954,name,American Apparel,regular
+3651371954,shop,clothes,regular
+3653086439,type,non_motorized,regular
+3653086439,leisure,slipway,regular
+3655092294,name,Hampton Inn Yorkville,regular
+3655092294,building,commercial,regular
+3655092294,city,Yorkville,addr
+3655092294,state,IL,addr
+3655092294,street,W Countryside Pkwy,addr
+3655092294,postcode,60560,addr
+3655092294,levels,3,building
+3655092294,housenumber,310,addr
+3661056425,name,Beauty Max,regular
+3661056425,shop,beauty,regular
+3677090302,building,house,regular
+3677090302,city,River Forest,addr
+3677090302,state,IL,addr
+3677090302,street,Franklin Avenue,addr
+3677090302,country,US,addr
+3677090302,postcode,60305,addr
+3677090302,housenumber,612,addr
+3687755174,name,Portage Fire Department Station 3,regular
+3687755174,amenity,fire_station,regular
+3711262526,name,McDonald's,regular
+3711262526,amenity,fast_food,regular
+3711262526,cuisine,burger,regular
+3711262526,website,https://www.mylocalmcds.com/homewood-kedzie-mcdonalds/,regular
+3711262526,city,Homewood,addr
+3711262526,street,183rd Street,addr
+3711262526,postcode,60430,addr
+3711262526,housenumber,3132,addr
+3713701109,railway,crossing,regular
+3716194737,highway,traffic_signals,regular
+3721960041,name,Sheridan & Morse NB,regular
+3721960041,bench,yes,regular
+3721960041,highway,bus_stop,regular
+3721960041,shelter,yes,regular
+3721960041,operator,Chicago Transit Authority,regular
+3721960041,local_ref,1210,regular
+3722177142,name,Wendy's,regular
+3722177142,amenity,fast_food,regular
+3722177142,cuisine,burger,regular
+3723603869,power,tower,regular
+3725237842,railway,level_crossing,regular
+3725558485,railway,level_crossing,regular
+3726468097,railway,level_crossing,regular
+3727870569,railway,level_crossing,regular
+3729744904,amenity,fountain,regular
+3738466321,power,tower,regular
+3741568251,highway,crossing,regular
+3751001868,amenity,bicycle_parking,regular
+3811370565,barrier,gate,regular
+3813578498,natural,tree,regular
+3819197957,name,Heavy Feather,regular
+3819197957,amenity,bar,regular
+3829900702,highway,traffic_signals,regular
+3863402370,name,Potbelly,regular
+3863402370,amenity,fast_food,regular
+3868502855,name,Chicago & Hamilton NB,regular
+3868502855,bench,no,regular
+3868502855,highway,bus_stop,regular
+3868502855,shelter,no,regular
+3868502855,operator,Chicago Transit Authority,regular
+3868502855,local_ref,14319,regular
+3868570252,amenity,fuel,regular
+3868570252,brand,Citgo,regular
+3868570252,name,Citgo,regular
+3868570252,operator,Citgo,regular
+3887808831,name,BP,regular
+3887808831,amenity,fuel,regular
+3897744879,name,100th Street & Calhoun EB,regular
+3897744879,bench,no,regular
+3897744879,highway,bus_stop,regular
+3897744879,shelter,no,regular
+3897744879,operator,Chicago Transit Authority,regular
+3897744879,local_ref,5248,regular
+3919890251,name,10600 S Michigan SB,regular
+3919890251,bench,no,regular
+3919890251,highway,bus_stop,regular
+3919890251,shelter,no,regular
+3919890251,operator,Chicago Transit Authority,regular
+3919890251,local_ref,7539,regular
+3920107218,name,119th Street & Page EB,regular
+3920107218,bench,no,regular
+3920107218,highway,bus_stop,regular
+3920107218,shelter,no,regular
+3920107218,operator,Chicago Transit Authority,regular
+3920107218,local_ref,12441,regular
+3921500797,name,Michigan & 126th Street NB,regular
+3921500797,bench,no,regular
+3921500797,highway,bus_stop,regular
+3921500797,shelter,no,regular
+3921500797,operator,Chicago Transit Authority,regular
+3921500797,local_ref,7591,regular
+3928938906,railway,level_crossing,regular
+3930795470,name,Affinity Studios,regular
+3930795470,shop,craft,regular
+3930795470,operator,Angela Magee,regular
+3930795470,city,Naperville,addr
+3930795470,state,IL,addr
+3930795470,street,Quincy Avenue,addr
+3930795470,postcode,60540,addr
+3930795470,opening_hours,10am-3pm,regular
+3930795470,housenumber,1665,addr
+3935411169,highway,turning_circle,regular
+3952962087,name,Begyle Brewing Co,regular
+3952962087,craft,brewery,regular
+3952962087,amenity,bar,regular
+3952962087,brewery,Begyle Brewing Co,regular
+3952962087,microbrewery,yes,regular
+3952962087,outdoor_seating,no,regular
+4006791251,name,Skokie Blvd & Greenleaf SB,regular
+4006791251,bench,no,regular
+4006791251,highway,bus_stop,regular
+4006791251,shelter,no,regular
+4006791251,operator,Chicago Transit Authority,regular
+4006791251,local_ref,10457,regular
+4025392539,name,Chicago Harbor,regular
+4025392539,harbour,yes,regular
+4025392539,type,harbour,seamark
+4025392539,port_of_entry,no,regular
+4086912559,building,house,regular
+4086912559,city,River Forest,addr
+4086912559,state,IL,addr
+4086912559,street,Forest Avenue,addr
+4086912559,country,US,addr
+4086912559,postcode,60305,addr
+4086912559,housenumber,1045,addr
+4089091901,name,Rico Music & Art,regular
+4090881270,name,Six Corners Bistro,regular
+4090881270,amenity,restaurant,regular
+4100997207,direction,forward,regular
+4100997207,highway,stop,regular
+4101225931,building,house,regular
+4101225931,city,River Forest,addr
+4101225931,state,IL,addr
+4101225931,street,Keystone Avenue,addr
+4101225931,country,US,addr
+4101225931,postcode,60305,addr
+4101225931,housenumber,547,addr
+4101226156,building,house,regular
+4101226156,city,River Forest,addr
+4101226156,state,IL,addr
+4101226156,street,Oak Avenue,addr
+4101226156,country,US,addr
+4101226156,postcode,60305,addr
+4101226156,housenumber,7956,addr
+4107165363,name,Harrison & Leamington WB,regular
+4107165363,bench,no,regular
+4107165363,highway,bus_stop,regular
+4107165363,shelter,no,regular
+4107165363,operator,Chicago Transit Authority,regular
+4107165363,local_ref,247,regular
+4110511978,highway,stop,regular
+4110511978,direction,backward,regular
+4126925958,leisure,playground,regular
+4145840267,name,"No parking, permanently closed.",regular
+4145840267,access,private,regular
+4145840267,barrier,gate,regular
+4149689197,name,Marathon,regular
+4149689197,amenity,fuel,regular
+4157878989,man_made,mast,regular
+4160191402,highway,turning_circle,regular
+4160469476,bench,no,regular
+4160469476,highway,bus_stop,regular
+4160469476,local_ref,11124,regular
+4160469476,name,Kimball & Carmen SB (Nearside),regular
+4160469476,operator,Chicago Transit Authority,regular
+4160469476,shelter,no,regular
+4160789200,power,tower,regular
+4167258038,railway,level_crossing,regular
+4170794484,name,Halsted & 99th Street NB,regular
+4170794484,bench,no,regular
+4170794484,highway,bus_stop,regular
+4170794484,shelter,no,regular
+4170794484,operator,Chicago Transit Authority,regular
+4170794484,local_ref,3657,regular
+4172449249,sport,horseshoes,regular
+4180280914,name,Higgins & Menard EB,regular
+4180280914,bench,yes,regular
+4180280914,highway,bus_stop,regular
+4180280914,shelter,yes,regular
+4180280914,operator,Chicago Transit Authority,regular
+4180280914,local_ref,15188,regular
+4188793467,name,East River & Argyle NB,regular
+4188793467,bench,no,regular
+4188793467,highway,bus_stop,regular
+4188793467,shelter,no,regular
+4188793467,operator,Chicago Transit Authority,regular
+4188793467,local_ref,8584,regular
+4203603694,name,Enterprise ,regular
+4203603694,amenity,car_rental,regular
+4209596111,highway,crossing,regular
+4220883102,name,93rd Street & Essex WB,regular
+4220883102,bench,no,regular
+4220883102,highway,bus_stop,regular
+4220883102,shelter,no,regular
+4220883102,operator,Chicago Transit Authority,regular
+4220883102,local_ref,12009,regular
+4226443291,name,69th Street & State (Red Line),regular
+4226443291,bench,no,regular
+4226443291,highway,bus_stop,regular
+4226443291,shelter,no,regular
+4226443291,operator,Chicago Transit Authority,regular
+4226443291,local_ref,8629,regular
+4229989488,amenity,toilets,regular
+4233452968,name,71st Street & Cottage Grove/South Chicago (Farside) EB,regular
+4233452968,bench,yes,regular
+4233452968,highway,bus_stop,regular
+4233452968,shelter,yes,regular
+4233452968,operator,Chicago Transit Authority,regular
+4233452968,local_ref,10791,regular
+4247962280,name,Narragansett & 59th Street NB,regular
+4247962280,bench,no,regular
+4247962280,highway,bus_stop,regular
+4247962280,shelter,no,regular
+4247962280,operator,Chicago Transit Authority,regular
+4247962280,local_ref,4662,regular
+4262003121,name,95th Street & Longwood WB,regular
+4262003121,bench,no,regular
+4262003121,highway,bus_stop,regular
+4262003121,shelter,no,regular
+4262003121,operator,Chicago Transit Authority,regular
+4262003121,local_ref,3474,regular
+4265453759,name,Chicago Medical Health Group,regular
+4265453759,amenity,doctors,regular
+4265453759,city,Chicago,addr
+4265453759,state,IL,addr
+4265453759,street,North Milwaukee Avenue,addr
+4265453759,postcode,60630,addr
+4265453759,housenumber,5528,addr
+4267412088,natural,tree,regular
+4267421813,natural,tree,regular
+4268853945,name,Harlem & 62nd Street SB,regular
+4268853945,bench,no,regular
+4268853945,highway,bus_stop,regular
+4268853945,shelter,no,regular
+4268853945,operator,Chicago Transit Authority,regular
+4268853945,local_ref,7700,regular
+4270371442,name,Austin & Berteau SB,regular
+4270371442,bench,no,regular
+4270371442,highway,bus_stop,regular
+4270371442,shelter,no,regular
+4270371442,operator,Chicago Transit Authority,regular
+4270371442,local_ref,9563,regular
+4272532428,name,Austin & Waveland NB,regular
+4272532428,bench,no,regular
+4272532428,highway,bus_stop,regular
+4272532428,shelter,no,regular
+4272532428,operator,Chicago Transit Authority,regular
+4272532428,local_ref,9662,regular
+4273638950,amenity,bench,regular
+4284246565,amenity,bench,regular
+4287008327,highway,stop,regular
+4289149622,highway,stop,regular
+4293762829,noexit,yes,regular
+4310331953,name,Centennial Tennis,regular
+4310331953,sport,tennis,regular
+4310331953,leisure,sports_centre,regular
+4310331953,surface,Hard,regular
+4310331953,building,yes,regular
+4314202690,highway,crossing,regular
+4314202690,crossing,traffic_signals,regular
+4321956998,name,103rd Street & Oglesby EB,regular
+4321956998,bench,no,regular
+4321956998,highway,bus_stop,regular
+4321956998,shelter,no,regular
+4321956998,operator,Chicago Transit Authority,regular
+4321956998,local_ref,5262,regular
+4330488860,name,55th Street & Kimbark WB,regular
+4330488860,bench,no,regular
+4330488860,highway,bus_stop,regular
+4330488860,shelter,no,regular
+4330488860,operator,Chicago Transit Authority,regular
+4330488860,local_ref,10571,regular
+4333083020,name,DQ,regular
+4333083020,amenity,fast_food,regular
+4336472824,name,5200 S Hyde Park SB,regular
+4336472824,bench,no,regular
+4336472824,highway,bus_stop,regular
+4336472824,shelter,no,regular
+4336472824,operator,Chicago Transit Authority,regular
+4336472824,local_ref,1650,regular
+4336704887,name,Walgreens,regular
+4336704887,amenity,pharmacy,regular
+4336704887,website,http://www.walgreens.com/locator/walgreens-3000+s+halsted+st-chicago-il-60608/id=2025,regular
+4336704887,city,Chicago,addr
+4336704887,state,IL,addr
+4336704887,dispensing,yes,regular
+4336704887,street,South Halsted Street,addr
+4336704887,country,US,addr
+4336704887,postcode,60608,addr
+4336704887,housenumber,3000,addr
+4354999958,name,Harlem & Irving Park SB,regular
+4354999958,bench,yes,regular
+4354999958,highway,bus_stop,regular
+4354999958,shelter,yes,regular
+4354999958,operator,Chicago Transit Authority,regular
+4354999958,local_ref,11775,regular
+4356640201,name,Harlem & Greenfield SB,regular
+4356640201,bench,no,regular
+4356640201,highway,bus_stop,regular
+4356640201,shelter,no,regular
+4356640201,operator,Chicago Transit Authority,regular
+4356640201,local_ref,15728,regular
+4379929010,name,Cucinova,regular
+4379929010,amenity,restaurant,regular
+4379980884,man_made,mast,regular
+4382447209,level,1,regular
+4382447209,name,Hudson News,regular
+4382447209,shop,newsagent,regular
+4389822860,name,Washington Square,regular
+4389822860,place,neighbourhood,regular
+4390484352,name,3400 S State,regular
+4390484352,bench,yes,regular
+4390484352,highway,bus_stop,regular
+4390484352,shelter,no,regular
+4390484352,operator,Chicago Transit Authority,regular
+4390484352,local_ref,2398,regular
+4405165114,name,South Hammond,regular
+4405165114,place,neighbourhood,regular
+4406435573,name,Devon & Shafer,regular
+4406435573,bench,yes,regular
+4406435573,highway,bus_stop,regular
+4406435573,shelter,yes,regular
+4406435573,operator,Pace Bus,regular
+4414517606,source,PGS,regular
+4425918811,name,Sam's Club,regular
+4425918811,building,yes,regular
+4425918811,city,Hodgkins,addr
+4425918811,state,IL,addr
+4425918811,street,Joliet Road,addr
+4425918811,postcode,60525,addr
+4425918811,housenumber,9500,addr
+4426041996,name,Halsted & 63rd Parkway NB,regular
+4426041996,bench,yes,regular
+4426041996,highway,bus_stop,regular
+4426041996,shelter,no,regular
+4426041996,operator,Chicago Transit Authority,regular
+4426041996,local_ref,15872,regular
+4427199818,name,Halsted & 43rd Street NB,regular
+4427199818,bench,yes,regular
+4427199818,highway,bus_stop,regular
+4427199818,shelter,yes,regular
+4427199818,operator,Chicago Transit Authority,regular
+4427199818,local_ref,5091,regular
+4431884557,name,Halsted & 18th Street NB,regular
+4431884557,bench,no,regular
+4431884557,highway,bus_stop,regular
+4431884557,shelter,no,regular
+4431884557,operator,Chicago Transit Authority,regular
+4431884557,local_ref,4615,regular
+4440009773,name,Western & 115th Street SB,regular
+4440009773,bench,no,regular
+4440009773,highway,bus_stop,regular
+4440009773,shelter,no,regular
+4440009773,operator,Pace Bus,regular
+4444769220,genus,quercus,regular
+4444769220,natural,tree,regular
+4444769220,leaf_type,broadleaved,regular
+4444769220,denotation,urban,regular
+4444769220,leaf_cycle,deciduous,regular
+4455999768,railway,switch,regular
+4456014805,railway,switch,regular
+4456055589,railway,switch,regular
+4456080077,railway,switch,regular
+4459740835,railway,level_crossing,regular
+4463763367,power,tower,regular
+4468063292,power,pole,regular
+4470519718,power,pole,regular
+4476275264,name,Sheridan & Dakin (Red Line),regular
+4476275264,bench,no,regular
+4476275264,highway,bus_stop,regular
+4476275264,shelter,no,regular
+4476275264,operator,Chicago Transit Authority,regular
+4476275264,local_ref,1169,regular
+4484840669,name,Congregation Sukkat Shalom,regular
+4484840669,source,http://sukkatshalom.org/,regular
+4484840669,amenity,place_of_worship,regular
+4484840669,religion,jewish,regular
+4493800011,name,111th Street & Kedzie EB,regular
+4493800011,bench,no,regular
+4493800011,highway,bus_stop,regular
+4493800011,shelter,no,regular
+4493800011,operator,Chicago Transit Authority,regular
+4493800011,local_ref,12392,regular
+4497872699,name,Citgo,regular
+4497872699,brand,Citgo,regular
+4497872699,amenity,fuel,regular
+4498842554,name,103rd Street & St. Louis WB,regular
+4498842554,bench,no,regular
+4498842554,highway,bus_stop,regular
+4498842554,shelter,no,regular
+4498842554,operator,Chicago Transit Authority,regular
+4498842554,local_ref,12206,regular
+4499014628,name,103rd Street & Longwood WB,regular
+4499014628,bench,no,regular
+4499014628,highway,bus_stop,regular
+4499014628,shelter,no,regular
+4499014628,operator,Chicago Transit Authority,regular
+4499014628,local_ref,12188,regular
+4499383912,emergency,fire_hydrant,regular
+4499383912,type,pillar,fire_hydrant
+4499950180,name,Cottage Grove & 95th Street SB,regular
+4499950180,bench,no,regular
+4499950180,highway,bus_stop,regular
+4499950180,shelter,no,regular
+4499950180,operator,Chicago Transit Authority,regular
+4499950180,local_ref,2823,regular
+4503831038,name,111th Street & Peoria WB,regular
+4503831038,bench,no,regular
+4503831038,highway,bus_stop,regular
+4503831038,shelter,no,regular
+4503831038,operator,Chicago Transit Authority,regular
+4503831038,local_ref,2919,regular
+4514851970,name,Avenue O & 135th Street SB,regular
+4514851970,bench,no,regular
+4514851970,highway,bus_stop,regular
+4514851970,shelter,no,regular
+4514851970,operator,Chicago Transit Authority,regular
+4514851970,local_ref,14031,regular
+4518674598,foot,yes,regular
+4518674598,barrier,bollard,regular
+4518674598,bicycle,yes,regular
+4518674598,bollard,removable,regular
+4525761587,name,Patriot & Lehigh SB,regular
+4525761587,bench,no,regular
+4525761587,highway,bus_stop,regular
+4525761587,shelter,no,regular
+4525761587,operator,Pace Bus,regular
+4535332408,name,Broadway & Addison SB,regular
+4535332408,bench,yes,regular
+4535332408,highway,bus_stop,regular
+4535332408,shelter,no,regular
+4535332408,operator,Chicago Transit Authority,regular
+4535332408,local_ref,14451,regular
+4551147266,leisure,picnic_table,regular
+4564288695,name,Starbucks,regular
+4564288695,amenity,cafe,regular
+4564288695,en,Starbucks,name
+4569757833,name,87th Street & Karlov WB,regular
+4569757833,bench,no,regular
+4569757833,highway,bus_stop,regular
+4569757833,shelter,no,regular
+4569757833,operator,Chicago Transit Authority,regular
+4569757833,local_ref,9526,regular
+4592154038,name,King Drive & 42nd Street SB,regular
+4592154038,bench,no,regular
+4592154038,highway,bus_stop,regular
+4592154038,shelter,no,regular
+4592154038,operator,Chicago Transit Authority,regular
+4592154038,local_ref,2209,regular
+4593827566,railway,crossing,regular
+4594525614,highway,crossing,regular
+4599121321,name,Yuzu Sushi + Robata Grill,regular
+4599121321,phone,+1-312-666-4100,regular
+4599121321,amenity,restaurant,regular
+4599121321,cuisine,japanese,regular
+4599121321,website,http://www.yuzuchicago.com,regular
+4599121321,city,Chicago,addr
+4599121321,state,IL,addr
+4599121321,street,West Chicago Avenue,addr
+4599121321,postcode,60622,addr
+4599121321,housenumber,1751,addr
+4608229717,highway,crossing,regular
+4608640737,highway,crossing,regular
+4608641281,highway,crossing,regular
+4608641553,highway,crossing,regular
+4608641715,highway,crossing,regular
+4616767108,highway,crossing,regular
+4619166098,name,Shell,regular
+4619166098,amenity,fuel,regular
+4621827474,highway,turning_loop,regular
+4655053209,name,Giordano's,regular
+4655053209,amenity,restaurant,regular
+4655053209,cuisine,pizza,regular
+4671054369,name,Michigan & 18th Street SB,regular
+4671054369,bench,yes,regular
+4671054369,highway,bus_stop,regular
+4671054369,shelter,yes,regular
+4671054369,operator,Chicago Transit Authority,regular
+4671054369,local_ref,1596,regular
+4681013058,name,Narragansett & Fullerton SB,regular
+4681013058,bench,no,regular
+4681013058,highway,bus_stop,regular
+4681013058,shelter,no,regular
+4681013058,operator,Chicago Transit Authority,regular
+4681013058,local_ref,17360,regular
+4686225761,name,74th Street & Normal,regular
+4686225761,bench,yes,regular
+4686225761,highway,bus_stop,regular
+4686225761,shelter,yes,regular
+4686225761,operator,Chicago Transit Authority,regular
+4686225761,local_ref,15681,regular
+4688133723,name,75th Street & Cregier WB,regular
+4688133723,bench,no,regular
+4688133723,highway,bus_stop,regular
+4688133723,shelter,no,regular
+4688133723,operator,Chicago Transit Authority,regular
+4688133723,local_ref,10864,regular
+4691780652,name,Messiah Baptist Church,regular
+4691780652,amenity,place_of_worship,regular
+4698424471,name,Wentworth & 59th Street,regular
+4698424471,bench,no,regular
+4698424471,highway,bus_stop,regular
+4698424471,shelter,no,regular
+4698424471,operator,Chicago Transit Authority,regular
+4698424471,local_ref,6458,regular
+4706085299,name,Racine & 53rd Street NB,regular
+4706085299,bench,no,regular
+4706085299,highway,bus_stop,regular
+4706085299,shelter,no,regular
+4706085299,operator,Chicago Transit Authority,regular
+4706085299,local_ref,5077,regular
+4707766263,name,63rd Street & Loomis WB,regular
+4707766263,bench,no,regular
+4707766263,highway,bus_stop,regular
+4707766263,shelter,no,regular
+4707766263,operator,Chicago Transit Authority,regular
+4707766263,local_ref,3243,regular
+4708005878,name,63rd Street & Hamlin WB,regular
+4708005878,bench,yes,regular
+4708005878,highway,bus_stop,regular
+4708005878,shelter,yes,regular
+4708005878,operator,Chicago Transit Authority,regular
+4708005878,local_ref,3269,regular
+4717136560,highway,crossing,regular
+4717137536,highway,crossing,regular
+4717623204,name,Hintz & Mark,regular
+4717623204,bench,yes,regular
+4717623204,highway,bus_stop,regular
+4717623204,shelter,yes,regular
+4717623204,operator,Pace Bus,regular
+4718940219,highway,crossing,regular
+4730192553,name,Ashland & 43rd Street NB,regular
+4730192553,bench,yes,regular
+4730192553,highway,bus_stop,regular
+4730192553,shelter,yes,regular
+4730192553,operator,Chicago Transit Authority,regular
+4730192553,local_ref,6201,regular
+4731130425,highway,crossing,regular
+4741911315,name,Ashland & Grand NB,regular
+4741911315,bench,no,regular
+4741911315,highway,bus_stop,regular
+4741911315,shelter,no,regular
+4741911315,operator,Chicago Transit Authority,regular
+4741911315,local_ref,17179,regular
+4742311011,name,Harlem & Forest Preserve Avenue NB,regular
+4742311011,bench,yes,regular
+4742311011,highway,bus_stop,regular
+4742311011,shelter,no,regular
+4742311011,operator,Chicago Transit Authority,regular
+4742311011,local_ref,11299,regular
+4744088859,name,Montrose & Major WB,regular
+4744088859,bench,no,regular
+4744088859,highway,bus_stop,regular
+4744088859,shelter,no,regular
+4744088859,operator,Chicago Transit Authority,regular
+4744088859,local_ref,11412,regular
+4756819326,name,Division & Dearborn,regular
+4756819326,bench,no,regular
+4756819326,highway,bus_stop,regular
+4756819326,shelter,no,regular
+4756819326,operator,Chicago Transit Authority,regular
+4756819326,local_ref,5394,regular
+4774714360,entrance,yes,regular
+4783918076,name,Irving Park & Albany WB,regular
+4783918076,bench,yes,regular
+4783918076,highway,bus_stop,regular
+4783918076,shelter,no,regular
+4783918076,operator,Chicago Transit Authority,regular
+4783918076,local_ref,5699,regular
+4787323198,name,Addison & Ozanam WB,regular
+4787323198,bench,yes,regular
+4787323198,highway,bus_stop,regular
+4787323198,shelter,no,regular
+4787323198,operator,Chicago Transit Authority,regular
+4787323198,local_ref,12627,regular
+4790645531,power,tower,regular
+4790799961,power,tower,regular
+4791068940,power,tower,regular
+4791186287,power,tower,regular
+4793837281,power,tower,regular
+4796113188,amenity,bench,regular
+4806871935,power,tower,regular
+4810817771,name,Damen & 66th Street SB,regular
+4810817771,bench,no,regular
+4810817771,highway,bus_stop,regular
+4810817771,shelter,no,regular
+4810817771,operator,Chicago Transit Authority,regular
+4810817771,local_ref,17613,regular
+4811905488,amenity,shelter,regular
+4812839170,name,59th Street & Hoyne WB,regular
+4812839170,bench,no,regular
+4812839170,highway,bus_stop,regular
+4812839170,shelter,no,regular
+4812839170,operator,Chicago Transit Authority,regular
+4812839170,local_ref,17533,regular
+4815607823,curve_geometry,yes,regular
+4817273962,natural,tree,regular
+4821911537,power,tower,regular
+4822075554,power,tower,regular
+4823812216,power,tower,regular
+4825586082,power,tower,regular
+4826260846,name,Grill 89,regular
+4826260846,amenity,restaurant,regular
+4826260846,cuisine,american,regular
+4826260846,website,http://www.grill89.com/,regular
+4828060144,power,pole,regular
+4828066593,power,tower,regular
+4833625391,ele,729,regular
+4833625391,name,Amber Fields - White Spruce Public Tree,regular
+4833625391,natural,tree,regular
+4833625391,leaf_type,needleleaved,regular
+4833625391,denotation,single,regular
+4833625391,leaf_cycle,evergreen,regular
+4833625391,wikidata,Q128116,subject
+4833625391,wikipedia,en:Picea glauca,subject
+4833625516,natural,tree,regular
+4833625641,natural,tree,regular
+4833857189,highway,street_lamp,regular
+4834888555,name,Dairy Queen,regular
+4834888555,amenity,fast_food,regular
+4834888555,cuisine,"ice_cream,_fast_food",regular
+4834888555,city,Hoffman Estates,addr
+4834888555,state,IL,addr
+4834888555,street,West Algonquin Road,addr
+4834888555,postcode,60192,addr
+4834888555,housenumber,1570,addr
+4835651553,source,Bing,regular
+4835651553,highway,traffic_signals,regular
+4835794165,power,tower,regular
+4837285726,power,pole,regular
+4843057043,power,tower,regular
+4845025964,power,pole,regular
+4846109357,power,pole,regular
+4846855825,power,tower,regular
+4848907398,power,pole,regular
+4850772247,name,51st Street & Union WB,regular
+4850772247,bench,no,regular
+4850772247,highway,bus_stop,regular
+4850772247,shelter,no,regular
+4850772247,operator,Chicago Transit Authority,regular
+4850772247,local_ref,9197,regular
+4856581175,power,tower,regular
+4858942001,power,pole,regular
+4863316322,name,Damen & Iowa SB,regular
+4863316322,bench,yes,regular
+4863316322,highway,bus_stop,regular
+4863316322,shelter,no,regular
+4863316322,operator,Chicago Transit Authority,regular
+4863316322,local_ref,8857,regular
+4873831555,name,Burger King,regular
+4873831555,amenity,fast_food,regular
+4873831555,cuisine,burger,regular
+4886643216,name,Mannheim & Zemke SB,regular
+4886643216,bench,no,regular
+4886643216,highway,bus_stop,regular
+4886643216,shelter,no,regular
+4886643216,operator,Pace Bus,regular
+4896347998,name,Western & Armitage NB,regular
+4896347998,bench,yes,regular
+4896347998,highway,bus_stop,regular
+4896347998,shelter,yes,regular
+4896347998,operator,Chicago Transit Authority,regular
+4896347998,local_ref,8400,regular
+4909750701,bench,yes,regular
+4909750701,highway,bus_stop,regular
+4909750701,local_ref,14581,regular
+4909750701,name,Western & North Ave SB,regular
+4909750701,operator,Chicago Transit Authority,regular
+4909750701,shelter,yes,regular
+4916954536,man_made,surveillance,regular
+4916954536,surveillance,public,regular
+4916954536,type,camera,surveillance
+4926134242,name,Western Pink Line Station NB,regular
+4926134242,bench,yes,regular
+4926134242,highway,bus_stop,regular
+4926134242,shelter,yes,regular
+4926134242,operator,Chicago Transit Authority,regular
+4926134242,local_ref,8362,regular
+4928265145,name,pavilion,regular
+4929729044,name,Burlington,regular
+4929729044,shop,department_store,regular
+4929729044,city,Harwood Heights,addr
+4929729044,state,IL,addr
+4929729044,street,North Harlem Avenue,addr
+4929729044,postcode,60706,addr
+4929729044,housenumber,4701,addr
+4933485701,highway,traffic_signals,regular
+4937751842,amenity,waste_basket,regular
+4962876483,amenity,bench,regular
+4962876483,backrest,yes,regular
+4971555450,city,Palatine,addr
+4971555450,housenumber,20,addr
+4971555450,postcode,60074,addr
+4971555450,state,il,addr
+4971555450,street,East Northwest Highway,addr
+4971555450,amenity,restaurant,regular
+4971555450,cuisine,coffee_shop;regional,regular
+4971555450,delivery,no,regular
+4971555450,name,Spunky Dunkers,regular
+4971555450,opening_hours,24/7,regular
+4971555450,outdoor_seating,yes,regular
+4971555450,takeaway,yes,regular
+4992962637,amenity,waste_basket,regular
+4998631977,leisure,bleachers,regular
+5002279763,leisure,bleachers,regular
+5035982396,highway,street_lamp,regular
+5047420194,bench,yes,regular
+5047420194,highway,bus_stop,regular
+5047420194,name,Lively & Fargo,regular
+5047420194,operator,Pace Bus,regular
+5047420194,shelter,yes,regular
+5050925460,highway,turning_circle,regular
+5061064098,highway,street_lamp,regular
+5061295298,man_made,tower,regular
+5061295298,type,lighting,tower
+5063010903,bench,yes,regular
+5063010903,highway,bus_stop,regular
+5063010903,local_ref,12562,regular
+5063010903,name,Addison & Lincoln WB,regular
+5063010903,operator,Chicago Transit Authority,regular
+5063010903,shelter,no,regular
+5067490858,amenity,bicycle_parking,regular
+5067490858,bicycle_parking,rack,regular
+5087617779,amenity,cafe,regular
+5087617779,operator,Tom's Vegetable Market,regular
+5090068003,leisure,playground,regular
+5108669937,direction,forward,regular
+5108669937,highway,stop,regular
+5140323320,city,Skokie,addr
+5140323320,country,US,addr
+5140323320,housenumber,8922,addr
+5140323320,postcode,60076,addr
+5140323320,state,IL,addr
+5140323320,street,Kilpatrick Avenue,addr
+5140323320,building,house,regular
+5146226693,access,customers,regular
+5146226693,amenity,parking,regular
+5146226693,email,info@riverstreetparking.com,regular
+5146226693,fee,yes,regular
+5146226693,operator,River Street Parking,regular
+5146226693,parking,surface,regular
+5146226693,park_ride,no,regular
+5146226693,phone,+1-847-906-8685,regular
+5146226693,supervised,yes,regular
+5146226693,website,https://www.riverstreetparking.com/,regular
+5181285628,barrier,toll_booth,regular
+5181285628,fee,.30,regular
+5192919380,bench,yes,regular
+5192919380,highway,bus_stop,regular
+5192919380,local_ref,4249,regular
+5192919380,name,California & 19th Street SB,regular
+5192919380,operator,Chicago Transit Authority,regular
+5192919380,shelter,no,regular
+5194603352,leisure,picnic_table,regular
+5194620308,name,Cleaners,regular
+5194620308,shop,dry_cleaning,regular
+5208451679,barrier,toll_booth,regular
+5237312708,bench,yes,regular
+5237312708,highway,bus_stop,regular
+5237312708,local_ref,11610,regular
+5237312708,name,Central & Wellington NB,regular
+5237312708,operator,Chicago Transit Authority,regular
+5237312708,shelter,yes,regular
+5249782683,bench,yes,regular
+5249782683,highway,bus_stop,regular
+5249782683,local_ref,6958,regular
+5249782683,name,Cermak & Austin WB,regular
+5249782683,operator,Chicago Transit Authority,regular
+5249782683,shelter,yes,regular
+5256928055,name,Ross,regular
+5256928055,shop,clothes,regular
+5266870816,natural,tree,regular
+5266906196,natural,tree,regular
+5270301803,highway,traffic_signals,regular
+5276684975,bench,no,regular
+5276684975,highway,bus_stop,regular
+5276684975,local_ref,9980,regular
+5276684975,name,Kedzie & 97th Street NB,regular
+5276684975,operator,Chicago Transit Authority,regular
+5276684975,shelter,no,regular
+5284357683,leisure,playground,regular
+5287129818,amenity,bicycle_parking,regular
+5287129818,bicycle_parking,stands,regular
+5287129818,capacity,2,regular
+5287129818,covered,no,regular
+5287129818,operator,CDOT,regular
+5290663120,bench,no,regular
+5290663120,highway,bus_stop,regular
+5290663120,local_ref,10007,regular
+5290663120,name,Kedzie & 66th Street NB,regular
+5290663120,operator,Chicago Transit Authority,regular
+5290663120,shelter,no,regular
+5301628975,bench,yes,regular
+5301628975,highway,bus_stop,regular
+5301628975,name,22nd Street & MacArthur,regular
+5301628975,operator,Pace Bus,regular
+5301628975,shelter,yes,regular
+5307606971,highway,traffic_signals,regular
+5307606971,traffic_signals,signal,regular
+5315601370,city,Merrillville,addr
+5315601370,country,US,addr
+5315601370,full,2936 E 79Th Ave,addr
+5315601370,postcode,46410,addr
+5315601370,state,IN,addr
+5315601370,name,Walmart Supercenter,regular
+5315601370,opening_hours,24/7,regular
+5315601370,operator,Walmart,regular
+5315601370,phone,+1-219-947-1309,regular
+5315601370,walmart,1618,ref
+5315601370,shop,supermarket,regular
+5315601370,website,https://www.walmart.com/store/1618/merrillville-in/whats-new,regular
+5335078847,highway,traffic_signals,regular
+5340079253,bench,no,regular
+5340079253,highway,bus_stop,regular
+5340079253,local_ref,18262,regular
+5340079253,name,Kimball & Palmer NB,regular
+5340079253,operator,Chicago Transit Authority,regular
+5340079253,shelter,no,regular
+5345481386,amenity,waste_basket,regular
+5352749650,amenity,bank,regular
+5352749650,atm,yes,regular
+5352749650,drive_through,yes,regular
+5352749650,name,BMO Harris Bank,regular
+5353406203,name,R Guns,regular
+5353406203,shop,weapons,regular

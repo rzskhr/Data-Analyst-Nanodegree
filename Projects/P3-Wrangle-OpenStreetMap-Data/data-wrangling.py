@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-
 # All the imports done here
 import re
 import codecs
@@ -197,13 +196,14 @@ def process_map(osm_file, validate):
 
 
 if __name__ == '__main__':
+    # using datetime module to track the time taken
     import datetime
     a = datetime.datetime.now()
     print("Start time: ", a)
+
     # call the process map function
     process_map(OSM_FILE, validate=True)
+
     b = datetime.datetime.now()
     print("End time: ", b)
     print("DIFF: ", b-a)
-    # for element in fetch_element(OSM_FILE, tags=('node', 'way')):
-    #     shaped_element = shape_element(element)
