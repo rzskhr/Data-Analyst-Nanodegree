@@ -22,16 +22,16 @@ Initially the dataset looked something like this:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <osm>
-<node changeset="2995174" id="235239326" lat="41.941694" lon="-88.325626" timestamp="2009-10-31T07:38:32Z" uid="147510" user="woodpeck_fixbot" version="2" />
-<node changeset="13717267" id="237483575" lat="41.5249438" lon="-88.0360975" timestamp="2012-11-02T00:40:15Z" uid="169600" user="patester24" version="5" />
-<way changeset="11573168" id="163170444" timestamp="2012-05-12T03:58:19Z" uid="674454" user="chicago-buildings" version="1">
-<nd ref="1749207953" />
-<nd ref="1749208467" />
-<nd ref="1749208483" />
-<nd ref="1749207961" />
-<nd ref="1749207953" />
-<tag k="building" v="yes" />
-<tag k="chicago:building_id" v="203624" />
-</way>
+    <node changeset="2995174" id="235239326" lat="41.941694" lon="-88.325626" timestamp="2009-10-31T07:38:32Z" uid="147510" user="woodpeck_fixbot" version="2" />
+    <node changeset="13717267" id="237483575" lat="41.5249438" lon="-88.0360975" timestamp="2012-11-02T00:40:15Z" uid="169600" user="patester24" version="5" />
+    <way changeset="11573168" id="163170444" timestamp="2012-05-12T03:58:19Z" uid="674454" user="chicago-buildings" version="1">
+        <nd ref="1749207953" />
+        <nd ref="1749208467" />
+        <nd ref="1749208483" />
+        <nd ref="1749207961" />
+        <nd ref="1749207953" />
+        <tag k="building" v="yes" />
+        <tag k="chicago:building_id" v="203624" />
+    </way>
 </osm>
 ```
