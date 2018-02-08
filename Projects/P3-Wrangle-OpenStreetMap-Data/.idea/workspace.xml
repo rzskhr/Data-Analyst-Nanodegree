@@ -88,8 +88,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="40" />
+    <option name="x" value="85" />
+    <option name="y" value="34" />
     <option name="width" value="1251" />
     <option name="height" value="742" />
   </component>
@@ -248,7 +248,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="40" width="1251" height="742" extended-state="0" />
+    <frame x="85" y="34" width="1251" height="742" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2522746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
