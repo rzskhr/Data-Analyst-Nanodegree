@@ -9,9 +9,11 @@ Choose any area in the world map using [Openstreetmap.org](https://www.openstree
 Dataset extracted from [Openstreetmap.org](ps://www.openstreetmap.org).<br/>
 File size : 2.14 Gigabytes <br/>
 
+---
+
 ### Project Setup
 I divided my work in to few iterative chunks.
-#### **Sample data for Study :**
+#### **1. Sample data for Study :**
 Since the dataset is huge, I took the 2% sample of the 2.14 GB dataset using [sample_osm.py](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/sample_osm.py). After taking the small sample of the data, it was easy for me to have a sense of how the data was.<br/>
 I performed the below steps after I took the sample:
 * Open the sample file in a text editor and see the structure of the data.
@@ -36,7 +38,7 @@ Initially the dataset looked something like this:
 </osm>
 ```
 
-#### Audit the Dataset
+#### **2. Audit the Dataset :**
 Since the dataset was in raw xml format I wrote few scripts to audit the dataset so that, I can extract the meaningful information needed. I used [xml.etree.cElementTree](https://docs.python.org/2/library/xml.etree.elementtree.html) of python to traverse the data. Using this module I was able to extract the information from the nodes in the 'osm' file.
 
 After I audited the dataset, I found that there are several problems in the information in the data, specially with phone numbers and street names. Hence I wrote three scripts to handle the problems.
@@ -73,3 +75,8 @@ phone_num_re = re.compile(r'\+1-\d{3}-\d{3}-\d{4}')     # matches the format +1-
 ```
 
 * **Auditing postal-code :** Similar to above two scripts I wrote a script [audit_postcode.py](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/audit_postcode.py) to find the unusual patterns in the postal-code, but fortunately there wasn't a significant number of problems in the postal-code so that we can format it for the database.
+
+
+#### **3. Processing the OSM file for data base :**
+
+
