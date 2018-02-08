@@ -101,8 +101,6 @@ ways_nodes.csv
 ways_tags.csv
 ```
 
-<br/><br/>
-
 > After processing the entire dataset of size 2.14 GB, here are the csv files and their size I got:
 ```
 $ ls -ls | awk '{print$10,"------" ,$6/1000000,"MB"}'
@@ -123,3 +121,6 @@ $ cd ..
 $ ls -ls | awk '{print$10,"------" ,$6/1000000,"MB"}'
 chicago_osm_sqlite3_database.db ------ 1249.36 MB
 ```
+
+
+#### **5. Data Analysis :**
