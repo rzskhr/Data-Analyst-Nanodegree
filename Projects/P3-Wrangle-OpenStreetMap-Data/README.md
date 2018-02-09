@@ -125,5 +125,5 @@ chicago_osm_sqlite3_database.db ------ 1249.36 MB
 
 #### **5. Data Analysis :**
 
-After the data is cleaned and loaded in to the database, I performed exploratory data analysis on the data to get some interesting findings.
+After the data is cleaned and loaded in to the database, I performed exploratory data analysis on the data to get some interesting findings.<br/>
 Here is the link to the analysis report along with few plots. : [Exploratory data analysis](https://github.com/rzskhr/Data-Analyst-Nanodegree/blob/master/Projects/P3-Wrangle-OpenStreetMap-Data/data-exploraion-and-analysis.ipynb)
